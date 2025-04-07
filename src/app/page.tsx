@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useLanguage } from "@/components/language-provider";
 import Footer from "@/components/footer";
 import React from "react";
+import Image from "next/image";
 
 interface Content {
   header1: string;
@@ -37,27 +38,34 @@ function HomeDesktop({ content }: { content: Content }) {
             </button>
           </a>
         </div>
-        <img src="/images/fond.png" alt="fond" className="w-full h-full object-cover" />
+        <Image
+          src="/images/fond.png"
+          alt="fond"
+          fill
+          priority
+          className="object-cover"
+        />
       </section>
 
       {/* Section 2 */}
       <section id="plugplay" className="h-screen w-full snap-start">
         <h3 className="text-6xl relative w-[70vw] left-[5vw] top-[8vh] text-[#4018FF] font-medium">{content.ourKits}</h3>
         <div className="relative h-[60vh] w-[80vw] top-[25vh] left-[10vw] flex flex-row gap-[10vw]">
+
           {/* Kit 1 */}
           <div className="h-full w-[35vw] bg-white flex flex-col px-[4vw] justify-between py-[3vw] rounded-[1.5vh]">
             <div className="flex flex-row h-[30vh] w-full gap-[3vw]">
               <div className="w-[13vw] flex flex-col justify-between">
-                <img src="images/belgium.png" alt="" className="h-[6vh] w-[7.32vh]" />
+                <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
                 <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
-                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">{'plug & play'}</h3>
+                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
               </div>
               <div className="w-[13vw] flex flex-col justify-between">
-                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">{'440W'}</h3>
-                <img src="images/plugPlayX1.png" alt="" className="h-[15vh] w-full" />
+                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
+                <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={160} height={100} />
               </div>
             </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description440}<span className="text-[#209967]">{content.inStock}</span></p>
+            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description440}<span className="text-[#209967]"> {content.inStock}</span></p>
             <div className="flex flex-row justify-between ">
               <button className="text-xl">
                 <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
@@ -75,16 +83,16 @@ function HomeDesktop({ content }: { content: Content }) {
           <div className="h-full w-[35vw] bg-white flex flex-col px-[4vw] justify-between py-[3vw] rounded-[1.5vh]">
             <div className="flex flex-row h-[30vh] w-full gap-[3vw]">
               <div className="w-[13vw] flex flex-col justify-between">
-                <img src="images/belgium.png" alt="" className="h-[6vh] w-[7.32vh]" />
+                <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
                 <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
-                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">{'plug & play'}</h3>
+                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
               </div>
               <div className="w-[13vw] flex flex-col justify-between">
-                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">{'800W'}</h3>
-                <img src="images/plugPlayX2.png" alt="" className="h-[12vh] w-full" />
+                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">800W</h3>
+                <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={160} height={100} />
               </div>
             </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description800}<span className="text-[#209967]">{content.inStock}</span></p>
+            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description800}<span className="text-[#209967]"> {content.inStock}</span></p>
             <div className="flex flex-row justify-between ">
               <button className="text-xl">
                 <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
@@ -100,7 +108,7 @@ function HomeDesktop({ content }: { content: Content }) {
         </div>
       </section>
 
-      {/* Footer section */}
+      {/* Footer */}
       <section className="snap-start w-full">
         <Footer />
       </section>
