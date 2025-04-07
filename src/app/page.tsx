@@ -163,13 +163,13 @@ function HomeMobile({ content }: { content: Content }) {
     <div className="w-[90vw] bg-white flex flex-col justify-between p-[4vh] gap-[4vh] rounded-[1.5vh]">
       <div className="flex flex-row h-[30vh] w-full justify-between">
         <div className=" flex flex-col justify-between">
-          <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
+          <Image src="/images/belgium.png" alt="belgium" width={45} height={45} />
           <h3 className="text-[2.5rem] font-[montserrat] font-semibold">{content.solar}<br/>{content.kit}</h3>
           <h3 className="text-[1.5rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
         </div>
         <div className="flex flex-col justify-between">
           <h3 className="text-[2rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
-          <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={200} height={100} />
+          <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={150} height={100} />
         </div>
       </div>
       <p className="font-[montserrat]  text-[1rem] font-semibold">
@@ -177,7 +177,7 @@ function HomeMobile({ content }: { content: Content }) {
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
       <div className="flex flex-row justify-between ">
-        <button className="text-xl">
+        <button className="text-[1.5rem]">
           <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
             <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,7 +185,7 @@ function HomeMobile({ content }: { content: Content }) {
             </svg>
           </div>
         </button>
-        <h3 className="text-[2rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
+        <h3 className="text-[1.5rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
       </div>
     </div>
 
@@ -193,13 +193,13 @@ function HomeMobile({ content }: { content: Content }) {
     <div className=" w-[90vw] bg-white flex flex-col justify-between gap-[4vh] p-[4vh] rounded-[1.5vh]">
       <div className="flex flex-row h-[30vh] w-full justify-between">
         <div className="flex flex-col justify-between">
-          <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
+          <Image src="/images/belgium.png" alt="belgium" width={45} height={45} />
           <h3 className="text-[2.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
           <h3 className="text-[1.5rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
         </div>
         <div className="flex flex-col justify-between">
           <h3 className="text-[2rem] font-[montserrat] font-semibold text-right text-[#4018FF]">800W</h3>
-          <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={200} height={100} />
+          <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={150} height={100} />
         </div>
       </div>
       <p className="font-[montserrat] text-[1rem] font-semibold">
@@ -207,7 +207,7 @@ function HomeMobile({ content }: { content: Content }) {
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
       <div className="flex flex-row justify-between ">
-        <button className="text-xl">
+        <button className="text-[1.5rem]">
           <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
             <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -215,7 +215,7 @@ function HomeMobile({ content }: { content: Content }) {
             </svg>
           </div>
         </button>
-        <h3 className="text-[2rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
+        <h3 className="text-[1.5rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
       </div>
     </div>
     <div></div>

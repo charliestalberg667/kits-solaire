@@ -1209,6 +1209,15 @@ a {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
+.text-\[rem\] {
+  color: rem;
+}
+.text-\[\] {
+  color: ;
+}
+.text-\[1\.5\] {
+  color: 1.5;
+}
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
