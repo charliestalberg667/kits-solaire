@@ -85,7 +85,7 @@ function HomeDesktop({ content }: { content: Content }) {
     </div>
 
     {/* Kit 2 */}
-    <div className="bg-[#e0e0e0] shadow-[5px_5px_10px_#c7c7c7,-5px_-5px_10px_#f9f9f9] h-full w-[60vh] bg-white flex flex-col justify-between gap-[4vh] p-[4vh] rounded-[1.5vh]">
+    <div className=" h-full w-[60vh] bg-white flex flex-col justify-between gap-[4vh] p-[4vh] rounded-[1.5vh]">
       <div className="flex flex-row h-[30vh] w-full justify-between">
         <div className="flex flex-col justify-between">
           <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
