@@ -50,24 +50,24 @@ function HomeDesktop({ content }: { content: Content }) {
       {/* Section 2 */}
       <section id="plugplay" className="h-screen w-full snap-start flex flex-col justify-between">
         <div></div>
-  <h3 className="text-[2rem] relative w-[43.75vh] left-[3.125vh] text-[#4018FF] font-medium">{content.ourKits}</h3>
-  <div className="relative h-[60vh] w-full flex flex-row justify-between items-center">
+  <h3 className="text-[2rem] relative w-[43.75vh] left-[3.125vh] text-[#4018FF] font-semibold">{content.ourKits}</h3>
+  <div className="relative w-full flex flex-row justify-between items-center">
     <div></div>
 
     {/* Kit 1 */}
-    <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] rounded-[1.5vh]">
-      <div className="flex flex-row h-[30vh] w-full gap-[1.875vh]">
-        <div className="w-[25vh] flex flex-col justify-between">
+    <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] gap-[4vh] rounded-[1.5vh]">
+      <div className="flex flex-row h-[30vh] w-full justify-between">
+        <div className=" flex flex-col justify-between">
           <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
           <h3 className="text-[2.5rem] font-[montserrat] font-semibold">{content.solar}<br/>{content.kit}</h3>
           <h3 className="text-[1.5rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
         </div>
-        <div className="w-[25vh] flex flex-col justify-between">
+        <div className="flex flex-col justify-between">
           <h3 className="text-[2rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
           <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={200} height={100} />
         </div>
       </div>
-      <p className="font-[montserrat] text-[0.8rem] font-semibold">
+      <p className="font-[montserrat]  text-[1rem] font-semibold">
         {content.description440}
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
@@ -85,7 +85,7 @@ function HomeDesktop({ content }: { content: Content }) {
     </div>
 
     {/* Kit 2 */}
-    <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] rounded-[1.5vh]">
+    <div className="h-full w-[60vh] bg-white flex flex-col justify-between gap-[4vh] p-[4vh] rounded-[1.5vh]">
       <div className="flex flex-row h-[30vh] w-full justify-between">
         <div className="flex flex-col justify-between">
           <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
@@ -97,7 +97,7 @@ function HomeDesktop({ content }: { content: Content }) {
           <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={200} height={100} />
         </div>
       </div>
-      <p className="font-[montserrat] text-[0.8rem] font-semibold">
+      <p className="font-[montserrat] text-[1rem] font-semibold">
         {content.description800}
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
