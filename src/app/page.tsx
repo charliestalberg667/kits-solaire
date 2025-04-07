@@ -65,7 +65,10 @@ function HomeDesktop({ content }: { content: Content }) {
                 <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={160} height={100} />
               </div>
             </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description440}<span className="text-[#209967]"> {content.inStock}</span></p>
+            <p className="font-[montserrat] text-[1.2rem] font-semibold">
+              {content.description440}
+              <span className="text-[#209967]"> {content.inStock}</span>
+            </p>
             <div className="flex flex-row justify-between ">
               <button className="text-xl">
                 <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
@@ -92,7 +95,10 @@ function HomeDesktop({ content }: { content: Content }) {
                 <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={160} height={100} />
               </div>
             </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">{content.description800}<span className="text-[#209967]"> {content.inStock}</span></p>
+            <p className="font-[montserrat] text-[1.2rem] font-semibold">
+              {content.description800}
+              <span className="text-[#209967]"> {content.inStock}</span>
+            </p>
             <div className="flex flex-row justify-between ">
               <button className="text-xl">
                 <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
@@ -117,7 +123,14 @@ function HomeDesktop({ content }: { content: Content }) {
 }
 
 function HomeMobile({ content }: { content: Content }) {
-  return <div></div>;
+  return (
+    <div className="p-4">
+      <h2 className="text-xl font-bold">{content.header1}</h2>
+      <p>{content.header2}</p>
+      <p className="mt-4">{content.ourKits}</p>
+      {/* Add mobile-specific layout if needed */}
+    </div>
+  );
 }
 
 export default function Home() {
@@ -133,17 +146,17 @@ export default function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const content = {
+  const content: Record<string, Content> = {
     fr: {
       header1: "Juste une prise.",
       header2: "Branchez, profitez.",
       learnMore: "en savoir plus",
       ourKits: "nos kits plug & play",
-      description440: "Kit complet panneau solaire onduleur 440W - meilleur prix et ",
-      description800: "Kit complet 2 panneaux solaires onduleur 800W - meilleur prix et ",
+      description440: "Kit complet panneau solaire onduleur 440W - meilleur prix et",
+      description800: "Kit complet 2 panneaux solaires onduleur 800W - meilleur prix et",
       inStock: "en stock",
-      kit:"solaire",
-      solar:"kit",      
+      kit: "solaire",
+      solar: "kit",
       price440: "459 €",
       price800: "649 €",
     },
@@ -152,11 +165,11 @@ export default function Home() {
       header2: "Steek in, geniet.",
       learnMore: "meer weten",
       ourKits: "onze plug & play kits",
-      description440: "Complete zonnepaneel omvormer kit 440W - beste prijs en ",
-      description800: "Complete kit 2 zonnepanelen omvormer 800W - beste prijs en ",
+      description440: "Complete zonnepaneel omvormer kit 440W - beste prijs en",
+      description800: "Complete kit 2 zonnepanelen omvormer 800W - beste prijs en",
       inStock: "op voorraad",
-      kit:"kit",
-      solar:"solar",
+      kit: "kit",
+      solar: "solar",
       price440: "459 €",
       price800: "649 €",
     },
