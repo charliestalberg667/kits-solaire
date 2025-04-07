@@ -1166,6 +1166,12 @@ a {
 .text-\[5vh\] {
   font-size: 5vh;
 }
+.text-\[2vh\] {
+  font-size: 2vh;
+}
+.text-\[2\.5vh\] {
+  font-size: 2.5vh;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1242,6 +1248,9 @@ a {
 }
 .text-\[1\.rem\] {
   color: 1.rem;
+}
+.text-\[vh\] {
+  color: vh;
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
