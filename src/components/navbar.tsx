@@ -8,7 +8,6 @@ import Image from "next/image";
 
 const Navbar = () => {
   const { language, setLanguage } = useLanguage();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [clickCount, setClickCount] = useState(0);
 
 
