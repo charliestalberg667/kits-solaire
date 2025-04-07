@@ -50,7 +50,8 @@ function HomeDesktop({ content }: { content: Content }) {
       {/* Section 2 */}
       <section id="plugplay" className="h-screen w-full snap-start">
   <h3 className="text-6xl relative w-[43.75vh] left-[3.125vh] top-[8vh] text-[#4018FF] font-medium">{content.ourKits}</h3>
-  <div className="relative h-[60vh] w-[80vw] top-[20vh] flex flex-row left-[10vw] justify-between items-center">
+  <div className="relative h-[60vh] w-full top-[20vh] flex flex-row justify-between items-center">
+    <div></div>
 
     {/* Kit 1 */}
     <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] rounded-[1.5vh]">
@@ -111,6 +112,7 @@ function HomeDesktop({ content }: { content: Content }) {
         <h3 className="text-[3rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
       </div>
     </div>
+    <div></div>
   </div>
 </section>      {/* Footer */}
       <section className="snap-start w-full">

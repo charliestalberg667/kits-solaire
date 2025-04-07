@@ -627,8 +627,8 @@ a {
 .left-0 {
   left: 0px;
 }
-.left-\[10vw\] {
-  left: 10vw;
+.left-\[3\.125vh\] {
+  left: 3.125vh;
 }
 .left-\[5vw\] {
   left: 5vw;
@@ -645,26 +645,11 @@ a {
 .top-1 {
   top: 0.25rem;
 }
-.top-\[25vh\] {
-  top: 25vh;
+.top-\[20vh\] {
+  top: 20vh;
 }
 .top-\[8vh\] {
   top: 8vh;
-}
-.left-\[3\.125vh\] {
-  left: 3.125vh;
-}
-.left-\[6\.25vh\] {
-  left: 6.25vh;
-}
-.left-\[\] {
-  left: ;
-}
-.top-\[15vh\] {
-  top: 15vh;
-}
-.top-\[20vh\] {
-  top: 20vh;
 }
 .isolation-auto {
   isolation: auto;
@@ -697,14 +682,6 @@ a {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-.mx-\[3vh\] {
-  margin-left: 3vh;
-  margin-right: 3vh;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -775,9 +752,6 @@ a {
 .h-screen {
   height: 100vh;
 }
-.h-\[8vh\] {
-  height: 8vh;
-}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -805,77 +779,17 @@ a {
 .w-9 {
   width: 2.25rem;
 }
-.w-\[13vw\] {
-  width: 13vw;
-}
-.w-\[35vw\] {
-  width: 35vw;
-}
-.w-\[70vw\] {
-  width: 70vw;
-}
-.w-\[80vw\] {
-  width: 80vw;
-}
-.w-full {
-  width: 100%;
-}
-.w-\[21\.875vh\] {
-  width: 21.875vh;
+.w-\[25vh\] {
+  width: 25vh;
 }
 .w-\[43\.75vh\] {
   width: 43.75vh;
 }
-.w-\[50vh\] {
-  width: 50vh;
-}
-.w-\[8\.125vh\] {
-  width: 8.125vh;
-}
-.w-\[\.75vh\] {
-  width: .75vh;
-}
-.w-\[vh\] {
-  width: vh;
-}
-.w-\[80vh\] {
-  width: 80vh;
-}
-.w-\[0vh\] {
-  width: 0vh;
-}
-.w-\[100vh\] {
-  width: 100vh;
-}
-.w-\[2\.875vh\] {
-  width: 2.875vh;
-}
-.w-\[45vh\] {
-  width: 45vh;
-}
-.w-\[10vh\] {
-  width: 10vh;
-}
-.w-\[130vh\] {
-  width: 130vh;
-}
 .w-\[60vh\] {
   width: 60vh;
 }
-.w-\[25\] {
-  width: 25;
-}
-.w-\[25vh\] {
-  width: 25vh;
-}
-.w-\[20vh\] {
-  width: 20vh;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[80\] {
-  width: 80;
+.w-full {
+  width: 100%;
 }
 .min-w-\[8rem\] {
   min-width: 8rem;
@@ -958,17 +872,8 @@ a {
 .gap-8 {
   gap: 2rem;
 }
-.gap-\[10vw\] {
-  gap: 10vw;
-}
-.gap-\[3vw\] {
-  gap: 3vw;
-}
 .gap-\[1\.875vh\] {
   gap: 1.875vh;
-}
-.gap-\[6\.25vh\] {
-  gap: 6.25vh;
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1091,20 +996,11 @@ a {
 .p-6 {
   padding: 1.5rem;
 }
-.p-\[8px\] {
-  padding: 8px;
-}
-.p-\[6vh\] {
-  padding: 6vh;
-}
-.p-\[vh\] {
-  padding: vh;
-}
 .p-\[4vh\] {
   padding: 4vh;
 }
-.p-\[1\.875vh\] {
-  padding: 1.875vh;
+.p-\[8px\] {
+  padding: 8px;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -1121,10 +1017,6 @@ a {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-.px-\[4vw\] {
-  padding-left: 4vw;
-  padding-right: 4vw;
 }
 .py-1 {
   padding-top: 0.25rem;
@@ -1145,34 +1037,6 @@ a {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.py-\[3vw\] {
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-}
-.px-\[2\.5vh\] {
-  padding-left: 2.5vh;
-  padding-right: 2.5vh;
-}
-.py-\[1\.875vh\] {
-  padding-top: 1.875vh;
-  padding-bottom: 1.875vh;
-}
-.py-\[4vh\] {
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-}
-.px-\[4vh\] {
-  padding-left: 4vh;
-  padding-right: 4vh;
-}
-.py-\[vh\] {
-  padding-top: vh;
-  padding-bottom: vh;
-}
-.py-\[6vh\] {
-  padding-top: 6vh;
-  padding-bottom: 6vh;
 }
 .pl-2 {
   padding-left: 0.5rem;
