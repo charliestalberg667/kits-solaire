@@ -222,7 +222,7 @@ function HomeMobile({ content }: { content: Content }) {
   </div>
   <div></div>
 </section>      {/* Footer */}
-      <section className="snap-start w-full">
+      <section className=" w-full">
         <Footer />
       </section>
     </div>
