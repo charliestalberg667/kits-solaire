@@ -134,8 +134,8 @@ function HomeMobile({ content }: { content: Content }) {
           <h2>{content.header2}</h2>
           <a href="#plugplay">
             <button className="text-[2vh]">
-              <div className="flex flex-row items-center bg-white/80 gap-4 px-2 py-1 rounded-[5px]">
-                <p className="mb-1 text-[#4018FF] font-[montserrat] font-medium">{content.learnMore}</p>
+              <div className="flex flex-row items-center bg-white/80 gap-4 p-3 rounded-[5px]">
+                <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
                 <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
                 </svg>
