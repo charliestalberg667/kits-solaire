@@ -38,8 +38,8 @@ const Navbar = () => {
     <nav className="fixed w-full top-0 left-0 z-50">
     <div className="md:hidden w-full flex ">
       </div>
-      <div className="flex items-center justify-between h-16 mx-7 gap-8">
-        <div className="flex items-center gap-4">
+      <div className="flex items-center justify-between h-16 mx-7 gap-8  ">
+        <div className="flex items-center gap-4 p-[6px] rounded-xl bg-gray backdrop-blur-md">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image

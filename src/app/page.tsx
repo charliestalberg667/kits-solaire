@@ -153,7 +153,7 @@ function HomeMobile({ content }: { content: Content }) {
       </section>
 
       {/* Section 2 */}
-      <section id="plugplay" className="w-full snap-start flex flex-col justify-between py-[8vh] gap-[5vh]">
+      <section id="plugplay" className="w-full snap-start flex flex-col justify-between py-[4vh] gap-[3vh]">
         <div></div>
   <h3 className="text-[2rem] relative w-[43.75vh] left-[3.125vh] text-[#4018FF] font-semibold">{content.ourKits}</h3>
   <div className="relative w-full flex flex-col justify-between items-center gap-[5vh]">
@@ -177,15 +177,15 @@ function HomeMobile({ content }: { content: Content }) {
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
       <div className="flex flex-row justify-between ">
-        <button className="text-[1.5rem]">
-          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
+        <button className="text-[1rem] items-center">
+          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 p-2 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
             <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
             </svg>
           </div>
         </button>
-        <h3 className="text-[1.5rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
+        <h3 className="text-[1.8rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
       </div>
     </div>
 
@@ -207,15 +207,15 @@ function HomeMobile({ content }: { content: Content }) {
         <span className="text-[#209967]"> {content.inStock}</span>
       </p>
       <div className="flex flex-row justify-between ">
-        <button className="text-[1.5rem]">
-          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
+        <button className="text-[1rem] items-center">
+          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 p-2 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
             <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
             </svg>
           </div>
         </button>
-        <h3 className="text-[1.5rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
+        <h3 className="text-[1.8rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
       </div>
     </div>
     <div></div>
@@ -253,8 +253,8 @@ export default function Home() {
       inStock: "en stock",
       kit: "solaire",
       solar: "kit",
-      price440: "459 €",
-      price800: "649 €",
+      price440: "199 €",
+      price800: "349 €",
     },
     nl: {
       header1: "Gewoon een stekker.",
@@ -266,8 +266,8 @@ export default function Home() {
       inStock: "op voorraad",
       kit: "kit",
       solar: "solar",
-      price440: "459 €",
-      price800: "649 €",
+      price440: "199 €",
+      price800: "349 €",
     },
   };
 
