@@ -49,72 +49,70 @@ function HomeDesktop({ content }: { content: Content }) {
 
       {/* Section 2 */}
       <section id="plugplay" className="h-screen w-full snap-start">
-        <h3 className="text-6xl relative w-[70vw] left-[5vw] top-[8vh] text-[#4018FF] font-medium">{content.ourKits}</h3>
-        <div className="relative h-[60vh] w-[80vw] top-[25vh] left-[10vw] flex flex-row gap-[10vw]">
+  <h3 className="text-6xl relative w-[43.75vh] left-[3.125vh] top-[8vh] text-[#4018FF] font-medium">{content.ourKits}</h3>
+  <div className="relative h-[60vh] w-[80vw] top-[20vh] flex flex-row left-[10vw] justify-between items-center">
 
-          {/* Kit 1 */}
-          <div className="h-full w-[35vw] bg-white flex flex-col px-[4vw] justify-between py-[3vw] rounded-[1.5vh]">
-            <div className="flex flex-row h-[30vh] w-full gap-[3vw]">
-              <div className="w-[13vw] flex flex-col justify-between">
-                <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
-                <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
-                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
-              </div>
-              <div className="w-[13vw] flex flex-col justify-between">
-                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
-                <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={160} height={100} />
-              </div>
-            </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">
-              {content.description440}
-              <span className="text-[#209967]"> {content.inStock}</span>
-            </p>
-            <div className="flex flex-row justify-between ">
-              <button className="text-xl">
-                <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
-                  <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
-                  <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
-                  </svg>
-                </div>
-              </button>
-              <h3 className="text-[3rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
-            </div>
-          </div>
-
-          {/* Kit 2 */}
-          <div className="h-full w-[35vw] bg-white flex flex-col px-[4vw] justify-between py-[3vw] rounded-[1.5vh]">
-            <div className="flex flex-row h-[30vh] w-full gap-[3vw]">
-              <div className="w-[13vw] flex flex-col justify-between">
-                <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
-                <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
-                <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
-              </div>
-              <div className="w-[13vw] flex flex-col justify-between">
-                <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">800W</h3>
-                <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={160} height={100} />
-              </div>
-            </div>
-            <p className="font-[montserrat] text-[1.2rem] font-semibold">
-              {content.description800}
-              <span className="text-[#209967]"> {content.inStock}</span>
-            </p>
-            <div className="flex flex-row justify-between ">
-              <button className="text-xl">
-                <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
-                  <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
-                  <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
-                  </svg>
-                </div>
-              </button>
-              <h3 className="text-[3rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
-            </div>
-          </div>
+    {/* Kit 1 */}
+    <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] rounded-[1.5vh]">
+      <div className="flex flex-row h-[30vh] w-full gap-[1.875vh]">
+        <div className="w-[25vh] flex flex-col justify-between">
+          <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
+          <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br/>{content.kit}</h3>
+          <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
         </div>
-      </section>
+        <div className="w-[25vh] flex flex-col justify-between">
+          <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
+          <Image src="/images/plugPlayX1.png" alt="plugPlayX1" width={200} height={100} />
+        </div>
+      </div>
+      <p className="font-[montserrat] text-[1.2rem] font-semibold">
+        {content.description440}
+        <span className="text-[#209967]"> {content.inStock}</span>
+      </p>
+      <div className="flex flex-row justify-between ">
+        <button className="text-xl">
+          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
+            <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
+            <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
+            </svg>
+          </div>
+        </button>
+        <h3 className="text-[3rem] font-semibold text-[#FF6E00]">{content.price440}</h3>
+      </div>
+    </div>
 
-      {/* Footer */}
+    {/* Kit 2 */}
+    <div className="h-full w-[60vh] bg-white flex flex-col justify-between p-[4vh] rounded-[1.5vh]">
+      <div className="flex flex-row h-[30vh] w-full justify-between">
+        <div className="flex flex-col justify-between">
+          <Image src="/images/belgium.png" alt="belgium" width={60} height={60} />
+          <h3 className="text-[3.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
+          <h3 className="text-[2rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
+        </div>
+        <div className="flex flex-col justify-between">
+          <h3 className="text-[3rem] font-[montserrat] font-semibold text-right text-[#4018FF]">800W</h3>
+          <Image src="/images/plugPlayX2.png" alt="plugPlayX2" width={200} height={100} />
+        </div>
+      </div>
+      <p className="font-[montserrat] text-[1.2rem] font-semibold">
+        {content.description800}
+        <span className="text-[#209967]"> {content.inStock}</span>
+      </p>
+      <div className="flex flex-row justify-between ">
+        <button className="text-xl">
+          <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 px-4 py-3 rounded-[5px]">
+            <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
+            <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
+            </svg>
+          </div>
+        </button>
+        <h3 className="text-[3rem] font-semibold text-[#FF6E00]">{content.price800}</h3>
+      </div>
+    </div>
+  </div>
+</section>      {/* Footer */}
       <section className="snap-start w-full">
         <Footer />
       </section>
