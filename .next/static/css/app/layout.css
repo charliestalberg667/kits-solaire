@@ -645,9 +645,6 @@ a {
 .top-1 {
   top: 0.25rem;
 }
-.top-\[20vh\] {
-  top: 20vh;
-}
 .top-\[8vh\] {
   top: 8vh;
 }
@@ -1102,6 +1099,24 @@ a {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+.text-\[0rem\] {
+  font-size: 0rem;
+}
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1166,6 +1181,21 @@ a {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-\[rem3\] {
+  color: rem3;
+}
+.text-\[rem\] {
+  color: rem;
+}
+.text-\[1\.rem\] {
+  color: 1.rem;
+}
+.text-\[0\.rem\] {
+  color: 0.rem;
+}
+.text-\[\] {
+  color: ;
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
