@@ -49,7 +49,7 @@ const Navbar = () => {
                 height={30}
                 className="mr-2"
               />
-              <span className="text-xl font-bold navEllement text-black">kits-solaire.be</span>
+              <span className="text-xl font-bold navEllement text-black">solarkits.be</span>
             </Link>
           </div>
         
