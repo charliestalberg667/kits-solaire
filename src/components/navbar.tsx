@@ -11,8 +11,6 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [clickCount, setClickCount] = useState(0);
 
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
 
   const content = {
     fr: {
