@@ -1,9 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import { useLanguage } from "@/components/language-provider";
-import { FaSun, FaUsers, FaAward, FaLeaf } from "react-icons/fa";
 import Footer from "@/components/footer";
 import React from "react";
 
