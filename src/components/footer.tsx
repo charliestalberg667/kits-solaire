@@ -8,13 +8,13 @@ const Footer = () => {
 
   const content = {
     fr: {
-      copyright: "SolarInstall. Tous droits réservés.",
+      copyright: "Solarstock. Tous droits réservés.",
       conditions: "Conditions générales de vente",
       privacy: "Politique de confidentialité",
       contact: "Contactez-nous",
     },
     nl: {
-      copyright: "SolarInstall. Alle rechten voorbehouden.",
+      copyright: "Solarstock. Alle rechten voorbehouden.",
       conditions: "Algemene Verkoopsvoorwaarden",
       privacy: "Privacybeleid",
       contact: "Contacteer ons",

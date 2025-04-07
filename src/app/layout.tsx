@@ -15,11 +15,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "SolarInstall",
+  title: "solarstock",
   description:
-      "Installation de systèmes solaires | Installatie van zonne-energiesystemen",
+      "Kits solaire belgique | Solar Kits belgië",
   keywords:
-      "solar install, solaire, installation solaire, énergie renouvelable, panneaux solaires, solutions énergétiques, énergie durable, énergie verte, zonne-energie, zonne-installatie, hernieuwbare energie, zonnepanelen, energieoplossingen, duurzame energie, groene energie",
+      "kits solaire belgique, solar kits belgië",
   robots: "index, follow",
 };
 
