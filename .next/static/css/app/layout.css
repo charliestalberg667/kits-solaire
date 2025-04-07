@@ -1163,6 +1163,9 @@ a {
 .text-\[1\.8rem\] {
   font-size: 1.8rem;
 }
+.text-\[5vh\] {
+  font-size: 5vh;
+}
 .font-bold {
   font-weight: 700;
 }
