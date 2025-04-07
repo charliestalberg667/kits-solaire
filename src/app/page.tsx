@@ -133,7 +133,7 @@ function HomeMobile({ content }: { content: Content }) {
           <h2>{content.header1}</h2>
           <h2>{content.header2}</h2>
           <a href="#plugplay">
-            <button className="text-[2.5vh]">
+            <button className="text-[2vh]">
               <div className="flex flex-row items-center bg-white/80 gap-4 px-2 py-1 rounded-[5px]">
                 <p className="mb-1 text-[#4018FF] font-[montserrat] font-medium">{content.learnMore}</p>
                 <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
