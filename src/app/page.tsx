@@ -136,7 +136,7 @@ function HomeMobile({ content }: { content: Content }) {
             <button className="text-[2vh]">
               <div className="flex flex-row items-center bg-white/80 gap-4 p-3 rounded-[5px]">
                 <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
-                <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="23" height="13" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
                 </svg>
               </div>
@@ -165,7 +165,7 @@ function HomeMobile({ content }: { content: Content }) {
         <div className=" flex flex-col justify-between">
           <Image src="/images/belgium.png" alt="belgium" width={45} height={45} />
           <h3 className="text-[2.5rem] font-[montserrat] font-semibold">{content.solar}<br/>{content.kit}</h3>
-          <h3 className="text-[1.5rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
+          <h3 className="text-[1.5rem] font-[montserrat] font-semibold text-[#4018FF]">plug & play</h3>
         </div>
         <div className="flex flex-col justify-between">
           <h3 className="text-[2rem] font-[montserrat] font-semibold text-right text-[#4018FF]">440W</h3>
@@ -180,7 +180,7 @@ function HomeMobile({ content }: { content: Content }) {
         <button className="text-[1rem] items-center">
           <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 p-2 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
-            <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="23" height="13" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
             </svg>
           </div>
@@ -195,7 +195,7 @@ function HomeMobile({ content }: { content: Content }) {
         <div className="flex flex-col justify-between">
           <Image src="/images/belgium.png" alt="belgium" width={45} height={45} />
           <h3 className="text-[2.5rem] font-[montserrat] font-semibold">{content.solar}<br />{content.kit}</h3>
-          <h3 className="text-[1.5rem] font-[montserrat] text-[#4018FF]">plug & play</h3>
+          <h3 className="text-[1.5rem] font-[montserrat] font-semibold text-[#4018FF]">plug & play</h3>
         </div>
         <div className="flex flex-col justify-between">
           <h3 className="text-[2rem] font-[montserrat] font-semibold text-right text-[#4018FF]">800W</h3>
@@ -210,7 +210,7 @@ function HomeMobile({ content }: { content: Content }) {
         <button className="text-[1rem] items-center">
           <div className="flex flex-row items-center bg-[rgba(64,24,255,0.08)] gap-4 p-2 rounded-[5px]">
             <p className="mb-1 text-[#4018FF] font-[montserrat] font-semibold">{content.learnMore}</p>
-            <svg width="46" height="27" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="23" height="13" viewBox="0 0 46 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 13.8462H45.5M45.5 13.8462C38.9733 13.5897 25.9198 10.4615 25.9198 0M45.5 13.8462C38.9733 14.1026 25.9198 16.9231 25.9198 26.1538" stroke="#4018FF" strokeWidth="2" />
             </svg>
           </div>
@@ -246,7 +246,7 @@ export default function Home() {
     fr: {
       header1: "Juste une prise.",
       header2: "Branchez, profitez.",
-      learnMore: "en savoir plus",
+      learnMore: "voir les offres",
       ourKits: "nos kits plug & play",
       description440: "Kit complet panneau solaire onduleur 440W - meilleur prix et",
       description800: "Kit complet 2 panneaux solaires onduleur 800W - meilleur prix et",
@@ -259,7 +259,7 @@ export default function Home() {
     nl: {
       header1: "Gewoon een stekker.",
       header2: "Steek in, geniet.",
-      learnMore: "meer weten",
+      learnMore: "bestel vandaag",
       ourKits: "onze plug & play kits",
       description440: "Complete zonnepaneel omvormer kit 440W - beste prijs en",
       description800: "Complete kit 2 zonnepanelen omvormer 800W - beste prijs en",
