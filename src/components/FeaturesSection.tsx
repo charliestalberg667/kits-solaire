@@ -4,23 +4,23 @@ import { motion } from "framer-motion";
 const features = [
   {
     image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=400&h=300",
-    title: "Plug & Play",
-    description: "Simply plug into any standard outlet. No wiring, no installation, no electrician needed."
+    title: "Plug Into Any Outlet",
+    description: "Works with standard wall outlets. No special wiring or electrical work needed - perfect for DIY installation."
   },
   {
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=400&h=300",
     title: "5-Minute Setup",
-    description: "From box to power generation in under 5 minutes. The fastest solar solution ever created."
+    description: "Literally plug and play. If you can plug in a lamp, you can install solar power. No tools or experience required."
   },
   {
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400&h=300",
-    title: "Safe & Certified",
-    description: "UL certified components with built-in safety features. Peace of mind included."
+    title: "Renter Friendly",
+    description: "Take it with you when you move. No permanent installation means no landlord permission needed."
   },
   {
     image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&q=80&w=400&h=300",
-    title: "Clean Energy",
-    description: "Reduce your carbon footprint while saving on electricity bills. Good for you and the planet."
+    title: "Safe for Everyone",
+    description: "UL certified with built-in safety features. Designed for everyday people, not just electricians."
   }
 ];
 
@@ -36,11 +36,11 @@ const FeaturesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
-            Why Choose Our
-            <span className="font-medium text-blue-600"> Solar Kits</span>
+            Solar Made
+            <span className="font-medium text-blue-600"> Simple</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Engineered for simplicity, designed for everyone. Experience the future of home energy.
+            Finally, solar power that doesn't require a PhD in electrical engineering. Built for real people, real homes.
           </p>
         </motion.div>
         

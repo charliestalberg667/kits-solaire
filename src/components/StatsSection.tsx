@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { number: "50%", label: "Average Electricity Bill Reduction", subtext: "Typical savings per month" },
-  { number: "5 Min", label: "Setup Time", subtext: "From box to power generation" },
-  { number: "12 Mo", label: "Payback Period", subtext: "Kit pays for itself" },
-  { number: "10,000+", label: "Happy Customers", subtext: "And growing every day" }
+  { number: "5 Min", label: "Average Setup Time", subtext: "From unboxing to power generation" },
+  { number: "0", label: "Tools Required", subtext: "Just plug into your wall outlet" },
+  { number: "100%", label: "DIY Success Rate", subtext: "Anyone can do it successfully" },
+  { number: "10,000+", label: "Happy DIY Customers", subtext: "No electrician calls needed" }
 ];
 
 const StatsSection = () => {
@@ -14,10 +14,10 @@ const StatsSection = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-            Proven Results from Real Customers
+            Real Results from Real DIY Installations
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            These aren't just numbers – they're real savings from real people who made the switch to SolarKit.
+            These numbers prove that anyone can successfully install and benefit from our solar kits - no technical background required.
           </p>
         </div>
         

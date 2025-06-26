@@ -1,16 +1,16 @@
 
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, User, Home, Wrench } from "lucide-react";
 import { motion } from "framer-motion";
 
 const ProductShowcase = () => {
   const benefits = [
-    "No installation required",
-    "Works with any outlet",
-    "Starts generating power immediately",
-    "Mobile app monitoring",
-    "Weather-resistant design",
-    "10-year warranty"
+    "No electrician required - DIY friendly",
+    "Works in apartments, condos, and homes",
+    "Plug into any standard wall outlet",
+    "No roof installation or modifications",
+    "Take it with you when you move",
+    "Setup in under 5 minutes"
   ];
 
   return (
@@ -23,12 +23,17 @@ const ProductShowcase = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
+            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <User className="w-4 h-4" />
+              Designed for Everyone
+            </div>
+
             <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
-              Solar power that
-              <span className="font-medium text-green-600"> just works</span>
+              No experience?
+              <span className="font-medium text-green-600"> No problem.</span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Our revolutionary plug-and-play solar kits bring clean energy to your home without the complexity of traditional solar installations.
+              Our solar kits are designed for everyday people. Whether you're a first-time renter or a seasoned homeowner, you can have solar power running in minutes.
             </p>
             
             <div className="space-y-4 mb-8">
@@ -48,9 +53,28 @@ const ProductShowcase = () => {
                 </motion.div>
               ))}
             </div>
+
+            {/* User Types */}
+            <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                <Home className="w-6 h-6 text-blue-500 mx-auto mb-2" />
+                <div className="text-sm font-medium text-gray-900">Renters</div>
+                <div className="text-xs text-gray-600">Portable solution</div>
+              </div>
+              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                <User className="w-6 h-6 text-blue-500 mx-auto mb-2" />
+                <div className="text-sm font-medium text-gray-900">Homeowners</div>
+                <div className="text-xs text-gray-600">Easy upgrade</div>
+              </div>
+              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                <Wrench className="w-6 h-6 text-blue-500 mx-auto mb-2" />
+                <div className="text-sm font-medium text-gray-900">DIY Beginners</div>
+                <div className="text-xs text-gray-600">No skills needed</div>
+              </div>
+            </div>
             
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105">
-              Learn More
+              See Installation Guide
             </Button>
           </motion.div>
           
