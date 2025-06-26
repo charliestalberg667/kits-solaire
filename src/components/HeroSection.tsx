@@ -1,11 +1,17 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 px-4 pt-16">
       <div className="max-w-6xl mx-auto text-center">
-        <div className="animate-fade-in">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <div className="inline-flex items-center gap-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-8">
             <Zap className="w-4 h-4" />
             Revolutionary Solar Technology
@@ -32,15 +38,20 @@ const HeroSection = () => {
               Watch Demo
             </Button>
           </div>
-        </div>
+        </motion.div>
         
-        <div className="mt-20 animate-fade-in">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="mt-20"
+        >
           <img 
-            src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=800&h=600"
-            alt="Solar Kit"
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800&h=600"
+            alt="Solar Panel Installation"
             className="rounded-3xl shadow-2xl mx-auto max-w-4xl w-full"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );
