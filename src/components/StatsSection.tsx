@@ -8,21 +8,25 @@ const stats = [
   { number: "10,000+", label: "Happy DIY Customers", subtext: "No electrician calls needed" }
 ];
 
+import { useTranslation } from 'react-i18next';
+
 const StatsSection = () => {
+  const { t } = useTranslation();
+  const stats = t('stats.items', { returnObjects: true }) as { number: string, label: string, subtext: string }[];
   return (
     <section className="py-16 bg-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-            Real Results from Real DIY Installations
+            {t('stats.title')}
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            These numbers prove that anyone can successfully install and benefit from our solar kits - no technical background required.
+            {t('stats.subtitle')}
           </p>
         </div>
         
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map((stat, index) => (
+          {Array.isArray(stats) && stats.map((stat, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}

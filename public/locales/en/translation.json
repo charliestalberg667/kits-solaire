@@ -1,0 +1,209 @@
+{
+  "navbar": {
+    "home": "Home",
+    "kits": "Our Kits",
+    "about": "About",
+    "faq": "FAQ",
+    "showroom": "Explore the showroom",
+    "brand": "solarkits.be"
+  },
+  "hero": {
+    "title1": "Just one plug.",
+    "title2": "Plug in, enjoy.",
+    "diyFriendly": "DIY Friendly - No Electrician Needed",
+    "reviews": "4.8/5 from 1,247 DIY homeowners",
+    "step1": "Unbox",
+    "step2": "Plug In",
+    "step3": "Start Saving",
+    "perfectFor": "⚡ Perfect for renters, homeowners, and anyone who wants solar without the hassle",
+    "ctaPrimary": "Start Your DIY Solar Journey",
+    "ctaSecondary": "See How Simple It Is",
+    "feature1": "Apartment & Renter Friendly",
+    "feature2": "No Roof Modifications",
+    "feature3": "Plug & Play Design"
+  },
+  "stats": {
+    "title": "Real Results from Real DIY Installations",
+    "subtitle": "These numbers prove that anyone can successfully install and benefit from our solar kits - no technical background required.",
+    "items": [
+      { "number": "5 Min", "label": "Average Setup Time", "subtext": "From unboxing to power generation" },
+      { "number": "0", "label": "Tools Required", "subtext": "Just plug into your wall outlet" },
+      { "number": "100%", "label": "DIY Success Rate", "subtext": "Anyone can do it successfully" },
+      { "number": "10,000+", "label": "Happy DIY Customers", "subtext": "No electrician calls needed" }
+    ]
+  },
+  "cta": {
+    "title": "Start Saving Today",
+    "subtitle": "Join 10,000+ homeowners who've already cut their electricity bills in half with SolarKit.",
+    "socialProof": [
+      { "value": "10,000+", "label": "Happy Customers" },
+      { "value": "$2.4M", "label": "Total Savings" },
+      { "value": "4.8★", "label": "Customer Rating" }
+    ],
+    "guarantees": [
+      "30-Day Money Back",
+      "10-Year Warranty",
+      "Free Shipping"
+    ],
+    "ctaPrimary": "Get Free Quote Now",
+    "ctaSecondary": "Call (800) SOLAR-KIT",
+    "footerText": "📞 Speak with a solar expert in under 60 seconds"
+  },
+  "about": {
+    "title": "About Sunbeam Solar",
+    "subtitle": "Our mission is to make solar energy accessible to everyone.",
+    "paragraph1": "We believe that clean, renewable energy should be simple and affordable. That's why we created Sunbeam Solar, to provide easy-to-install solar kits that anyone can set up in minutes.",
+    "paragraph2": "Our team is made up of passionate engineers, designers, and solar enthusiasts who are dedicated to creating high-quality products that make a real difference in the world.",
+    "paragraph3": "Join us on our journey to a brighter, cleaner future. With Sunbeam Solar, you're not just saving money on your electricity bills, you're investing in a sustainable planet for generations to come."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Have questions? We have answers. If you can't find what you're looking for, feel free to contact us.",
+    "questions": [
+      {
+        "question": "Do I need an electrician to install the kit?",
+        "answer": "Absolutely not! Our kits are designed for easy, DIY installation. You just plug it into a standard wall outlet. No tools, no electricians, no hassle."
+      },
+      {
+        "question": "Is it compatible with my apartment?",
+        "answer": "Yes, our kits are perfect for apartments, condos, and rental properties. Since there are no permanent modifications to the building, you can take it with you when you move."
+      },
+      {
+        "question": "How much can I actually save?",
+        "answer": "Savings vary depending on your location and electricity usage, but our customers typically see a 40-60% reduction in their monthly electricity bills. The kit often pays for itself in under a year."
+      },
+      {
+        "question": "What happens during a power outage?",
+        "answer": "For safety reasons, our grid-tied inverters will automatically shut down during a power outage to prevent sending electricity back to the grid, which could endanger utility workers. It will automatically restart when power is restored."
+      }
+    ]
+  },
+  "footer": {
+    "companyName": "Solar Stock",
+    "description": "Welcome to SolarStock, your supplier for your complete solar and electrical system needs. Whether you are a seasoned professional or an individual wishing to switch to a cleaner, more sustainable energy source, we have everything you need for your solar installation.",
+
+    "contact": {
+      "title": "Contact",
+      "phone": "02 241 08 00",
+      "address": "Chaussée de Mons 458 - 1600 Sint-Pieters-Leeuw - Belgium"
+    },
+    "social": {
+      "title": "Social Networks"
+    },
+    "copyright": "© 2024 Solar Stock. All rights reserved."
+  },
+  "features": {
+    "title": {
+      "main": "Everything you need for",
+      "highlighted": "energy independence"
+    },
+    "subtitle": "Our kits are specially designed for the Belgian market, ensuring full compliance and maximum efficiency.",
+    "items": [
+      {
+        "title": "Synergrid Certified",
+        "description": "Fully compliant with Belgian regulations for a hassle-free connection to the grid.",
+        "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Maximum Sunlight",
+        "description": "Optimized for Belgium's climate to capture every ray of sun, even on cloudy days.",
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Easy Installation",
+        "description": "No need for an electrician. Our plug-and-play system is ready in minutes.",
+        "image": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Immediate Savings",
+        "description": "Start reducing your electricity bill from the moment you plug in your kit.",
+        "image": "https://images.unsplash.com/photo-1619950831688-5f488392c479?auto=format&fit=crop&q=80&w=600&h=400"
+      }
+    ]
+  },
+  "products": {
+    "title": "Choose your savings plan",
+    "subtitle": "Two powerful options designed to slash your electricity bills. Both kits pay for themselves in under 12 months.",
+    "trustBadges": {
+      "freeShipping": "FREE Shipping",
+      "moneyBack": "30-Day Money Back",
+      "customerRating": "4.8/5 Customer Rating"
+    },
+    "bestValue": "🔥 BEST VALUE",
+    "plugPlayX1_name": "plugPlayX1",
+    "plugPlayX1_subtitle": "Complete 440W solar panel inverter kit",
+    "plugPlayX1_description": "Best price and in stock",
+    "plugPlayX1_price": "€349",
+    "plugPlayX1_features": [
+      "1 x 440W Solar Panel",
+      "Integrated inverter",
+      "Connection cables",
+      "Mounting structure included",
+      "10-year warranty",
+      "Synergrid certified"
+    ],
+    "plugPlayX1_testimonial": "Simple and fast installation!",
+    "plugPlayX2_name": "plugPlayX2",
+    "plugPlayX2_subtitle": "Complete 800W 2-solar panel inverter kit",
+    "plugPlayX2_description": "Best price and in stock",
+    "plugPlayX2_price": "€499",
+    "plugPlayX2_features": [
+      "2 x 400W Solar Panels",
+      "High-performance inverter",
+      "Complete mounting system",
+      "Connection cables",
+      "10-year warranty",
+      "Synergrid certified"
+    ],
+    "plugPlayX2_testimonial": "Perfect for optimal energy autonomy!",
+    "orderCta": "Order Now - Free Shipping",
+    "installGuarantee": "💡 Installs in 5 minutes • 30-day money-back guarantee"
+  },
+  "press": {
+    "title": "They're talking about us",
+    "subtitle": "Go solar with ease with Plug & Play photovoltaic kits!",
+    "p1": "Plug & Play photovoltaic kits offer an accessible solution to produce your own electricity. Easy to install, they simply plug into a standard electrical outlet, without complex work.",
+    "p2": "Each kit, carefully composed by professionals in the sector, includes one or two solar panels as well as a high-performance micro-inverter (up to 800W, Synergrid approved). This solution is ideal for DIYers wishing to reduce their energy bill with a more affordable initial investment.",
+    "p3": "Before installation, a few checks are essential: electrical compatibility of your installation, compliance with town planning rules (especially if the kit is visible from the street), secure fixing and declaration to the network operator. Please note: regulations may vary by region.",
+    "p4": "Our team is at your disposal to support you: find us in store at Solarstock, or contact us by phone at 02/241.08.00. We will be happy to answer your questions and guide you in your solar project.",
+    "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
+  },
+  "installation": {
+    "title": "How to install your solar kit in 5 simple steps",
+    "steps": [
+      "Unpacking and checking all kit components",
+      "Assembling the support structure according to the provided manual",
+      "Fixing the solar panels on the structure",
+      "Connecting the wiring and the inverter",
+      "Commissioning and checking for correct operation"
+    ]
+  },
+  "productShowcase": {
+    "tagline": "Designed for Everyone",
+    "title": {
+      "part1": "No experience?",
+      "part2": " No problem."
+    },
+    "subtitle": "Our solar kits are designed for everyday people. Whether you're a first-time renter or a seasoned homeowner, you can have solar power running in minutes.",
+    "benefits": [
+      "No electrician required - DIY friendly",
+      "Works in apartments, condos, and homes",
+      "Plug into any standard wall outlet",
+      "No roof installation or modifications",
+      "Take it with you when you move",
+      "Setup in under 5 minutes"
+    ],
+    "userTypes": [
+      { "name": "Renters", "description": "Portable solution", "icon": "Home" },
+      { "name": "Homeowners", "description": "Easy upgrade", "icon": "User" },
+      { "name": "DIY Beginners", "description": "No skills needed", "icon": "Wrench" }
+    ],
+    "cta": "See Installation Guide",
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Solar Panel Close-up", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Solar Installation", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Solar Kit Components", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Solar Technology", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" }
+    ]
+  }
+}

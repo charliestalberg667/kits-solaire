@@ -1,0 +1,209 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "kits": "Nos Kits",
+    "about": "À Propos",
+    "faq": "FAQ",
+    "showroom": "Explorer le showroom",
+    "brand": "solarkits.be"
+  },
+  "hero": {
+    "title1": "Juste une prise.",
+    "title2": "Branchez, profitez.",
+    "diyFriendly": "DIY Friendly - Pas besoin d'électricien",
+    "reviews": "4.8/5 de 1,247 propriétaires DIY",
+    "step1": "Déballer",
+    "step2": "Brancher",
+    "step3": "Économiser",
+    "perfectFor": "⚡ Parfait pour les locataires, les propriétaires et tous ceux qui veulent du solaire sans les tracas",
+    "ctaPrimary": "Commencez Votre Aventure Solaire DIY",
+    "ctaSecondary": "Voyez Comme C'est Simple",
+    "feature1": "Compatible Appartements & Locataires",
+    "feature2": "Aucune Modification de Toiture",
+    "feature3": "Conception Plug & Play"
+  },
+  "stats": {
+    "title": "Résultats Réels d'Installations DIY Réelles",
+    "subtitle": "Ces chiffres prouvent que n'importe qui peut installer et bénéficier de nos kits solaires avec succès - aucune connaissance technique n'est requise.",
+    "items": [
+      { "number": "5 Min", "label": "Temps d'Installation Moyen", "subtext": "Du déballage à la production d'énergie" },
+      { "number": "0", "label": "Outils Requis", "subtext": "Branchez simplement sur votre prise murale" },
+      { "number": "100%", "label": "Taux de Réussite DIY", "subtext": "Tout le monde peut le faire avec succès" },
+      { "number": "10,000+", "label": "Clients DIY Satisfaits", "subtext": "Aucun appel à un électricien nécessaire" }
+    ]
+  },
+  "cta": {
+    "title": "Commencez à Économiser Dès Aujourd'hui",
+    "subtitle": "Rejoignez plus de 10 000 propriétaires qui ont déjà réduit de moitié leur facture d'électricité avec SolarKit.",
+    "socialProof": [
+      { "value": "10,000+", "label": "Clients Satisfaits" },
+      { "value": "2,4M€", "label": "Économies Totales" },
+      { "value": "4.8★", "label": "Note des Clients" }
+    ],
+    "guarantees": [
+      "Satisfait ou Remboursé 30 Jours",
+      "Garantie de 10 Ans",
+      "Livraison Gratuite"
+    ],
+    "ctaPrimary": "Obtenez un Devis Gratuit",
+    "ctaSecondary": "Appelez le (800) SOLAR-FR",
+    "footerText": "📞 Parlez à un expert solaire en moins de 60 secondes"
+  },
+  "about": {
+    "title": "À Propos de Sunbeam Solar",
+    "subtitle": "Notre mission est de rendre l'énergie solaire accessible à tous.",
+    "paragraph1": "Nous croyons qu'une énergie propre et renouvelable doit être simple et abordable. C'est pourquoi nous avons créé Sunbeam Solar, pour fournir des kits solaires faciles à installer que n'importe qui peut mettre en place en quelques minutes.",
+    "paragraph2": "Notre équipe est composée d'ingénieurs, de designers et de passionnés du solaire qui se consacrent à la création de produits de haute qualité qui font une réelle différence dans le monde.",
+    "paragraph3": "Rejoignez-nous dans notre voyage vers un avenir plus lumineux et plus propre. Avec Sunbeam Solar, vous ne faites pas seulement des économies sur vos factures d'électricité, vous investissez dans une planète durable pour les générations à venir."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Vous avez des questions ? Nous avons des réponses. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à nous contacter.",
+    "questions": [
+      {
+        "question": "Ai-je besoin d'un électricien pour installer le kit ?",
+        "answer": "Absolument pas ! Nos kits sont conçus pour une installation facile par vous-même. Il vous suffit de le brancher sur une prise murale standard. Pas d'outils, pas d'électriciens, pas de tracas."
+      },
+      {
+        "question": "Est-ce compatible avec mon appartement ?",
+        "answer": "Oui, nos kits sont parfaits pour les appartements, les condos et les locations. Comme il n'y a aucune modification permanente du bâtiment, vous pouvez l'emporter avec vous lorsque vous déménagez."
+      },
+      {
+        "question": "Combien puis-je réellement économiser ?",
+        "answer": "Les économies varient en fonction de votre emplacement et de votre consommation d'électricité, mais nos clients constatent généralement une réduction de 40 à 60 % de leurs factures d'électricité mensuelles. Le kit est souvent rentabilisé en moins d'un an."
+      },
+      {
+        "question": "Que se passe-t-il en cas de panne de courant ?",
+        "answer": "Pour des raisons de sécurité, nos onduleurs connectés au réseau s'arrêtent automatiquement en cas de panne de courant pour éviter d'envoyer de l'électricité sur le réseau, ce qui pourrait mettre en danger les travailleurs des services publics. Il redémarrera automatiquement lorsque le courant sera rétabli."
+      }
+    ]
+  },
+  "features": {
+    "title": {
+      "main": "Tout ce dont vous avez besoin pour",
+      "highlighted": "l'indépendance énergétique"
+    },
+    "subtitle": "Nos kits sont spécialement conçus pour le marché belge, garantissant une conformité totale et une efficacité maximale.",
+    "items": [
+      {
+        "title": "Certifié Synergrid",
+        "description": "Entièrement conforme à la réglementation belge pour une connexion au réseau sans tracas.",
+        "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Ensoleillement Maximal",
+        "description": "Optimisé pour le climat belge afin de capter chaque rayon de soleil, même par temps nuageux.",
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Installation Facile",
+        "description": "Pas besoin d'électricien. Notre système plug-and-play est prêt en quelques minutes.",
+        "image": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=600&h=400"
+      },
+      {
+        "title": "Économies Immédiates",
+        "description": "Commencez à réduire votre facture d'électricité dès que vous branchez votre kit.",
+        "image": "https://images.unsplash.com/photo-1619950831688-5f488392c479?auto=format&fit=crop&q=80&w=600&h=400"
+      }
+    ]
+  },
+  "products": {
+    "title": "Choisissez votre plan d'économies",
+    "subtitle": "Deux options puissantes conçues pour réduire vos factures d'électricité. Les deux kits sont rentabilisés en moins de 12 mois.",
+    "trustBadges": {
+      "freeShipping": "Livraison GRATUITE",
+      "moneyBack": "Satisfait ou Remboursé 30 Jours",
+      "customerRating": "Note Client 4.8/5"
+    },
+    "bestValue": "🔥 MEILLEUR PRIX",
+    "plugPlayX1_name": "plugPlayX1",
+    "plugPlayX1_subtitle": "Kit complet panneau solaire onduleur 440W",
+    "plugPlayX1_description": "Meilleur prix et en stock",
+    "plugPlayX1_price": "349 €",
+    "plugPlayX1_features": [
+      "1 x Panneau solaire 440W",
+      "Onduleur intégré",
+      "Câbles de connexion",
+      "Structure de fixation incluse",
+      "Garantie 10 ans",
+      "Certifié Synergrid"
+    ],
+    "plugPlayX1_testimonial": "Installation simple et rapide!",
+    "plugPlayX2_name": "plugPlayX2",
+    "plugPlayX2_subtitle": "Kit complet 2 panneaux solaires onduleur 800W",
+    "plugPlayX2_description": "Meilleur prix et en stock",
+    "plugPlayX2_price": "499 €",
+    "plugPlayX2_features": [
+      "2 x Panneaux solaires 400W",
+      "Onduleur haute performance",
+      "Système de fixation complet",
+      "Câbles de connexion",
+      "Garantie 10 ans",
+      "Certifié Synergrid"
+    ],
+    "plugPlayX2_testimonial": "Parfait pour une autonomie énergétique optimale !",
+    "orderCta": "Commander maintenant - Livraison gratuite",
+    "installGuarantee": "💡 Installation en 5 minutes • Garantie remboursement 30 jours"
+  },
+  "press": {
+    "title": "Ils parlent de nous",
+    "subtitle": "Optez pour l’énergie solaire en toute simplicité avec les kits photovoltaïques Plug & Play !",
+    "p1": "Les kits photovoltaïques Plug & Play offrent une solution accessible pour produire votre propre électricité. Faciles à installer, ils se branchent simplement sur une prise électrique standard, sans travaux complexes.",
+    "p2": "Chaque kit, soigneusement composé par des professionnels du secteur, comprend un ou deux panneaux solaires ainsi qu’un micro-onduleur performant (jusqu’à 800W, agréé Synergrid). Cette solution est idéale pour les bricoleurs souhaitant réduire leur facture d’énergie avec un investissement initial plus abordable.",
+    "p3": "Avant l’installation, quelques vérifications sont essentielles : compatibilité électrique de votre installation, conformité avec les règles d’urbanisme (notamment si le kit est visible depuis la rue), fixation sécurisée et déclaration auprès du gestionnaire de réseau. À noter : les réglementations peuvent varier selon les régions.",
+    "p4": "Notre équipe est à votre disposition pour vous accompagner : retrouvez-nous en magasin chez Solarstock, ou contactez-nous par téléphone au 02/241.08.00. Nous serons ravis de répondre à vos questions et de vous guider dans votre projet solaire.",
+    "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
+  },
+  "installation": {
+    "title": "Comment installer votre kit solaire en 5 étapes simples",
+    "steps": [
+      "Déballage et vérification de tous les composants du kit",
+      "Assemblage de la structure porteuse selon le manuel fourni",
+      "Fixation des panneaux solaires sur la structure",
+      "Branchement du câblage et de l'onduleur",
+      "Mise en service et vérification du bon fonctionnement"
+    ]
+  },
+  "productShowcase": {
+    "tagline": "Conçu pour tout le monde",
+    "title": {
+      "part1": "Pas d'expérience ?",
+      "part2": " Aucun problème."
+    },
+    "subtitle": "Nos kits solaires sont conçus pour les gens ordinaires. Que vous soyez un locataire pour la première fois ou un propriétaire chevronné, vous pouvez avoir de l'énergie solaire en quelques minutes.",
+    "benefits": [
+      "Aucun électricien requis - Convivial pour le bricolage",
+      "Fonctionne dans les appartements, les condos et les maisons",
+      "Branchez sur n'importe quelle prise murale standard",
+      "Aucune installation ou modification de toiture",
+      "Emportez-le avec vous lorsque vous déménagez",
+      "Installation en moins de 5 minutes"
+    ],
+    "userTypes": [
+      { "name": "Locataires", "description": "Solution portable", "icon": "Home" },
+      { "name": "Propriétaires", "description": "Mise à niveau facile", "icon": "User" },
+      { "name": "Débutants en bricolage", "description": "Aucune compétence requise", "icon": "Wrench" }
+    ],
+    "cta": "Voir le guide d'installation",
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Gros plan sur un panneau solaire", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Installation solaire", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Composants du kit solaire", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Technologie solaire", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" }
+    ]
+  },
+  "footer": {
+    "companyName": "Solar Stock",
+    "description": "Bienvenue chez SolarStock, votre fournisseur pour vos besoins en systèmes solaires et électriques complets. Que vous soyez un professionnel chevronné ou un particulier souhaitant passer à une source d'énergie plus propre et durable, nous avons tout ce dont vous avez besoin pour votre installation solaire.",
+
+    "contact": {
+      "title": "Contact",
+      "phone": "02 241 08 00",
+      "address": "Chaussée de Mons 458 - 1600 Sint-Pieters-Leeuw - Belgique"
+    },
+    "social": {
+      "title": "Réseaux sociaux"
+    },
+    "copyright": "© 2024 Solar Stock. Tous droits réservés."
+  }
+}

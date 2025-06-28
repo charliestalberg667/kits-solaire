@@ -1,17 +1,19 @@
-
 import { Button } from "@/components/ui/button";
 import { Check, User, Home, Wrench } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const ProductShowcase = () => {
-  const benefits = [
-    "No electrician required - DIY friendly",
-    "Works in apartments, condos, and homes",
-    "Plug into any standard wall outlet",
-    "No roof installation or modifications",
-    "Take it with you when you move",
-    "Setup in under 5 minutes"
-  ];
+  const { t } = useTranslation();
+  const benefits = t('productShowcase.benefits', { returnObjects: true }) as string[];
+  const userTypes = t('productShowcase.userTypes', { returnObjects: true }) as { name: string, description: string, icon: string }[];
+  const images = t('productShowcase.images', { returnObjects: true }) as { src: string, alt: string, className: string }[];
+
+  const icons: { [key: string]: React.ElementType } = {
+    Home,
+    User,
+    Wrench,
+  };
 
   return (
     <section className="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
@@ -25,15 +27,15 @@ const ProductShowcase = () => {
           >
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <User className="w-4 h-4" />
-              Designed for Everyone
+              {t('productShowcase.tagline')}
             </div>
 
             <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
-              No experience?
-              <span className="font-medium text-green-600"> No problem.</span>
+              {t('productShowcase.title.part1')}
+              <span className="font-medium text-green-600">{t('productShowcase.title.part2')}</span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Our solar kits are designed for everyday people. Whether you're a first-time renter or a seasoned homeowner, you can have solar power running in minutes.
+              {t('productShowcase.subtitle')}
             </p>
             
             <div className="space-y-4 mb-8">
@@ -54,27 +56,21 @@ const ProductShowcase = () => {
               ))}
             </div>
 
-            {/* User Types */}
             <div className="grid grid-cols-3 gap-4 mb-8">
-              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                <Home className="w-6 h-6 text-blue-500 mx-auto mb-2" />
-                <div className="text-sm font-medium text-gray-900">Renters</div>
-                <div className="text-xs text-gray-600">Portable solution</div>
-              </div>
-              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                <User className="w-6 h-6 text-blue-500 mx-auto mb-2" />
-                <div className="text-sm font-medium text-gray-900">Homeowners</div>
-                <div className="text-xs text-gray-600">Easy upgrade</div>
-              </div>
-              <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                <Wrench className="w-6 h-6 text-blue-500 mx-auto mb-2" />
-                <div className="text-sm font-medium text-gray-900">DIY Beginners</div>
-                <div className="text-xs text-gray-600">No skills needed</div>
-              </div>
+              {userTypes.map((userType) => {
+                const IconComponent = icons[userType.icon];
+                return (
+                  <div key={userType.name} className="text-center p-4 bg-white rounded-lg shadow-sm">
+                    {IconComponent && <IconComponent className="w-6 h-6 text-blue-500 mx-auto mb-2" />}
+                    <div className="text-sm font-medium text-gray-900">{userType.name}</div>
+                    <div className="text-xs text-gray-600">{userType.description}</div>
+                  </div>
+                );
+              })}
             </div>
             
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105">
-              See Installation Guide
+              {t('productShowcase.cta')}
             </Button>
           </motion.div>
           
@@ -87,28 +83,20 @@ const ProductShowcase = () => {
           >
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <img 
-                  src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=400&h=300"
-                  alt="Solar Panel Close-up"
-                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=400&h=200"
-                  alt="Solar Installation"
-                  className="rounded-2xl shadow-lg w-full h-32 object-cover"
-                />
+                <div className="p-4">
+                  <img {...images[0]} className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                </div>
+                <div className="p-4">
+                  <img {...images[1]} className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                </div>
               </div>
               <div className="space-y-4 pt-8">
-                <img 
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400&h=200"
-                  alt="Solar Kit Components"
-                  className="rounded-2xl shadow-lg w-full h-32 object-cover"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=300"
-                  alt="Solar Technology"
-                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
-                />
+                <div className="p-4">
+                  <img {...images[2]} className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                </div>
+                <div className="p-4">
+                  <img {...images[3]} className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                </div>
               </div>
             </div>
           </motion.div>

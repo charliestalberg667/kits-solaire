@@ -1,0 +1,210 @@
+{
+  "navbar": {
+    "home": "Home",
+    "kits": "Onze Kits",
+    "about": "Over Ons",
+    "faq": "Veelgestelde Vragen",
+    "showroom": "Bezoek de Showroom",
+    "brand": "solarkits.be"
+  },
+  "hero": {
+    "title1": "Slechts één stekker.",
+    "title2": "Inpluggen en genieten.",
+    "diyFriendly": "DIY-vriendelijk - Geen elektricien nodig",
+    "reviews": "4.8/5 van 1.247 doe-het-zelvers",
+    "step1": "Uitpakken",
+    "step2": "Inpluggen",
+    "step3": "Besparen",
+    "perfectFor": "⚡ Perfect voor huurders, huiseigenaren en iedereen die zonne-energie wil zonder gedoe",
+    "ctaPrimary": "Start Uw DIY Zonnereis",
+    "ctaSecondary": "Zie Hoe Eenvoudig Het Is",
+    "feature1": "Geschikt voor Appartement & Huurders",
+    "feature2": "Geen Dakaanpassingen Nodig",
+    "feature3": "Plug & Play Ontwerp"
+  },
+  "stats": {
+    "title": "Echte Resultaten van Echte DIY Installaties",
+    "subtitle": "Deze cijfers bewijzen dat iedereen met succes onze zonnepakketten kan installeren en er voordeel uit kan halen - geen technische kennis vereist.",
+    "items": [
+      { "number": "5 Min", "label": "Gemiddelde Installatietijd", "subtext": "Van uitpakken tot stroomopwekking" },
+      { "number": "0", "label": "Gereedschap Nodig", "subtext": "Gewoon in het stopcontact steken" },
+      { "number": "100%", "label": "DIY Slagingspercentage", "subtext": "Iedereen kan het" },
+      { "number": "10.000+", "label": "Tevreden Klanten", "subtext": "Gein elektricien nodig" }
+    ]
+  },
+  "cta": {
+    "title": "Begin Vandaag Nog Met Besparen",
+    "subtitle": "Doe mee met 10.000+ huiseigenaren die hun elektriciteitsrekening al hebben gehalveerd met SolarKit.",
+    "socialProof": [
+      { "value": "10.000+", "label": "Tevreden Klanten" },
+      { "value": "€2,1M", "label": "Totaal Bespaard" },
+      { "value": "4,8★", "label": "Klantbeoordeling" }
+    ],
+    "guarantees": [
+      "30 Dagen Niet Goed Geld Terug",
+      "10 Jaar Garantie",
+      "Gratis Levering"
+    ],
+    "ctaPrimary": "Vraag Nu Een Offerte Aan",
+    "ctaSecondary": "Bel (0800) 012 345",
+    "footerText": "📞 Spreek binnen 60 seconden met een zonne-energie-expert"
+  },
+  "products": {
+    "title": "Onze Aanbevolen Zonnepakketten",
+    "subtitle": "Eenvoudige, betaalbare en effectieve oplossingen voor thuisgebruik.",
+    "trustBadges": {
+      "freeShipping": "Gratis Levering",
+      "moneyBack": "30 Dagen Geld Terug",
+      "customerRating": "4.8/5 Klantbeoordeling"
+    },
+    "bestValue": "Beste Waarde",
+    "orderCta": "Nu Bestellen",
+    "installGuarantee": "Eenvoudige installatie, geen elektricien nodig",
+    "plugPlayX1_name": "Plug & Play Zonnekit X1",
+    "plugPlayX1_subtitle": "Compleet 440W zonnepaneel omvormerpakket",
+    "plugPlayX1_description": "Perfect voor kleine huishoudens of als aanvulling op uw bestaande stroomvoorziening.",
+    "plugPlayX1_price": "€1.199",
+    "plugPlayX1_features": [
+      "440W Zonnepaneel",
+      "Ingebouwde Micro-omvormer",
+      "Plug & Play Installatie",
+      "Inclusief montagemateriaal",
+      "10 Jaar Garantie"
+    ],
+    "plugPlayX1_testimonial": "Eenvoudig te installeren en werkt perfect! Mijn elektriciteitsrekening is met 30% gedaald.",
+    "plugPlayX2_name": "Plug & Play Zonnekit X2",
+    "plugPlayX2_subtitle": "Compleet 800W 2 zonnepanelen omvormerpakket",
+    "plugPlayX2_description": "Ideaal voor middelgrote huishoudens die meer stroom willen opwekken en besparen.",
+    "plugPlayX2_price": "€1.999",
+    "plugPlayX2_features": [
+      "2x 400W Zonnepanelen",
+      "Krachtige Micro-omvormer",
+      "Plug & Play Installatie",
+      "Inclusief montagesysteem",
+      "10 Jaar Productgarantie",
+      "25 Jaar Vermogensgarantie"
+    ],
+    "plugPlayX2_testimonial": "Fantastisch systeem! Heeft mijn maandelijkse energierekening met meer dan 50% verlaagd."
+  },
+  "features": {
+    "title": "Waarom Kiezen Voor Onze Zonnepakketten?",
+    "subtitle": "Eenvoudige installatie, directe besparingen en een betrouwbare energiebron voor uw huis.",
+    "items": [
+      {
+        "title": "Makkelijk Te Installeren",
+        "description": "Geen technische kennis vereist. Onze plug & play-oplossing is binnen 5 minuten geïnstalleerd."
+      },
+      {
+        "title": "Directe Besparingen",
+        "description": "Begin direct met besparen op uw energierekening, vanaf de eerste dag van installatie."
+      },
+      {
+        "title": "Verplaatsbaar",
+        "description": "Neem uw zonnepanelen eenvoudig mee bij een verhuizing."
+      },
+      {
+        "title": "Onderhoudsvrij",
+        "description": "Onze systemen zijn ontworpen om jarenlang probleemloos te werken zonder onderhoud."
+      },
+      {
+        "title": "Milieuvriendelijk",
+        "description": "Verminder uw ecologische voetafdruk met schone, hernieuwbare energie."
+      },
+      {
+        "title": "Gegarandeerde Kwaliteit",
+        "description": "10 jaar productgarantie en 25 jaar vermogensgarantie op onze panelen."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Hoe Het Werkt",
+    "subtitle": "Begin binnen enkele minuten met het opwekken van uw eigen schone energie.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Bestel Uw Pakket",
+        "description": "Kies het zonnepakket dat het beste bij uw behoeften past."
+      },
+      {
+        "number": "2",
+        "title": "Ontvang Thuis",
+        "description": "Gratis thuisbezorgd binnen 3-5 werkdagen."
+      },
+      {
+        "number": "3",
+        "title": "Installeer",
+        "description": "Volg onze eenvoudige installatiehandleiding - geen technische kennis nodig."
+      },
+      {
+        "number": "4",
+        "title": "Geniet Van Besparingen",
+        "description": "Begin direct met het besparen op uw energierekening."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Wat Onze Klanten Zeggen",
+    "subtitle": "Echte ervaringen van echte klanten die hun energierekening hebben verlaagd met onze zonnepakketten.",
+    "items": [
+      {
+        "quote": "Ik was verbaasd hoe eenvoudig het was om te installeren. Binnen een uur had ik het werkend en zag ik de besparingen op mijn energiemeter.",
+        "author": "Lisa M.",
+        "location": "Antwerpen"
+      },
+      {
+        "quote": "Als huurder dacht ik dat zonne-energie geen optie was. Dit systeem heeft me geholpen om te besparen zonder aanpassingen aan het gebouw.",
+        "author": "Tom V.",
+        "location": "Gent"
+      },
+      {
+        "quote": "Uitstekende klantenservice en kwaliteitsproduct. Mijn elektriciteitsrekening is met 40% gedaald sinds de installatie.",
+        "author": "Sofie D.",
+        "location": "Brugge"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Alles wat u moet weten over onze zonnepakketten en hoe ze werken.",
+    "items": [
+      {
+        "question": "Hoe eenvoudig is de installatie?",
+        "answer": "Zeer eenvoudig! Onze plug & play-systemen zijn ontworpen voor eenvoudige installatie zonder technische kennis. De gemiddelde installatietijd is slechts 5-10 minuten."
+      },
+      {
+        "question": "Werkt dit in de winter of bij bewolkt weer?",
+        "answer": "Ja, onze panelen werken het hele jaar door, zelfs bij bewolkt weer. Hoewel de opbrengst lager is dan op zonnige dagen, wekken ze nog steeds energie op."
+      },
+      {
+        "question": "Hoeveel kan ik besparen?",
+        "answer": "Gemiddeld zien onze klanten een besparing van 30-60% op hun elektriciteitsrekening, afhankelijk van het gebruik en de hoeveelheid zonlicht."
+      },
+      {
+        "question": "Hoe zit het met garantie?",
+        "answer": "Al onze producten worden geleverd met een volledige garantie van 10 jaar en een vermogensgarantie van 25 jaar op de zonnepanelen."
+      },
+      {
+        "question": "Kan ik het systeem meenemen als ik verhuis?",
+        "answer": "Absoluut! Onze systemen zijn ontworpen om gemakkelijk te demonteren en opnieuw te installeren op uw nieuwe locatie."
+      },
+      {
+        "question": "Hoe onderhoud ik de panelen?",
+        "answer": "Minimaal onderhoud is nodig. Af en toe schoonmaken met water en een zachte borstel is voldoende om optimale prestaties te behouden."
+      }
+    ]
+  },
+  "footer": {
+    "companyName": "Solar Stock",
+    "description": "Welkom bij SolarStock, uw leverancier voor al uw behoeften op het gebied van complete zonne- en elektrische systemen. Of u nu een doorgewinterde professional bent of een particulier die wil overstappen op een schonere, duurzamere energiebron, wij hebben alles wat u nodig heeft voor uw zonne-installatie.",
+
+    "contact": {
+      "title": "Contact",
+      "phone": "02 241 08 00",
+      "address": "Chaussée de Mons 458 - 1600 Sint-Pieters-Leeuw - België"
+    },
+    "social": {
+      "title": "Sociale Netwerken"
+    },
+    "copyright": "© 2024 Solar Stock. Alle rechten voorbehouden."
+  }
+}
