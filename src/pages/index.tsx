@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProductsSection from "@/components/ProductsSection";
+import StatsSection from "@/components/StatsSection";
 import InstallationGuide from "@/components/InstallationGuide";
 import PressSection from "@/components/PressSection";
 import FaqSection from "@/components/FaqSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ProductsSection />
+      <StatsSection />
       <InstallationGuide />
       <PressSection />
       <FaqSection />

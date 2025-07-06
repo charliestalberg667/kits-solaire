@@ -37,22 +37,22 @@ const ProductsSection = () => {
   ];
 
   return (
-    <section id="products" className="py-20 bg-gray-50">
+    <section id="products" className="py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4" suppressHydrationWarning>
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" suppressHydrationWarning>
             {t('products.title')}
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8" suppressHydrationWarning>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12" suppressHydrationWarning>
             {t('products.subtitle')}
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-16">
             <div className="flex items-center gap-2 text-green-600">
               <Truck className="w-5 h-5" />
               <span className="text-sm font-medium" suppressHydrationWarning>{t('products.trustBadges.freeShipping')}</span>

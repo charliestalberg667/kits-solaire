@@ -6,10 +6,10 @@ const FaqSection = () => {
   const faqs = t('faq.questions', { returnObjects: true }) as { question: string, answer: string }[];
 
   return (
-    <section id="faq" className="py-20">
+    <section id="faq" className="py-32 bg-gray-50">
       <div className="max-w-3xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4" suppressHydrationWarning>{t('faq.title')}</h2>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" suppressHydrationWarning>{t('faq.title')}</h2>
           <p className="text-xl text-gray-600" suppressHydrationWarning>{t('faq.subtitle')}</p>
         </div>
         <Accordion type="single" collapsible className="w-full" suppressHydrationWarning>

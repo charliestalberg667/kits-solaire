@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Star, User, Home } from "lucide-react";
 import { motion } from "framer-motion";
@@ -7,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 const HeroSection = () => {
   const { t } = useTranslation();
   return (
-    <section id="home" className="h-[60vh] flex items-center justify-center px-4 pt-16">
+    <section id="home" className="h-[70vh] flex items-center justify-center px-4 pt-20 pb-16">
       <div className="max-w-6xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -18,7 +17,7 @@ const HeroSection = () => {
           {/* Social Proof - Reviews */}
           
           
-          <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 leading-tight" suppressHydrationWarning>
+          <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-8 leading-tight" suppressHydrationWarning>
             {t('hero.title1')}
             <br />
             <span className="font-medium bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent" suppressHydrationWarning>
@@ -27,7 +26,7 @@ const HeroSection = () => {
           </h1>
           
           {/* Simple Steps */}
-          <div className="flex flex-wrap justify-center items-center gap-8 mb-8 text-sm text-gray-700">
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-12 text-sm text-gray-700">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-semibold text-xs">1</div>
               <span suppressHydrationWarning>{t('hero.step1')}</span>
@@ -44,7 +43,7 @@ const HeroSection = () => {
 
 
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <a href="#products" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105" suppressHydrationWarning>
               {t('hero.ctaPrimary')}
               <ArrowRight className="w-5 h-5 ml-2" />

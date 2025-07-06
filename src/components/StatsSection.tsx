@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 const stats = [
@@ -14,10 +13,10 @@ const StatsSection = () => {
   const { t } = useTranslation();
   const stats = t('stats.items', { returnObjects: true }) as { number: string, label: string, subtext: string }[];
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-24 bg-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-light text-white mb-6">
             {t('stats.title')}
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">

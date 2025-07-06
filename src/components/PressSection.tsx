@@ -5,16 +5,16 @@ const PressSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="press" className="py-24 bg-white">
+    <section id="press" className="py-32 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
             {t('press.title')}
           </h2>
           <p className="text-xl text-blue-600 font-semibold max-w-4xl mx-auto">
@@ -22,13 +22,13 @@ const PressSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="prose prose-lg text-gray-600 max-w-none space-y-4"
+            className="prose prose-lg text-gray-600 max-w-none space-y-6"
           >
             <p>{t('press.p1')}</p>
             <p>{t('press.p2')}</p>
