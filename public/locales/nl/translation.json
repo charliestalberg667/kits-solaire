@@ -193,6 +193,53 @@
       }
     ]
   },
+  "press": {
+    "title": "Ze praten over ons",
+    "subtitle": "Ga eenvoudig voor zonne-energie met Plug & Play fotovoltaïsche kits!",
+    "p1": "Plug & Play fotovoltaïsche kits bieden een toegankelijke oplossing om uw eigen elektriciteit te produceren. Eenvoudig te installeren, ze worden gewoon in een standaard stopcontact gestoken, zonder complexe werkzaamheden.",
+    "p2": "Elke kit, zorgvuldig samengesteld door professionals in de sector, bevat een of twee zonnepanelen evenals een krachtige micro-omvormer (tot 800W, Synergrid goedgekeurd). Deze oplossing is ideaal voor doe-het-zelvers die hun energierekening willen verlagen met een betaalbaardere initiële investering.",
+    "p3": "Voor installatie zijn enkele controles essentieel: elektrische compatibiliteit van uw installatie, naleving van stedenbouwkundige regels (vooral als de kit zichtbaar is vanaf de straat), veilige bevestiging en aangifte bij de netwerkbeheerder. Let op: regelgeving kan per regio verschillen.",
+    "p4": "Ons team staat tot uw beschikking om u te ondersteunen: vind ons in de winkel bij Solarstock, of neem telefonisch contact met ons op via 02/241.08.00. We beantwoorden graag uw vragen en begeleiden u bij uw zonneproject.",
+    "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
+  },
+  "installation": {
+    "title": "Hoe uw zonnekit in 5 eenvoudige stappen te installeren",
+    "steps": [
+      "Uitpakken en controleren van alle kitcomponenten",
+      "Montage van de draagstructuur volgens de meegeleverde handleiding",
+      "Bevestiging van de zonnepanelen op de structuur",
+      "Aansluiting van de bedrading en de omvormer",
+      "Inbedrijfstelling en controle van de goede werking"
+    ]
+  },
+  "productShowcase": {
+    "tagline": "Ontworpen voor iedereen",
+    "title": {
+      "part1": "Geen ervaring?",
+      "part2": " Geen probleem."
+    },
+    "subtitle": "Onze zonnekits zijn ontworpen voor gewone mensen. Of u nu een beginnende huurder bent of een ervaren huiseigenaar, u kunt binnen enkele minuten zonne-energie hebben.",
+    "benefits": [
+      "Geen elektricien vereist - DIY-vriendelijk",
+      "Werkt in appartementen, condos en huizen",
+      "Steek in elk standaard stopcontact",
+      "Geen dakinstallatie of wijzigingen",
+      "Neem het mee wanneer u verhuist",
+      "Installatie in minder dan 5 minuten"
+    ],
+    "userTypes": [
+      { "name": "Huurders", "description": "Draagbare oplossing", "icon": "Home" },
+      { "name": "Huiseigenaren", "description": "Eenvoudige upgrade", "icon": "User" },
+      { "name": "DIY Beginners", "description": "Geen vaardigheden nodig", "icon": "Wrench" }
+    ],
+    "cta": "Zie installatiehandleiding",
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Close-up zonnepaneel", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Zonne-installatie", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=400&h=200", "alt": "Zonnekit componenten", "className": "rounded-2xl shadow-lg w-full h-32 object-cover" },
+      { "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=300", "alt": "Zonnetechnologie", "className": "rounded-2xl shadow-lg w-full h-48 object-cover" }
+    ]
+  },
   "footer": {
     "companyName": "Solar Stock",
     "description": "Uw leverancier voor complete zonne- en elektrische systemen. Of u nu een professional bent of particulier die wil overstappen op schonere energie, wij hebben alles voor uw zonne-installatie.",
