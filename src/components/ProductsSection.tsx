@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Star, Truck, Shield } from "lucide-react";
+import Image from 'next/image';
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 interface Product {
   id: number;
@@ -18,32 +20,54 @@ interface Product {
 }
 
 const ProductsSection = () => {
-  const { t } = useTranslation();
-  
-  const products: Product[] = [
-    {
-      id: 1,
-      name: t('products.plugPlayX1_name'),
-      subtitle: t('products.plugPlayX1_subtitle'),
-      description: t('products.plugPlayX1_description'),
-      price: t('products.plugPlayX1_price'),
-      features: t('products.plugPlayX1_features', { returnObjects: true }) as string[],
-      popular: false,
-      url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-1-panneau-solaire-avec-structure-terrasse-0651433.html',
-      testimonial: t('products.plugPlayX1_testimonial')
-    },
-    {
-      id: 2,
-      name: t('products.plugPlayX2_name'),
-      subtitle: t('products.plugPlayX2_subtitle'),
-      description: t('products.plugPlayX2_description'),
-      price: t('products.plugPlayX2_price'),
-      features: t('products.plugPlayX2_features', { returnObjects: true }) as string[],
-      popular: true,
-      url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-2-panneaux-solaire-avec-structure-terrasse-0651389.html',
-      testimonial: t('products.plugPlayX2_testimonial')
-    }
-  ];
+  const { t, i18n } = useTranslation();
+  const [isClient, setIsClient] = useState(false);
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    setIsClient(true);
+    
+    const productData = [
+      {
+        id: 1,
+        name: t('products.plugPlayX1_name'),
+        subtitle: t('products.plugPlayX1_subtitle'),
+        description: t('products.plugPlayX1_description'),
+        price: t('products.plugPlayX1_price'),
+        features: t('products.plugPlayX1_features', { returnObjects: true }) as string[],
+        popular: false,
+        url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-1-panneau-solaire-avec-structure-terrasse-0651433.html',
+        testimonial: t('products.plugPlayX1_testimonial')
+      },
+      {
+        id: 2,
+        name: t('products.plugPlayX2_name'),
+        subtitle: t('products.plugPlayX2_subtitle'),
+        description: t('products.plugPlayX2_description'),
+        price: t('products.plugPlayX2_price'),
+        features: t('products.plugPlayX2_features', { returnObjects: true }) as string[],
+        popular: true,
+        url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-2-panneaux-solaire-avec-structure-terrasse-0651389.html',
+        testimonial: t('products.plugPlayX2_testimonial')
+      }
+    ];
+    
+    setProducts(productData);
+  }, [t, i18n.language]); // Re-run when language changes
+
+  if (!isClient) {
+    return (
+      <section id="products" className="py-24 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+              Loading...
+            </h2>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="products" className="py-24 bg-gray-50">
@@ -84,6 +108,15 @@ const ProductsSection = () => {
               className="h-full"
             >
               <Card className={`h-full flex flex-col ${product.popular ? 'border-2 border-blue-500' : ''}`}>
+                <div className="relative w-full h-48 bg-gray-100">
+                  <Image
+                    src={`/plugPlayX${product.id}.png`}
+                    alt={product.name}
+                    fill
+                    className="object-contain p-4"
+                    priority
+                  />
+                </div>
                 <CardHeader className="pb-4">
                   <div className="flex justify-between items-start">
                     <div>
