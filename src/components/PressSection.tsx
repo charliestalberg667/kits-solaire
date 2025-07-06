@@ -28,7 +28,7 @@ const PressSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="prose prose-lg text-gray-600 max-w-none space-y-6"
+            className="prose prose-lg text-gray-600 max-w-none space-y-6 px-5"
           >
             <p>{t('press.p1')}</p>
             <p>{t('press.p2')}</p>
