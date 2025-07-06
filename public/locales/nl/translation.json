@@ -24,12 +24,12 @@
   },
   "stats": {
     "title": "Echte Resultaten van Echte DIY Installaties",
-    "subtitle": "Deze cijfers bewijzen dat iedereen met succes onze zonnepakketten kan installeren en er voordeel uit kan halen - geen technische kennis vereist.",
+    "subtitle": "Bewezen resultaten van duizenden succesvolle DIY installaties.",
     "items": [
       { "number": "5 Min", "label": "Gemiddelde Installatietijd", "subtext": "Van uitpakken tot stroomopwekking" },
       { "number": "0", "label": "Gereedschap Nodig", "subtext": "Gewoon in het stopcontact steken" },
       { "number": "100%", "label": "DIY Slagingspercentage", "subtext": "Iedereen kan het" },
-      { "number": "10.000+", "label": "Tevreden Klanten", "subtext": "Gein elektricien nodig" }
+      { "number": "10.000+", "label": "Tevreden Klanten", "subtext": "Geen elektricien nodig" }
     ]
   },
   "cta": {
@@ -195,7 +195,7 @@
   },
   "footer": {
     "companyName": "Solar Stock",
-    "description": "Welkom bij SolarStock, uw leverancier voor al uw behoeften op het gebied van complete zonne- en elektrische systemen. Of u nu een doorgewinterde professional bent of een particulier die wil overstappen op een schonere, duurzamere energiebron, wij hebben alles wat u nodig heeft voor uw zonne-installatie.",
+    "description": "Uw leverancier voor complete zonne- en elektrische systemen. Of u nu een professional bent of particulier die wil overstappen op schonere energie, wij hebben alles voor uw zonne-installatie.",
 
     "contact": {
       "title": "Contact",

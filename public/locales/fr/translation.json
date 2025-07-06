@@ -24,7 +24,7 @@
   },
   "stats": {
     "title": "Résultats Réels d'Installations DIY Réelles",
-    "subtitle": "Ces chiffres prouvent que n'importe qui peut installer et bénéficier de nos kits solaires avec succès - aucune connaissance technique n'est requise.",
+    "subtitle": "Résultats prouvés par des milliers d'installations DIY réussies.",
     "items": [
       { "number": "5 Min", "label": "Temps d'Installation Moyen", "subtext": "Du déballage à la production d'énergie" },
       { "number": "0", "label": "Outils Requis", "subtext": "Branchez simplement sur votre prise murale" },
@@ -51,30 +51,30 @@
   },
   "about": {
     "title": "À Propos de Sunbeam Solar",
-    "subtitle": "Notre mission est de rendre l'énergie solaire accessible à tous.",
-    "paragraph1": "Nous croyons qu'une énergie propre et renouvelable doit être simple et abordable. C'est pourquoi nous avons créé Sunbeam Solar, pour fournir des kits solaires faciles à installer que n'importe qui peut mettre en place en quelques minutes.",
-    "paragraph2": "Notre équipe est composée d'ingénieurs, de designers et de passionnés du solaire qui se consacrent à la création de produits de haute qualité qui font une réelle différence dans le monde.",
-    "paragraph3": "Rejoignez-nous dans notre voyage vers un avenir plus lumineux et plus propre. Avec Sunbeam Solar, vous ne faites pas seulement des économies sur vos factures d'électricité, vous investissez dans une planète durable pour les générations à venir."
+    "subtitle": "Rendre l'énergie solaire accessible à tous.",
+    "paragraph1": "Nous croyons qu'une énergie propre et renouvelable doit être simple et abordable. C'est pourquoi nous créons des kits solaires faciles à installer.",
+    "paragraph2": "Notre équipe d'ingénieurs passionnés et d'experts solaires crée des produits de haute qualité qui font une réelle différence.",
+    "paragraph3": "Rejoignez-nous vers un avenir plus propre. Avec Sunbeam Solar, vous investissez dans une planète durable pour les générations futures."
   },
   "faq": {
     "title": "Questions Fréquemment Posées",
-    "subtitle": "Vous avez des questions ? Nous avons des réponses. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à nous contacter.",
+    "subtitle": "Vous avez des questions ? Nous avons des réponses. Contactez-nous pour plus d'aide.",
     "questions": [
       {
         "question": "Ai-je besoin d'un électricien pour installer le kit ?",
-        "answer": "Absolument pas ! Nos kits sont conçus pour une installation facile par vous-même. Il vous suffit de le brancher sur une prise murale standard. Pas d'outils, pas d'électriciens, pas de tracas."
+        "answer": "Non ! Nos kits sont conçus pour une installation facile par vous-même. Il suffit de le brancher sur une prise standard. Pas d'outils, pas d'électriciens."
       },
       {
         "question": "Est-ce compatible avec mon appartement ?",
-        "answer": "Oui, nos kits sont parfaits pour les appartements, les condos et les locations. Comme il n'y a aucune modification permanente du bâtiment, vous pouvez l'emporter avec vous lorsque vous déménagez."
+        "answer": "Oui ! Parfait pour appartements, condos et locations. Aucune modification permanente nécessaire, vous pouvez l'emporter en déménageant."
       },
       {
         "question": "Combien puis-je réellement économiser ?",
-        "answer": "Les économies varient en fonction de votre emplacement et de votre consommation d'électricité, mais nos clients constatent généralement une réduction de 40 à 60 % de leurs factures d'électricité mensuelles. Le kit est souvent rentabilisé en moins d'un an."
+        "answer": "Les clients constatent généralement une réduction de 40 à 60 % de leurs factures mensuelles. Le kit est souvent rentabilisé en moins d'un an."
       },
       {
         "question": "Que se passe-t-il en cas de panne de courant ?",
-        "answer": "Pour des raisons de sécurité, nos onduleurs connectés au réseau s'arrêtent automatiquement en cas de panne de courant pour éviter d'envoyer de l'électricité sur le réseau, ce qui pourrait mettre en danger les travailleurs des services publics. Il redémarrera automatiquement lorsque le courant sera rétabli."
+        "answer": "Pour la sécurité, nos onduleurs s'arrêtent automatiquement en cas de panne pour protéger les travailleurs. Ils redémarrent quand le courant revient."
       }
     ]
   },
@@ -83,26 +83,26 @@
       "main": "Tout ce dont vous avez besoin pour",
       "highlighted": "l'indépendance énergétique"
     },
-    "subtitle": "Nos kits sont spécialement conçus pour le marché belge, garantissant une conformité totale et une efficacité maximale.",
+    "subtitle": "Nos kits sont conçus pour le marché belge, garantissant conformité totale et efficacité maximale.",
     "items": [
       {
         "title": "Certifié Synergrid",
-        "description": "Entièrement conforme à la réglementation belge pour une connexion au réseau sans tracas.",
+        "description": "Entièrement conforme à la réglementation belge pour une connexion réseau sans tracas.",
         "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&q=80&w=600&h=400"
       },
       {
         "title": "Ensoleillement Maximal",
-        "description": "Optimisé pour le climat belge afin de capter chaque rayon de soleil, même par temps nuageux.",
+        "description": "Optimisé pour le climat belge pour capter chaque rayon, même par temps nuageux.",
         "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=600&h=400"
       },
       {
         "title": "Installation Facile",
-        "description": "Pas besoin d'électricien. Notre système plug-and-play est prêt en quelques minutes.",
+        "description": "Pas besoin d'électricien. Notre système plug-and-play est prêt en minutes.",
         "image": "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=600&h=400"
       },
       {
         "title": "Économies Immédiates",
-        "description": "Commencez à réduire votre facture d'électricité dès que vous branchez votre kit.",
+        "description": "Commencez à réduire votre facture dès que vous branchez votre kit.",
         "image": "https://images.unsplash.com/photo-1619950831688-5f488392c479?auto=format&fit=crop&q=80&w=600&h=400"
       }
     ]
@@ -147,21 +147,21 @@
   },
   "press": {
     "title": "Ils parlent de nous",
-    "subtitle": "Optez pour l’énergie solaire en toute simplicité avec les kits photovoltaïques Plug & Play !",
-    "p1": "Les kits photovoltaïques Plug & Play offrent une solution accessible pour produire votre propre électricité. Faciles à installer, ils se branchent simplement sur une prise électrique standard, sans travaux complexes.",
-    "p2": "Chaque kit, soigneusement composé par des professionnels du secteur, comprend un ou deux panneaux solaires ainsi qu’un micro-onduleur performant (jusqu’à 800W, agréé Synergrid). Cette solution est idéale pour les bricoleurs souhaitant réduire leur facture d’énergie avec un investissement initial plus abordable.",
-    "p3": "Avant l’installation, quelques vérifications sont essentielles : compatibilité électrique de votre installation, conformité avec les règles d’urbanisme (notamment si le kit est visible depuis la rue), fixation sécurisée et déclaration auprès du gestionnaire de réseau. À noter : les réglementations peuvent varier selon les régions.",
-    "p4": "Notre équipe est à votre disposition pour vous accompagner : retrouvez-nous en magasin chez Solarstock, ou contactez-nous par téléphone au 02/241.08.00. Nous serons ravis de répondre à vos questions et de vous guider dans votre projet solaire.",
+    "subtitle": "Optez pour l'énergie solaire en toute simplicité avec les kits Plug & Play !",
+    "p1": "Les kits solaires Plug & Play offrent une solution accessible pour produire votre propre électricité. Faciles à installer, ils se branchent sur une prise standard.",
+    "p2": "Chaque kit comprend des panneaux solaires et un micro-onduleur performant (jusqu'à 800W, agréé Synergrid). Idéal pour réduire votre facture d'énergie.",
+    "p3": "Avant installation : vérifiez compatibilité électrique, règles d'urbanisme, fixation sécurisée et déclaration au gestionnaire de réseau.",
+    "p4": "Notre équipe vous accompagne : retrouvez-nous chez Solarstock ou contactez-nous au 02/241.08.00 pour votre projet solaire.",
     "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
   },
   "installation": {
     "title": "Comment installer votre kit solaire en 5 étapes simples",
     "steps": [
-      "Déballage et vérification de tous les composants du kit",
-      "Assemblage de la structure porteuse selon le manuel fourni",
-      "Fixation des panneaux solaires sur la structure",
-      "Branchement du câblage et de l'onduleur",
-      "Mise en service et vérification du bon fonctionnement"
+      "Déballage et vérification des composants",
+      "Assemblage de la structure porteuse",
+      "Fixation des panneaux solaires",
+      "Branchement du câblage et onduleur",
+      "Mise en service et vérification"
     ]
   },
   "productShowcase": {
@@ -170,19 +170,19 @@
       "part1": "Pas d'expérience ?",
       "part2": " Aucun problème."
     },
-    "subtitle": "Nos kits solaires sont conçus pour les gens ordinaires. Que vous soyez un locataire pour la première fois ou un propriétaire chevronné, vous pouvez avoir de l'énergie solaire en quelques minutes.",
+    "subtitle": "Nos kits solaires sont conçus pour les gens ordinaires. Que vous soyez locataire ou propriétaire, vous pouvez avoir de l'énergie solaire en minutes.",
     "benefits": [
-      "Aucun électricien requis - Convivial pour le bricolage",
-      "Fonctionne dans les appartements, les condos et les maisons",
-      "Branchez sur n'importe quelle prise murale standard",
+      "Aucun électricien requis - Convivial DIY",
+      "Fonctionne dans appartements, condos et maisons",
+      "Branchez sur n'importe quelle prise standard",
       "Aucune installation ou modification de toiture",
-      "Emportez-le avec vous lorsque vous déménagez",
+      "Emportez-le lors de votre déménagement",
       "Installation en moins de 5 minutes"
     ],
     "userTypes": [
       { "name": "Locataires", "description": "Solution portable", "icon": "Home" },
       { "name": "Propriétaires", "description": "Mise à niveau facile", "icon": "User" },
-      { "name": "Débutants en bricolage", "description": "Aucune compétence requise", "icon": "Wrench" }
+      { "name": "Débutants DIY", "description": "Aucune compétence requise", "icon": "Wrench" }
     ],
     "cta": "Voir le guide d'installation",
     "images": [
@@ -194,7 +194,7 @@
   },
   "footer": {
     "companyName": "Solar Stock",
-    "description": "Bienvenue chez SolarStock, votre fournisseur pour vos besoins en systèmes solaires et électriques complets. Que vous soyez un professionnel chevronné ou un particulier souhaitant passer à une source d'énergie plus propre et durable, nous avons tout ce dont vous avez besoin pour votre installation solaire.",
+    "description": "Votre fournisseur complet pour systèmes solaires et électriques. Professionnel ou particulier souhaitant passer à une énergie plus propre, nous avons tout pour votre installation solaire.",
 
     "contact": {
       "title": "Contact",
