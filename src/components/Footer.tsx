@@ -6,35 +6,53 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 border-t border-gray-200">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Company Info */}
-          <div className="col-span-1 lg:col-span-1 space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+          {/* Company Info - Takes more space */}
+          <div className="lg:col-span-2 space-y-4">
             <h3 className="text-2xl font-semibold text-gray-900" suppressHydrationWarning>{t('footer.companyName')}</h3>
-            <p className="text-gray-600 text-sm leading-relaxed" suppressHydrationWarning>
+            <p className="text-gray-600 text-base leading-relaxed max-w-2xl" suppressHydrationWarning>
               {t('footer.description')}
             </p>
           </div>
           
-
-
           {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-medium text-gray-900 mb-4" suppressHydrationWarning>{t('footer.contact.title')}</h4>
-            <ul className="space-y-3 text-gray-600" suppressHydrationWarning>
-              <li suppressHydrationWarning>{t('footer.contact.phone')}</li>
-              <li className="leading-relaxed" suppressHydrationWarning>{t('footer.contact.address')}</li>
-            </ul>
+          <div className="space-y-4">
+            <h4 className="text-lg font-medium text-gray-900 mb-6" suppressHydrationWarning>{t('footer.contact.title')}</h4>
+            <div className="space-y-4 text-gray-600" suppressHydrationWarning>
+              <div>
+                <p className="font-medium text-gray-800">Phone</p>
+                <p suppressHydrationWarning>{t('footer.contact.phone')}</p>
+              </div>
+              <div>
+                <p className="font-medium text-gray-800">Address</p>
+                <p className="leading-relaxed" suppressHydrationWarning>{t('footer.contact.address')}</p>
+              </div>
+            </div>
           </div>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm" suppressHydrationWarning>&copy;{t('footer.copyright')}</p>
-          <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300"><Facebook size={20} /></a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300"><Twitter size={20} /></a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300"><Instagram size={20} /></a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300"><Linkedin size={20} /></a>
+        {/* Social Media Section */}
+        <div className="mb-8">
+          <h4 className="text-lg font-medium text-gray-900 mb-4" suppressHydrationWarning>{t('footer.social.title')}</h4>
+          <div className="flex space-x-6">
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Facebook">
+              <Facebook size={24} />
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Twitter">
+              <Twitter size={24} />
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Instagram">
+              <Instagram size={24} />
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="LinkedIn">
+              <Linkedin size={24} />
+            </a>
           </div>
+        </div>
+        
+        {/* Copyright */}
+        <div className="pt-8 border-t border-gray-200">
+          <p className="text-gray-500 text-sm" suppressHydrationWarning>{t('footer.copyright')}</p>
         </div>
       </div>
     </footer>
