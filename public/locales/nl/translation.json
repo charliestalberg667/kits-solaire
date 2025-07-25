@@ -26,7 +26,7 @@
     "title": "Echte Resultaten van Echte DIY Installaties",
     "subtitle": "Bewezen resultaten van duizenden succesvolle DIY installaties.",
     "items": [
-      { "number": "5 Min", "label": "Gemiddelde Installatietijd", "subtext": "Van uitpakken tot stroomopwekking" },
+      { "number": "30 Min", "label": "Gemiddelde Installatietijd", "subtext": "Van uitpakken tot stroomopwekking" },
       { "number": "0", "label": "Gereedschap Nodig", "subtext": "Gewoon in het stopcontact steken" },
       { "number": "100%", "label": "DIY Slagingspercentage", "subtext": "Iedereen kan het" },
       { "number": "10.000+", "label": "Tevreden Klanten", "subtext": "Geen elektricien nodig" }
@@ -53,19 +53,19 @@
     "title": "Onze Aanbevolen Zonnepakketten",
     "subtitle": "Eenvoudige, betaalbare en effectieve oplossingen voor thuisgebruik.",
     "trustBadges": {
-      "freeShipping": "Gratis Levering",
+      "freeShipping": "Levering",
       "moneyBack": "30 Dagen Geld Terug",
       "customerRating": "4.8/5 Klantbeoordeling"
     },
     "bestValue": "Beste Waarde",
     "orderCta": "Nu Bestellen",
-    "installGuarantee": "Eenvoudige installatie, geen elektricien nodig",
+    "installGuarantee": "💡 Installatie in minder dan 30 minuten",
     "plugPlayX1_name": "Plug & Play Zonnekit X1",
-    "plugPlayX1_subtitle": "Compleet 440W zonnepaneel omvormerpakket",
+    "plugPlayX1_subtitle": "Compleet 450W zonnepaneel omvormerpakket",
     "plugPlayX1_description": "Perfect voor kleine huishoudens of als aanvulling op uw bestaande stroomvoorziening.",
-    "plugPlayX1_price": "€1.199",
+    "plugPlayX1_price": "349 €",
     "plugPlayX1_features": [
-      "440W Zonnepaneel",
+      "450W Zonnepaneel",
       "Ingebouwde Micro-omvormer",
       "Plug & Play Installatie",
       "Inclusief montagemateriaal",
@@ -75,16 +75,44 @@
     "plugPlayX2_name": "Plug & Play Zonnekit X2",
     "plugPlayX2_subtitle": "Compleet 800W 2 zonnepanelen omvormerpakket",
     "plugPlayX2_description": "Ideaal voor middelgrote huishoudens die meer stroom willen opwekken en besparen.",
-    "plugPlayX2_price": "€1.999",
+    "plugPlayX2_price": "499 €",
     "plugPlayX2_features": [
-      "2x 400W Zonnepanelen",
+      "2x 450W Zonnepanelen",
       "Krachtige Micro-omvormer",
       "Plug & Play Installatie",
       "Inclusief montagesysteem",
       "10 Jaar Productgarantie",
       "25 Jaar Vermogensgarantie"
     ],
-    "plugPlayX2_testimonial": "Fantastisch systeem! Heeft mijn maandelijkse energierekening met meer dan 50% verlaagd."
+    "plugPlayX2_testimonial": "Fantastisch systeem! Heeft mijn maandelijkse energierekening met meer dan 50% verlaagd.",
+
+    "plugPlayBalconyX4_name": "Plug & Play Balkon X4",
+    "plugPlayBalconyX4_subtitle": "Compleet pakket met 4 SUNPURA zonnepanelen + 800W micro-omvormer",
+    "plugPlayBalconyX4_description": "Lichte panelen voor balkonmontage.",
+    "plugPlayBalconyX4_price": "€549",
+    "plugPlayBalconyX4_features": [
+      "4 x 200W Zonnepanelen",
+      "Krachtige micro-omvormer",
+      "Eenvoudig montagesysteem",
+      "Aansluitkabels",
+      "10 jaar garantie",
+      "Synergrid gecertificeerd"
+    ],
+    "plugPlayBalconyX4_testimonial": "De ideale oplossing voor extra energie!",
+
+    "batterieConnectee_name": "Verbonden Batterij",
+    "batterieConnectee_subtitle": "Sla uw zonne-energie op en vergroot uw autonomie.",
+    "batterieConnectee_description": "Onze verbonden batterij is binnenkort beschikbaar om uw zonne-installatie compleet te maken.",
+    "batterieConnectee_price": "",
+    "batterieConnectee_features": [
+      "Slimme energieopslag",
+      "Verbonden batterij",
+      "Beheersysteem via app",
+      "10 jaar garantie",
+      "Synergrid gecertificeerd"
+    ],
+    "batterieConnectee_testimonial": "Sla uw energie efficiënt en voordelig op!",
+    "batterieConnectee_comingSoon": true
   },
   "features": {
     "title": "Waarom Kiezen Voor Onze Zonnepakketten?",
@@ -225,7 +253,7 @@
       "Steek in elk standaard stopcontact",
       "Geen dakinstallatie of wijzigingen",
       "Neem het mee wanneer u verhuist",
-      "Installatie in minder dan 5 minuten"
+      "Installatie in minder dan 30 minuten"
     ],
     "userTypes": [
       { "name": "Huurders", "description": "Draagbare oplossing", "icon": "Home" },
@@ -243,7 +271,6 @@
   "footer": {
     "companyName": "Solar Stock",
     "description": "Uw leverancier voor complete zonne- en elektrische systemen. Of u nu een professional bent of particulier die wil overstappen op schonere energie, wij hebben alles voor uw zonne-installatie.",
-
     "contact": {
       "title": "Contact",
       "phone": "02 241 08 00",
@@ -252,6 +279,6 @@
     "social": {
       "title": "Sociale Netwerken"
     },
-    "copyright": "© 2024 Solar Stock. Alle rechten voorbehouden."
+    "copyright": " 2024 Solar Stock. All rights reserved."
   }
 }

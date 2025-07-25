@@ -26,7 +26,7 @@
     "title": "Real Results from Real DIY Installations",
     "subtitle": "Proven results from thousands of successful DIY installations.",
     "items": [
-      { "number": "5 Min", "label": "Average Setup Time", "subtext": "From unboxing to power generation" },
+      { "number": "30 Min", "label": "Average Setup Time", "subtext": "From unboxing to power generation" },
       { "number": "0", "label": "Tools Required", "subtext": "Just plug into your wall outlet" },
       { "number": "100%", "label": "DIY Success Rate", "subtext": "Anyone can do it successfully" },
       { "number": "10,000+", "label": "Happy DIY Customers", "subtext": "No electrician calls needed" }
@@ -125,17 +125,17 @@
     "title": "Choose your savings plan",
     "subtitle": "Two powerful options designed to slash your electricity bills. Both kits pay for themselves in under 12 months.",
     "trustBadges": {
-      "freeShipping": "FREE Shipping",
+      "freeShipping": "Shipping",
       "moneyBack": "30-Day Money Back",
       "customerRating": "4.8/5 Customer Rating"
     },
     "bestValue": "🔥 BEST VALUE",
     "plugPlayX1_name": "plugPlayX1",
-    "plugPlayX1_subtitle": "Complete 440W solar panel inverter kit",
+    "plugPlayX1_subtitle": "Complete 450W solar panel inverter kit",
     "plugPlayX1_description": "Best price and in stock",
     "plugPlayX1_price": "€349",
     "plugPlayX1_features": [
-      "1 x 440W Solar Panel",
+      "1 x 450W Solar Panel",
       "Integrated inverter",
       "Connection cables",
       "Mounting structure included",
@@ -148,7 +148,7 @@
     "plugPlayX2_description": "Best price and in stock",
     "plugPlayX2_price": "€499",
     "plugPlayX2_features": [
-      "2 x 400W Solar Panels",
+      "2 x 450W Solar Panels",
       "High-performance inverter",
       "Complete mounting system",
       "Connection cables",
@@ -156,8 +156,36 @@
       "Synergrid certified"
     ],
     "plugPlayX2_testimonial": "Perfect for optimal energy autonomy!",
-    "orderCta": "Order Now - Free Shipping",
-    "installGuarantee": "💡 Installs in 5 minutes • 30-day money-back guarantee"
+
+    "plugPlayBalconyX4_name": "Plug & Play Balcony X4",
+    "plugPlayBalconyX4_subtitle": "Complete kit with 4 SUNPURA solar panels + 800W micro-inverter",
+    "plugPlayBalconyX4_description": "Lightweight panels for balconies.",
+    "plugPlayBalconyX4_price": "€549",
+    "plugPlayBalconyX4_features": [
+      "4 x 200W Solar Panels",
+      "High-performance micro-inverter",
+      "Simple mounting system",
+      "Connection cables",
+      "10-year warranty",
+      "Synergrid certified"
+    ],
+    "plugPlayBalconyX4_testimonial": "The ideal solution for extra energy!",
+
+    "batterieConnectee_name": "Connected Battery",
+    "batterieConnectee_subtitle": "Store your solar energy and gain autonomy.",
+    "batterieConnectee_description": "Our connected battery is coming soon to complete your solar installation.",
+    "batterieConnectee_price": "",
+    "batterieConnectee_features": [
+      "Smart energy storage",
+      "Connected battery",
+      "Management system via app",
+      "10-year warranty",
+      "Synergrid certified"
+    ],
+    "batterieConnectee_testimonial": "Store your energy efficiently and economically!",
+    "batterieConnectee_comingSoon": true,
+    "orderCta": "Order Now",
+    "installGuarantee": "💡 Installs in under 30 minutes"
   },
   "press": {
     "title": "They're talking about us",
@@ -169,7 +197,7 @@
     "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
   },
   "installation": {
-    "title": "How to install your solar kit in 5 simple steps",
+    "title": "How to install your solar kit in 30 minutes",
     "steps": [
       "Unpack and check all kit components",
       "Assemble the support structure",
@@ -191,7 +219,7 @@
       "Plug into any standard wall outlet",
       "No roof installation or modifications",
       "Take it with you when you move",
-      "Setup in under 5 minutes"
+      "Setup in under 30 minutes"
     ],
     "userTypes": [
       { "name": "Renters", "description": "Portable solution", "icon": "Home" },

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Star, User, Home } from "lucide-react";
 import { motion } from "framer-motion";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const HeroSection = () => {
   const { t } = useTranslation();

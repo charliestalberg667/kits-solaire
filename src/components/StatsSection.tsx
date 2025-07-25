@@ -7,7 +7,7 @@ const stats = [
   { number: "10,000+", label: "Happy DIY Customers", subtext: "No electrician calls needed" }
 ];
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const StatsSection = () => {
   const { t } = useTranslation();

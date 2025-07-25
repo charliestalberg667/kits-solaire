@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, User, Home, Wrench } from "lucide-react";
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 
 const ProductShowcase = () => {
   const { t } = useTranslation();

@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const features = [];
 

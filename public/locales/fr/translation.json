@@ -26,7 +26,7 @@
     "title": "Résultats Réels d'Installations DIY Réelles",
     "subtitle": "Résultats prouvés par des milliers d'installations DIY réussies.",
     "items": [
-      { "number": "5 Min", "label": "Temps d'Installation Moyen", "subtext": "Du déballage à la production d'énergie" },
+      { "number": "30 Min", "label": "Temps d'Installation Moyen", "subtext": "Du déballage à la production d'énergie" },
       { "number": "0", "label": "Outils Requis", "subtext": "Branchez simplement sur votre prise murale" },
       { "number": "100%", "label": "Taux de Réussite DIY", "subtext": "Tout le monde peut le faire avec succès" },
       { "number": "10,000+", "label": "Clients DIY Satisfaits", "subtext": "Aucun appel à un électricien nécessaire" }
@@ -111,39 +111,72 @@
     "title": "Choisissez votre plan d'économies",
     "subtitle": "Deux options puissantes conçues pour réduire vos factures d'électricité. Les deux kits sont rentabilisés en moins de 12 mois.",
     "trustBadges": {
-      "freeShipping": "Livraison GRATUITE",
+      "freeShipping": "Livraison",
       "moneyBack": "Satisfait ou Remboursé 30 Jours",
       "customerRating": "Note Client 4.8/5"
     },
     "bestValue": "🔥 MEILLEUR PRIX",
-    "plugPlayX1_name": "plugPlayX1",
-    "plugPlayX1_subtitle": "Kit complet panneau solaire onduleur 440W",
+    "plugPlayX1_name": "Plug&Play X1",
+    "plugPlayX1_subtitle": "Kit complet 1 panneau solaire + micro-onduleur 800W",
     "plugPlayX1_description": "Meilleur prix et en stock",
     "plugPlayX1_price": "349 €",
     "plugPlayX1_features": [
-      "1 x Panneau solaire 440W",
-      "Onduleur intégré",
+      "1 x Panneau solaire 450W",
+      "Micro-onduleur intégré",
       "Câbles de connexion",
       "Structure de fixation incluse",
       "Garantie 10 ans",
       "Certifié Synergrid"
     ],
-    "plugPlayX1_testimonial": "Installation simple et rapide!",
-    "plugPlayX2_name": "plugPlayX2",
-    "plugPlayX2_subtitle": "Kit complet 2 panneaux solaires onduleur 800W",
+    "plugPlayX1_testimonial": "Installation simple et rapide !",
+
+    "plugPlayX2_name": "Plug&Play X2",
+    "plugPlayX2_subtitle": "Kit complet 2 panneaux solaires + micro-onduleur 800W",
     "plugPlayX2_description": "Meilleur prix et en stock",
     "plugPlayX2_price": "499 €",
     "plugPlayX2_features": [
-      "2 x Panneaux solaires 400W",
-      "Onduleur haute performance",
+      "2 x Panneaux solaires 450W",
+      "Micro-onduleur haute performance",
       "Système de fixation complet",
       "Câbles de connexion",
       "Garantie 10 ans",
       "Certifié Synergrid"
     ],
-    "plugPlayX2_testimonial": "Parfait pour une autonomie énergétique optimale !",
-    "orderCta": "Commander maintenant - Livraison gratuite",
-    "installGuarantee": "💡 Installation en 5 minutes • Garantie remboursement 30 jours"
+    "plugPlayX2_testimonial": "Installation rapide et simple !",
+
+    "plugPlayBalconyX4_name": "Plug&Play Balcony X4",
+    "plugPlayBalconyX4_subtitle": "Kit complet 4 panneaux solaires SUNPURA + micro-onduleur 800W",
+    "plugPlayBalconyX4_description": "Panneaux légers pour balcon.",
+    "plugPlayBalconyX4_price": "549 €",
+    "plugPlayBalconyX4_features": [
+      "4 x Panneaux solaires 200W",
+      "Micro-onduleur haute performance",
+      "Système de fixation simple",
+      "Câbles de connexion",
+      "Garantie 10 ans",
+      "Certifié Synergrid"
+    ],
+    "plugPlayBalconyX4_testimonial": "La solution idéale pour un apport énergétique !",
+
+    "batterieConnectee_name": "Batterie Connectée",
+    "batterieConnectee_subtitle": "Stockez votre énergie solaire et gagnez en autonomie.",
+    "batterieConnectee_description": "Notre batterie connectée arrive bientôt pour compléter votre installation solaire.",
+    "batterieConnectee_price": "",
+    "batterieConnectee_features": [
+      "Stockage intelligent d'énergie",
+      "Batterie connectée",
+      "Système de gestion via l'app",
+      "Garantie 10 ans",
+      "Certifié Synergrid"
+    ],
+    "batterieConnectee_testimonial": "Stockez votre énergie efficacement et économiquement !",
+    "batterieConnectee_comingSoon": true,
+
+    "orderCta": "Commander maintenant",
+    "installGuarantee": "💡 Installation en moins de 30 minutes",
+
+    "orderCta": "Commander maintenant",
+    "installGuarantee": "💡 Installation en moins de 30 minutes"
   },
   "press": {
     "title": "Ils parlent de nous",
@@ -177,7 +210,7 @@
       "Branchez sur n'importe quelle prise standard",
       "Aucune installation ou modification de toiture",
       "Emportez-le lors de votre déménagement",
-      "Installation en moins de 5 minutes"
+      "Installation en moins de 30 minutes"
     ],
     "userTypes": [
       { "name": "Locataires", "description": "Solution portable", "icon": "Home" },
@@ -204,6 +237,6 @@
     "social": {
       "title": "Réseaux sociaux"
     },
-    "copyright": "© 2024 Solar Stock. Tous droits réservés."
+    "copyright": " 2024 Solar Stock. Tous droits réservés."
   }
 }

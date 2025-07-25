@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Star, Truck, Shield } from "lucide-react";
 import Image from 'next/image';
 import { motion } from "framer-motion";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -27,31 +27,24 @@ const ProductsSection = () => {
   useEffect(() => {
     setIsClient(true);
     
-    const productData = [
-      {
-        id: 1,
-        name: t('products.plugPlayX1_name'),
-        subtitle: t('products.plugPlayX1_subtitle'),
-        description: t('products.plugPlayX1_description'),
-        price: t('products.plugPlayX1_price'),
-        features: t('products.plugPlayX1_features', { returnObjects: true }) as string[],
-        popular: false,
-        url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-1-panneau-solaire-avec-structure-terrasse-0651433.html',
-        testimonial: t('products.plugPlayX1_testimonial')
-      },
-      {
-        id: 2,
-        name: t('products.plugPlayX2_name'),
-        subtitle: t('products.plugPlayX2_subtitle'),
-        description: t('products.plugPlayX2_description'),
-        price: t('products.plugPlayX2_price'),
-        features: t('products.plugPlayX2_features', { returnObjects: true }) as string[],
-        popular: true,
-        url: 'https://solarstock.be/mon-kit-solaire-plugamp-play-2-panneaux-solaire-avec-structure-terrasse-0651389.html',
-        testimonial: t('products.plugPlayX2_testimonial')
-      }
-    ];
-    
+    // Dynamically detect all plugPlay* products from translation keys
+    const productKeys = Object.keys(t('products', { returnObjects: true }) as object)
+      .filter(key => key.endsWith('_name'))
+      .map(key => key.replace('_name', ''));
+
+    const productData = productKeys.map((baseKey, idx) => ({
+      id: idx + 1,
+      baseKey,
+      name: t(`products.${baseKey}_name`),
+      subtitle: t(`products.${baseKey}_subtitle`),
+      description: t(`products.${baseKey}_description`),
+      price: t(`products.${baseKey}_price`),
+      features: t(`products.${baseKey}_features`, { returnObjects: true }) as string[],
+      popular: idx === 1, // Mark X2 as popular by default
+      url: '#', // Placeholder, you can enhance this if you store URLs in translation
+      testimonial: t(`products.${baseKey}_testimonial`),
+      comingSoon: t(`products.${baseKey}_comingSoon`, { defaultValue: false })
+    }));
     setProducts(productData);
   }, [t, i18n.language]); // Re-run when language changes
 
@@ -108,14 +101,19 @@ const ProductsSection = () => {
               className="h-full"
             >
               <Card className={`h-full flex flex-col ${product.popular ? 'border-2 border-blue-500' : ''}`}>
-                <div className="relative w-full h-48 bg-gray-100">
+                <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-48" : "h-64"} bg-gray-100`}>
                   <Image
-                    src={`/plugPlayX${product.id}.png`}
+                    src={product.baseKey === "batterieConnectee" ? "/BatterieConnectee.png" : `/${product.baseKey}.png`}
                     alt={product.name}
                     fill
-                    className="object-contain p-4"
+                    className={`${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "object-contain p-4" : "object-cover"}`}
                     priority
                   />
+                  {product.comingSoon && (
+                    <div className="absolute top-2 right-2 bg-yellow-400 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10">
+                      Coming Soon
+                    </div>
+                  )}
                 </div>
                 <CardHeader className="pb-4">
                   <div className="flex justify-between items-start">

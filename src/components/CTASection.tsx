@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail, Phone, CheckCircle } from "lucide-react";
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const CTASection = () => {
   const { t } = useTranslation();
