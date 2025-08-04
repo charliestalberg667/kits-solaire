@@ -41,7 +41,7 @@ const PressSection = () => {
         {/* YouTube Video Section */}
         <div className="mb-16 py-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            Découvrez nos kits solaires en action
+            {t('press.videoTitle')}
           </h2>
           <div className="relative w-full" style={{ paddingBottom: '56.25%' /* 16:9 Aspect Ratio */ }}>
             <iframe 
