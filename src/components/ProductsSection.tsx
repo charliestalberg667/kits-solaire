@@ -17,6 +17,8 @@ interface Product {
   popular: boolean;
   url: string;
   testimonial: string;
+  baseKey: string;
+  comingSoon: boolean | string;
 }
 
 const ProductsSection = () => {
