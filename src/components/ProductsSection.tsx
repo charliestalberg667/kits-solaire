@@ -107,11 +107,32 @@ const ProductsSection = () => {
                 <div className="flex-1 flex flex-col">
                   <div>
                     <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-48" : "h-64"} bg-gray-100`}>
+                      {product.baseKey === "plugPlayBalconyX4" && (
+                        <div className="absolute top-4 right-4 z-10 w-16 h-16 bg-white rounded-full p-2 shadow-md">
+                          <Image
+                            src="/17573C14-3277-4744-B027-DB3652D0D634.jpeg"
+                            alt="Sunpura Logo"
+                            width={48}
+                            height={48}
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      )}
                       <Image
-                        src={product.baseKey === "batterieConnectee" ? "/BatterieConnectee.png" : `/${product.baseKey}.png`}
+                        src={product.baseKey === "batterieConnectee" 
+                          ? "/BatterieConnectee.png" 
+                          : product.baseKey === "plugPlayBalconyX4"
+                            ? "/70276edf0221543f5401a79ee2bd9c38.jpg"
+                            : `/${product.baseKey}.png`}
                         alt={product.name}
                         fill
-                        className={`${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "object-contain p-4" : "object-cover"}`}
+                        className={`${
+                          ["plugPlayX1", "plugPlayX2"].includes(product.baseKey) 
+                            ? "object-contain p-4" 
+                            : product.baseKey === "plugPlayBalconyX4"
+                              ? "object-cover"
+                              : "object-cover"
+                        }`}
                         priority
                       />
                       {product.popular && (

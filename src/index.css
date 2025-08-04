@@ -92,6 +92,11 @@
   }
 }
 
+/* Hide YouTube Shorts title channel */
+.ytp-shorts-title-channel {
+  display: none !important;
+}
+
 @layer base {
   * {
     @apply border-border;
