@@ -43,7 +43,7 @@ const ProductsSection = () => {
       price: t(`products.${baseKey}_price`),
       features: t(`products.${baseKey}_features`, { returnObjects: true }) as string[],
       popular: idx === 1, // Mark X2 as popular by default
-      url: '#', // Placeholder, you can enhance this if you store URLs in translation
+      url: `/products/${baseKey}`, // Link to the dynamic product page
       testimonial: t(`products.${baseKey}_testimonial`),
       comingSoon: t(`products.${baseKey}_comingSoon`, { defaultValue: false })
     }));
@@ -102,82 +102,99 @@ const ProductsSection = () => {
               viewport={{ once: true }}
               className="h-full"
             >
-              <Card className={`h-full flex flex-col ${product.popular ? 'border-2 border-blue-500' : ''}`}>
-                <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-48" : "h-64"} bg-gray-100`}>
-                  <Image
-                    src={product.baseKey === "batterieConnectee" ? "/BatterieConnectee.png" : `/${product.baseKey}.png`}
-                    alt={product.name}
-                    fill
-                    className={`${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "object-contain p-4" : "object-cover"}`}
-                    priority
-                  />
-                  {product.comingSoon && (
-                    <div className="absolute top-2 right-2 bg-yellow-400 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10">
-                      Coming Soon
+              <div className={`relative h-full ${product.popular ? 'p-0.5 rounded-lg bg-gradient-to-r from-blue-500 to-green-500' : ''}`}>
+                <Card className="h-full flex flex-col">
+                <div className="flex-1 flex flex-col">
+                  <div>
+                    <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-48" : "h-64"} bg-gray-100`}>
+                      <Image
+                        src={product.baseKey === "batterieConnectee" ? "/BatterieConnectee.png" : `/${product.baseKey}.png`}
+                        alt={product.name}
+                        fill
+                        className={`${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "object-contain p-4" : "object-cover"}`}
+                        priority
+                      />
+                      {product.popular && (
+                        <div className="absolute top-2 right-2 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10 flex items-center">
+                          <span>🔥</span>
+                          <span className="ml-1">MEILLEUR PRIX</span>
+                        </div>
+                      )}
+                      {product.comingSoon && (
+                        <div className="absolute top-2 right-2 bg-yellow-400 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10">
+                          Coming Soon
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-                <CardHeader className="pb-4">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <CardTitle className="text-2xl font-bold text-gray-900">
-                        {product.name}
-                      </CardTitle>
-                      <p className="text-gray-600 mt-1">{product.subtitle}</p>
+                    <CardHeader className="pb-6">
+                      <div className="flex justify-between items-start mb-4">
+                        <div>
+                          <CardTitle className="text-2xl font-bold text-gray-900 tracking-wider">
+                            {product.name}
+                          </CardTitle>
+                          <p className="text-gray-600 mt-1">{product.subtitle}</p>
+                        </div>
+                      </div>
+                      <p className="text-gray-600 text-sm mt-4 mb-6">{product.description}</p>
+                      
+                      <div className="mt-6">
+                        <div className="bg-blue-50 p-4 rounded-lg mb-8">
+                          <div className="flex items-center gap-1 mb-1">
+                            {[...Array(5)].map((_, i) => (
+                              <Star key={i} className="w-3 h-3 text-yellow-400 fill-current" />
+                            ))}
+                          </div>
+                          <p className="text-sm text-blue-800 italic">"{product.testimonial}"</p>
+                        </div>
+                        
+                        <ul className="grid grid-cols-2 gap-x-4 gap-y-4 mb-8">
+                          {Array.isArray(product.features) 
+                            ? product.features.map((feature, i) => (
+                                <li key={i} className="flex items-center gap-3">
+                                  <div className="w-5 h-5 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <Check className="w-3 h-3 text-green-600" />
+                                  </div>
+                                  <span className="text-sm text-gray-700">{feature}</span>
+                                </li>
+                              ))
+                            : null}
+                        </ul>
+                      </div>
+                    </CardHeader>
+                  </div>
+
+                  {/* Fixed bottom section */}
+                  <div className="mt-auto pt-6 border-t border-gray-100 bg-white rounded-b-lg">
+                    <div className="text-center mb-6">
+                      <span className="text-2xl font-bold text-gray-900">{product.price}</span>
                     </div>
-                    {product.popular && (
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                        {t('products.bestValue')}
-                      </span>
+                    {product.baseKey !== 'batterieConnectee' ? (
+                      <>
+                        <div className="flex justify-center">
+                          <Link href={product.url} passHref target="_blank" rel="noopener noreferrer">
+                            <Button
+                              className={`w-auto px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 ${
+                                product.popular 
+                                  ? 'bg-blue-600 hover:bg-blue-700 text-white' 
+                                  : 'bg-blue-600 hover:bg-blue-700 text-white'
+                              }`}
+                            >
+                              {t('products.orderCta')}
+                            </Button>
+                          </Link>
+                        </div>
+                        <div className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-600 pb-4">
+                          <span>💡</span>
+                          <span>{t('products.installTime', 'Installation in less than 30 minutes')}</span>
+                        </div>
+                      </>
+                    ) : (
+                      <div className="pb-4"></div> // Maintains consistent bottom padding
                     )}
                   </div>
-                  <p className="text-gray-600 text-sm mt-2">{product.description}</p>
-                  
-                  <div className="mt-4">
-                    <div className="bg-blue-50 p-3 rounded-lg mb-6">
-                      <div className="flex items-center gap-1 mb-1">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="w-3 h-3 text-yellow-400 fill-current" />
-                        ))}
-                      </div>
-                      <p className="text-sm text-blue-800 italic">"{product.testimonial}"</p>
-                    </div>
-                    
-                    <ul className="grid grid-cols-2 gap-x-4 gap-y-3 mb-6">
-                      {Array.isArray(product.features) 
-                        ? product.features.map((feature, i) => (
-                            <li key={i} className="flex items-center gap-3">
-                              <div className="w-5 h-5 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                                <Check className="w-3 h-3 text-green-600" />
-                              </div>
-                              <span className="text-sm text-gray-700">{feature}</span>
-                            </li>
-                          ))
-                        : null}
-                    </ul>
-
-                    <div className="mt-auto">
-                      <div className="text-center mb-4">
-                        <span className="text-2xl font-bold text-gray-900">{product.price}</span>
-                      </div>
-                      <Link href={product.url} passHref target="_blank" rel="noopener noreferrer">
-                        <Button
-                          className={`w-full py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 ${
-                            product.popular 
-                              ? 'bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white' 
-                              : 'bg-gray-900 hover:bg-gray-800 text-white'
-                          }`}
-                        >
-                          {t('products.orderCta')}
-                        </Button>
-                      </Link>
-                      <p className="text-xs text-center text-gray-500 mt-2">
-                        {t('products.installGuarantee')}
-                      </p>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                </div>
+                </Card>
+              </div>
             </motion.div>
           ))}
         </div>

@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 const getProductsData = (t: any) => ([
   {
     id: 1,
-    slug: 'plug-play-x1',
+    slug: 'plugPlayX1',
     name: t('products.plugPlayX1_name'),
     subtitle: t('products.plugPlayX1_subtitle'),
     power: "440W",
@@ -23,7 +23,7 @@ const getProductsData = (t: any) => ([
   },
   {
     id: 2,
-    slug: 'plug-play-x2',
+    slug: 'plugPlayX2',
     name: t('products.plugPlayX2_name'),
     subtitle: t('products.plugPlayX2_subtitle'),
     power: "800W",
@@ -32,6 +32,30 @@ const getProductsData = (t: any) => ([
     features: t('products.plugPlayX2_features', { returnObjects: true }),
     image: "/plugPlayX2.png",
     testimonial: t('products.plugPlayX2_testimonial')
+  },
+  {
+    id: 3,
+    slug: 'batterieConnectee',
+    name: t('products.batterieConnectee_name'),
+    subtitle: t('products.batterieConnectee_subtitle'),
+    power: "Varies",
+    description: t('products.batterieConnectee_description'),
+    price: t('products.batterieConnectee_price'),
+    features: t('products.batterieConnectee_features', { returnObjects: true }),
+    image: "/BatterieConnectee.png",
+    testimonial: t('products.batterieConnectee_testimonial')
+  },
+  {
+    id: 4,
+    slug: 'kitAutonomie',
+    name: t('products.kitAutonomie_name'),
+    subtitle: t('products.kitAutonomie_subtitle'),
+    power: "Varies",
+    description: t('products.kitAutonomie_description'),
+    price: t('products.kitAutonomie_price'),
+    features: t('products.kitAutonomie_features', { returnObjects: true }),
+    image: "/kitAutonomie.png",
+    testimonial: t('products.kitAutonomie_testimonial')
   }
 ]);
 
@@ -119,14 +143,14 @@ const ProductPage: NextPage<ProductPageProps> = () => {
 };
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-  const slugs = ['plug-play-x1', 'plug-play-x2'];
+  const slugs = ['plugPlayX1', 'plugPlayX2', 'batterieConnectee', 'kitAutonomie'];
   const paths = (locales ?? []).flatMap(locale =>
     slugs.map(slug => ({ params: { slug }, locale }))
   );
 
   return {
     paths,
-    fallback: true,
+    fallback: false, // Return 404 for unknown slugs
   };
 };
 
