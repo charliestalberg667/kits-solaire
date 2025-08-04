@@ -48,7 +48,7 @@ const HeroSection = () => {
               {t('hero.ctaPrimary')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
-            <a href="#installation" className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-lg font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8 py-4 text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105" suppressHydrationWarning>
+            <a href="#installation" className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-lg font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-14 px-8 py-4 text-gray-700 hover:text-blue-600 transition-all duration-300 hover:scale-105" suppressHydrationWarning>
               {t('hero.ctaSecondary')}
             </a>
           </div>

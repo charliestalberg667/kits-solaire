@@ -195,7 +195,7 @@ const ProductsSection = () => {
                           <Link href={product.url} passHref target="_blank" rel="noopener noreferrer">
                             <Button
                               className={`w-auto px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 ${
-                                product.popular 
+                                product.popular || product.baseKey === 'plugPlayBalconyX4'
                                   ? 'bg-blue-600 hover:bg-blue-700 text-white' 
                                   : 'bg-blue-600 hover:bg-blue-700 text-white'
                               }`}
