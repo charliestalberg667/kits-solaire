@@ -87,9 +87,9 @@ const ProductPage: NextPage<ProductPageProps> = () => {
   return (
     <>
       <Navbar />
-      <main className="pt-24 bg-gray-50">
-        <div className="container mx-auto px-4 py-16">
-          <div className="grid md:grid-cols-2 gap-12 items-start">
+      <main className="pt-20 sm:pt-24 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             <div className="p-4 bg-white rounded-2xl shadow-lg">
               <Slider
                 asNavFor={nav2 || undefined}
@@ -114,7 +114,21 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                 <Slider
                   asNavFor={nav1 || undefined}
                   ref={(slider) => setNav2(slider)}
-                  slidesToShow={productImages.length >= 4 ? 4 : productImages.length}
+                  slidesToShow={productImages.length < 3 ? productImages.length : 3}
+                  responsive={[
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: productImages.length < 4 ? productImages.length : 4,
+                      }
+                    },
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: productImages.length < 5 ? productImages.length : 5,
+                      }
+                    }
+                  ]}
                   swipeToSlide={true}
                   focusOnSelect={true}
                   centerMode={false}
@@ -139,11 +153,11 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                 <Zap className="w-6 h-6 text-blue-500" />
                 <span className="text-xl font-bold text-blue-700">{currentProduct.power}</span>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">{currentProduct.name}</h1>
-              <p className="text-xl text-gray-600 mb-6">{currentProduct.subtitle}</p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2">{currentProduct.name}</h1>
+              <p className="text-lg sm:text-xl text-gray-600 mb-6">{currentProduct.subtitle}</p>
 
               <div className="flex items-baseline gap-4 mb-6">
-                <span className="text-4xl font-extrabold text-gray-900">{currentProduct.price}</span>
+                <span className="text-3xl sm:text-4xl font-extrabold text-gray-900">{currentProduct.price}</span>
               </div>
 
               <p className="text-gray-700 mb-8">{currentProduct.description}</p>
@@ -183,8 +197,8 @@ const ProductPage: NextPage<ProductPageProps> = () => {
 
               {currentProduct.specs && typeof currentProduct.specs === 'object' && currentProduct.specs.title && currentProduct.specs.items &&
                 <div className="border-t border-gray-200 pt-8 mt-8">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4">{currentProduct.specs.title}</h3>
-                  <div className="grid grid-cols-2 gap-x-6 gap-y-4 text-gray-700 mb-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">{currentProduct.specs.title}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 text-gray-700 mb-6">
                     {Object.entries(currentProduct.specs.items).map(([key, value]) => (
                       <div key={key} className="flex flex-col">
                         <span className="text-sm text-gray-500">{key.replace(/_/g, ' ')}</span>
