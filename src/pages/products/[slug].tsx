@@ -31,7 +31,7 @@ const getProductsData = (t: any) => ([
     slug: 'plugPlayX2',
     name: t('products.plugPlayX2_name'),
     subtitle: t('products.plugPlayX2_subtitle'),
-    power: "880W",
+    power: "800W",
     description: t('products.plugPlayX2_description'),
     price: t('products.plugPlayX2_price'),
     features: t('products.plugPlayX2_features', { returnObjects: true }),

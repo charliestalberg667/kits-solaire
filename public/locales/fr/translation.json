@@ -133,7 +133,7 @@
     "plugPlayX1_specs": {
       "title": "Spécifications Techniques",
       "items": {
-        "Puissance_de_crête": "440W",
+        "Puissance_de_crête": "450W",
         "Type_de_panneau_solaire": "Monocristallin PERC",
         "Sortie_de_londuleur": "400W AC",
         "Dimensions_du_panneau": "1722 x 1134 x 30 mm",
@@ -166,7 +166,7 @@
     "plugPlayX2_specs": {
       "title": "Spécifications Techniques",
       "items": {
-        "Puissance_de_crête": "880W (2x 440W)",
+        "Puissance_de_crête": "800W",
         "Type_de_panneau_solaire": "Monocristallin PERC",
         "Sortie_de_londuleur": "800W AC",
         "Dimensions_du_panneau": "1722 x 1134 x 30 mm (chacun)",
@@ -199,7 +199,7 @@
     "plugPlayBalconyX4_specs": {
         "title": "Spécifications Techniques",
         "items": {
-            "Puissance_de_crête": "800W (4x 200W)",
+            "Puissance_de_crête": "800W",
             "Type_de_panneau_solaire": "Monocristallin PERC",
             "Sortie_de_londuleur": "800W AC",
             "Dimensions_du_panneau": "1134 x 508 x 30 mm (chacun)",

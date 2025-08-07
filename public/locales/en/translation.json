@@ -266,7 +266,7 @@
     "kitAutonomie_description": "Combine our most powerful panels with battery storage for 24/7 solar power.",
     "kitAutonomie_price": "1499 €",
     "kitAutonomie_features": [
-        "4x 440W Solar Panels",
+        "4x 450W Solar Panels",
         "Hybrid Inverter",
         "3.2 kWh Battery Storage",
         "Complete Mounting System",
@@ -276,8 +276,8 @@
     "kitAutonomie_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Included_Panels": "4x 440W Panels",
-        "Total_Power": "1760W",
+        "Included_Panels": "4x 450W Panels",
+        "Total_Power": "800W",
         "Battery_Storage": "3.2 kWh (2x 1.6 kWh)",
         "System_Type": "Hybrid Grid-Tied",
         "Monitoring": "Wi-Fi Enabled App",
