@@ -1,4 +1,17 @@
 @tailwind base;
+
+@keyframes grid-pan {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 32px 0;
+  }
+}
+
+.animate-grid-pan {
+  animation: grid-pan 3s linear infinite;
+}
 @tailwind components;
 @tailwind utilities;
 

@@ -10,6 +10,7 @@
   "hero": {
     "title1": "Just one plug.",
     "title2": "Plug in, enjoy.",
+    "subtitle": "Discover the future of solar energy with our innovative solutions.",
     "diyFriendly": "DIY Friendly - No Electrician Needed",
     "reviews": "4.8/5 from 1,247 DIY homeowners",
     "step1": "Unbox",
@@ -133,7 +134,7 @@
     "plugPlayX1_name": "plugPlayX1",
     "plugPlayX1_subtitle": "Complete 450W solar panel inverter kit",
     "plugPlayX1_description": "Best price and in stock",
-    "plugPlayX1_price": "€349",
+    "plugPlayX1_price": "349 €",
     "plugPlayX1_features": [
       "1 x 450W Solar Panel",
       "Integrated inverter",
@@ -142,11 +143,30 @@
       "10-year warranty",
       "Synergrid certified"
     ],
-    "plugPlayX1_testimonial": "Simple and fast installation!",
+    "plugPlayX1_testimonial": "I was surprised at how easy it was to set up. I'm already seeing a difference in my electricity bill!",
+    "plugPlayX1_specs": {
+      "title": "Technical Specifications",
+      "items": {
+        "Peak_Power": "440W",
+        "Solar_Panel_Type": "Monocrystalline PERC",
+        "Inverter_Output": "400W AC",
+        "Dimensions_Panel": "1722 x 1134 x 30 mm",
+        "Weight": "21.5 kg",
+        "Cable_Length": "5m"
+      }
+    },
+    "plugPlayX1_warranty_info": {
+      "title": "Warranty & Guarantee",
+      "items": [
+        "25-year performance warranty on solar panels",
+        "10-year product warranty on inverter",
+        "30-day money-back guarantee"
+      ]
+    },
     "plugPlayX2_name": "plugPlayX2",
     "plugPlayX2_subtitle": "Complete 800W 2-solar panel inverter kit",
     "plugPlayX2_description": "Best price and in stock",
-    "plugPlayX2_price": "€499",
+    "plugPlayX2_price": "499 €",
     "plugPlayX2_features": [
       "2 x 450W Solar Panels",
       "High-performance inverter",
@@ -155,12 +175,30 @@
       "10-year warranty",
       "Synergrid certified"
     ],
-    "plugPlayX2_testimonial": "Perfect for optimal energy autonomy!",
-
+    "plugPlayX2_testimonial": "Double the power, double the savings. The X2 is a beast and handles all my daytime energy needs.",
+    "plugPlayX2_specs": {
+      "title": "Technical Specifications",
+      "items": {
+        "Peak_Power": "880W (2x 440W)",
+        "Solar_Panel_Type": "Monocrystalline PERC",
+        "Inverter_Output": "800W AC",
+        "Dimensions_Panel": "1722 x 1134 x 30 mm (each)",
+        "Weight": "43 kg (total)",
+        "Cable_Length": "5m"
+      }
+    },
+    "plugPlayX2_warranty_info": {
+      "title": "Warranty & Guarantee",
+      "items": [
+        "25-year performance warranty on solar panels",
+        "10-year product warranty on inverter",
+        "30-day money-back guarantee"
+      ]
+    },
     "plugPlayBalconyX4_name": "Plug & Play Balcony X4",
     "plugPlayBalconyX4_subtitle": "Complete kit with 4 SUNPURA solar panels + 800W micro-inverter",
     "plugPlayBalconyX4_description": "Lightweight panels for balconies.",
-    "plugPlayBalconyX4_price": "€549",
+    "plugPlayBalconyX4_price": "549 €",
     "plugPlayBalconyX4_features": [
       "4 x 200W Solar Panels",
       "High-performance micro-inverter",
@@ -170,7 +208,25 @@
       "Synergrid certified"
     ],
     "plugPlayBalconyX4_testimonial": "The ideal solution for extra energy!",
-
+    "plugPlayBalconyX4_specs": {
+      "title": "Technical Specifications",
+      "items": {
+        "Peak_Power": "800W (4x 200W)",
+        "Solar_Panel_Type": "Monocrystalline PERC",
+        "Inverter_Output": "800W AC",
+        "Dimensions_Panel": "1134 x 508 x 30 mm (each)",
+        "Weight": "24 kg (total)",
+        "Cable_Length": "5m"
+      }
+    },
+    "plugPlayBalconyX4_warranty_info": {
+      "title": "Warranty & Guarantee",
+      "items": [
+        "25-year performance warranty on solar panels",
+        "10-year product warranty on inverter",
+        "30-day money-back guarantee"
+      ]
+    },
     "batterieConnectee_name": "Connected Battery",
     "batterieConnectee_subtitle": "Store your solar energy and gain autonomy.",
     "batterieConnectee_description": "Our connected battery is coming soon to complete your solar installation.",
@@ -182,10 +238,60 @@
       "10-year warranty",
       "Synergrid certified"
     ],
-    "batterieConnectee_testimonial": "Store your energy efficiently and economically!",
+    "batterieConnectee_testimonial": "Now I can store my solar energy for the evening. It's a game-changer for my energy independence.",
+    "batterieConnectee_specs": {
+      "title": "Technical Specifications",
+      "items": {
+        "Capacity": "1.6 kWh",
+        "Chemistry": "LiFePO4",
+        "Cycle_Life": "6000+ cycles",
+        "Dimensions": "400 x 210 x 270 mm",
+        "Weight": "18 kg",
+        "Compatibility": "Plug&Play X1 & X2"
+      }
+    },
+    "batterieConnectee_warranty_info": {
+      "title": "Warranty & Guarantee",
+      "items": [
+        "10-year product warranty",
+        "15-year performance guarantee",
+        "30-day money-back guarantee"
+      ]
+    },
     "batterieConnectee_comingSoon": true,
     "orderCta": "Order Now",
-    "installGuarantee": "💡 Installs in under 30 minutes"
+    "installGuarantee": "",
+    "kitAutonomie_name": "Autonomy Kit",
+    "kitAutonomie_subtitle": "The complete solution for total energy independence",
+    "kitAutonomie_description": "Combine our most powerful panels with battery storage for 24/7 solar power.",
+    "kitAutonomie_price": "1499 €",
+    "kitAutonomie_features": [
+        "4x 440W Solar Panels",
+        "Hybrid Inverter",
+        "3.2 kWh Battery Storage",
+        "Complete Mounting System",
+        "Wi-Fi Monitoring App"
+    ],
+    "kitAutonomie_testimonial": "The complete package for anyone serious about going green. High quality components and works flawlessly.",
+    "kitAutonomie_specs": {
+      "title": "Technical Specifications",
+      "items": {
+        "Included_Panels": "4x 440W Panels",
+        "Total_Power": "1760W",
+        "Battery_Storage": "3.2 kWh (2x 1.6 kWh)",
+        "System_Type": "Hybrid Grid-Tied",
+        "Monitoring": "Wi-Fi Enabled App",
+        "Installation": "Professional installation recommended"
+      }
+    },
+    "kitAutonomie_warranty_info": {
+      "title": "Warranty & Guarantee",
+      "items": [
+        "25-year performance warranty on solar panels",
+        "10-year warranty on inverter and batteries",
+        "30-day money-back guarantee"
+      ]
+    }
   },
   "press": {
     "title": "They're talking about us",

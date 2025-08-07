@@ -10,6 +10,7 @@
   "hero": {
     "title1": "Juste une prise.",
     "title2": "Branchez, profitez.",
+    "subtitle": "Découvrez l'avenir de l'énergie solaire avec nos solutions innovantes.",
     "diyFriendly": "DIY Friendly - Pas besoin d'électricien",
     "reviews": "4.8/5 de 1,247 propriétaires DIY",
     "step1": "Déballer",
@@ -128,7 +129,26 @@
       "Garantie 10 ans",
       "Certifié Synergrid"
     ],
-    "plugPlayX1_testimonial": "Installation simple et rapide !",
+    "plugPlayX1_testimonial": "J'ai été surpris de la facilité d'installation. Je vois déjà une différence sur ma facture d'électricité !",
+    "plugPlayX1_specs": {
+      "title": "Spécifications Techniques",
+      "items": {
+        "Puissance_de_crête": "440W",
+        "Type_de_panneau_solaire": "Monocristallin PERC",
+        "Sortie_de_londuleur": "400W AC",
+        "Dimensions_du_panneau": "1722 x 1134 x 30 mm",
+        "Poids": "21.5 kg",
+        "Longueur_du_câble": "5m"
+      }
+    },
+    "plugPlayX1_warranty_info": {
+      "title": "Garantie et Assurance",
+      "items": [
+        "Garantie de performance de 25 ans sur les panneaux solaires",
+        "Garantie produit de 10 ans sur l'onduleur",
+        "Garantie de remboursement de 30 jours"
+      ]
+    },
 
     "plugPlayX2_name": "Plug&Play X2",
     "plugPlayX2_subtitle": "Kit complet 2 panneaux solaires + micro-onduleur 800W",
@@ -142,7 +162,26 @@
       "Garantie 10 ans",
       "Certifié Synergrid"
     ],
-    "plugPlayX2_testimonial": "Installation rapide et simple !",
+    "plugPlayX2_testimonial": "Double puissance, double économies. Le X2 est une bête et couvre tous mes besoins énergétiques diurnes.",
+    "plugPlayX2_specs": {
+      "title": "Spécifications Techniques",
+      "items": {
+        "Puissance_de_crête": "880W (2x 440W)",
+        "Type_de_panneau_solaire": "Monocristallin PERC",
+        "Sortie_de_londuleur": "800W AC",
+        "Dimensions_du_panneau": "1722 x 1134 x 30 mm (chacun)",
+        "Poids": "43 kg (total)",
+        "Longueur_du_câble": "5m"
+      }
+    },
+    "plugPlayX2_warranty_info": {
+      "title": "Garantie et Assurance",
+      "items": [
+        "Garantie de performance de 25 ans sur les panneaux solaires",
+        "Garantie produit de 10 ans sur l'onduleur",
+        "Garantie de remboursement de 30 jours"
+      ]
+    },
 
     "plugPlayBalconyX4_name": "Plug&Play Balcony X4",
     "plugPlayBalconyX4_subtitle": "Kit complet 4 panneaux solaires SUNPURA + micro-onduleur 800W",
@@ -157,6 +196,25 @@
       "Certifié Synergrid"
     ],
     "plugPlayBalconyX4_testimonial": "La solution idéale pour un apport énergétique !",
+    "plugPlayBalconyX4_specs": {
+        "title": "Spécifications Techniques",
+        "items": {
+            "Puissance_de_crête": "800W (4x 200W)",
+            "Type_de_panneau_solaire": "Monocristallin PERC",
+            "Sortie_de_londuleur": "800W AC",
+            "Dimensions_du_panneau": "1134 x 508 x 30 mm (chacun)",
+            "Poids": "24 kg (total)",
+            "Longueur_du_câble": "5m"
+        }
+    },
+    "plugPlayBalconyX4_warranty_info": {
+        "title": "Garantie et Assurance",
+        "items": [
+            "Garantie de performance de 25 ans sur les panneaux solaires",
+            "Garantie produit de 10 ans sur l'onduleur",
+            "Garantie de remboursement de 30 jours"
+        ]
+    },
 
     "batterieConnectee_name": "Batterie Connectée",
     "batterieConnectee_subtitle": "Stockez votre énergie solaire et gagnez en autonomie.",
@@ -169,14 +227,65 @@
       "Garantie 10 ans",
       "Certifié Synergrid"
     ],
-    "batterieConnectee_testimonial": "Stockez votre énergie efficacement et économiquement !",
+    "batterieConnectee_testimonial": "Maintenant, je peux stocker mon énergie solaire pour le soir. Ça change la donne pour mon indépendance énergétique.",
+    "batterieConnectee_specs": {
+      "title": "Spécifications Techniques",
+      "items": {
+        "Capacité": "1.6 kWh",
+        "Chimie": "LiFePO4",
+        "Durée_de_vie": "6000+ cycles",
+        "Dimensions": "400 x 210 x 270 mm",
+        "Poids": "18 kg",
+        "Compatibilité": "Plug&Play X1 & X2"
+      }
+    },
+    "batterieConnectee_warranty_info": {
+      "title": "Garantie et Assurance",
+      "items": [
+        "Garantie produit de 10 ans",
+        "Garantie de performance de 15 ans",
+        "Garantie de remboursement de 30 jours"
+      ]
+    },
     "batterieConnectee_comingSoon": true,
 
     "orderCta": "Commander maintenant",
     "installGuarantee": "💡 Installation en moins de 30 minutes",
 
     "orderCta": "Commander maintenant",
-    "installGuarantee": "💡 Installation en moins de 30 minutes"
+    "installGuarantee": "💡 Installation en moins de 30 minutes",
+
+    "kitAutonomie_name": "Kit Autonomie",
+    "kitAutonomie_subtitle": "La solution complète pour une indépendance énergétique totale",
+    "kitAutonomie_description": "Combinez nos panneaux les plus puissants avec un stockage sur batterie pour une énergie solaire 24/7.",
+    "kitAutonomie_price": "1499 €",
+    "kitAutonomie_features": [
+        "4x Panneaux Solaires 440W",
+        "Onduleur Hybride",
+        "Stockage sur Batterie 3.2 kWh",
+        "Système de Montage Complet",
+        "Application de Surveillance Wi-Fi"
+    ],
+    "kitAutonomie_testimonial": "Le package complet pour quiconque souhaite sérieusement passer au vert. Des composants de haute qualité et un fonctionnement sans faille.",
+    "kitAutonomie_specs": {
+      "title": "Spécifications Techniques",
+      "items": {
+        "Panneaux_inclus": "4x Panneaux 440W",
+        "Puissance_totale": "1760W",
+        "Stockage_batterie": "3.2 kWh (2x 1.6 kWh)",
+        "Type_de_système": "Hybride connecté au réseau",
+        "Surveillance": "Application Wi-Fi",
+        "Installation": "Installation professionnelle recommandée"
+      }
+    },
+    "kitAutonomie_warranty_info": {
+      "title": "Garantie et Assurance",
+      "items": [
+        "Garantie de performance de 25 ans sur les panneaux solaires",
+        "Garantie de 10 ans sur l'onduleur et les batteries",
+        "Garantie de remboursement de 30 jours"
+      ]
+    }
   },
   "press": {
     "title": "Ils parlent de nous",

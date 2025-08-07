@@ -31,7 +31,7 @@ const ProductsSection = () => {
     
     // Dynamically detect all plugPlay* products from translation keys
     const productKeys = Object.keys(t('products', { returnObjects: true }) as object)
-      .filter(key => key.endsWith('_name'))
+      .filter(key => key.endsWith('_name') && !key.includes('kitAutonomie'))
       .map(key => key.replace('_name', ''));
 
     const productData = productKeys.map((baseKey, idx) => ({

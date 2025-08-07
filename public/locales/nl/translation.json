@@ -10,6 +10,7 @@
   "hero": {
     "title1": "Slechts één stekker.",
     "title2": "Inpluggen en genieten.",
+    "subtitle": "Ontdek de toekomst van zonne-energie met onze innovatieve oplossingen.",
     "diyFriendly": "DIY-vriendelijk - Geen elektricien nodig",
     "reviews": "4.8/5 van 1.247 doe-het-zelvers",
     "step1": "Uitpakken",
@@ -71,7 +72,26 @@
       "Inclusief montagemateriaal",
       "10 Jaar Garantie"
     ],
-    "plugPlayX1_testimonial": "Eenvoudig te installeren en werkt perfect! Mijn elektriciteitsrekening is met 30% gedaald.",
+    "plugPlayX1_testimonial": "Ik was verrast hoe eenvoudig de installatie was. Ik zie nu al een verschil op mijn elektriciteitsrekening!",
+    "plugPlayX1_specs": {
+      "title": "Technische Specificaties",
+      "items": {
+        "Piekvermogen": "440W",
+        "Type_zonnepaneel": "Monokristallijn PERC",
+        "Omvormer_output": "400W AC",
+        "Afmetingen_paneel": "1722 x 1134 x 30 mm",
+        "Gewicht": "21.5 kg",
+        "Kabellengte": "5m"
+      }
+    },
+    "plugPlayX1_warranty_info": {
+      "title": "Garantie & Waarborg",
+      "items": [
+        "25 jaar prestatiegarantie op zonnepanelen",
+        "10 jaar productgarantie op de omvormer",
+        "30 dagen geld-terug-garantie"
+      ]
+    },
     "plugPlayX2_name": "Plug & Play Zonnekit X2",
     "plugPlayX2_subtitle": "Compleet 800W 2 zonnepanelen omvormerpakket",
     "plugPlayX2_description": "Ideaal voor middelgrote huishoudens die meer stroom willen opwekken en besparen.",
@@ -84,12 +104,31 @@
       "10 Jaar Productgarantie",
       "25 Jaar Vermogensgarantie"
     ],
-    "plugPlayX2_testimonial": "Fantastisch systeem! Heeft mijn maandelijkse energierekening met meer dan 50% verlaagd.",
+    "plugPlayX2_testimonial": "Dubbel vermogen, dubbele besparing. De X2 is een beest en dekt al mijn energiebehoeften overdag.",
+    "plugPlayX2_specs": {
+      "title": "Technische Specificaties",
+      "items": {
+        "Piekvermogen": "880W (2x 440W)",
+        "Type_zonnepaneel": "Monokristallijn PERC",
+        "Omvormer_output": "800W AC",
+        "Afmetingen_paneel": "1722 x 1134 x 30 mm (elk)",
+        "Gewicht": "43 kg (totaal)",
+        "Kabellengte": "5m"
+      }
+    },
+    "plugPlayX2_warranty_info": {
+      "title": "Garantie & Waarborg",
+      "items": [
+        "25 jaar prestatiegarantie op zonnepanelen",
+        "10 jaar productgarantie op de omvormer",
+        "30 dagen geld-terug-garantie"
+      ]
+    },
 
     "plugPlayBalconyX4_name": "Plug & Play Balkon X4",
     "plugPlayBalconyX4_subtitle": "Compleet pakket met 4 SUNPURA zonnepanelen + 800W micro-omvormer",
     "plugPlayBalconyX4_description": "Lichte panelen voor balkonmontage.",
-    "plugPlayBalconyX4_price": "€549",
+    "plugPlayBalconyX4_price": "549 €",
     "plugPlayBalconyX4_features": [
       "4 x 200W Zonnepanelen",
       "Krachtige micro-omvormer",
@@ -99,6 +138,25 @@
       "Synergrid gecertificeerd"
     ],
     "plugPlayBalconyX4_testimonial": "De ideale oplossing voor extra energie!",
+    "plugPlayBalconyX4_specs": {
+        "title": "Technische Specificaties",
+        "items": {
+            "Piekvermogen": "800W (4x 200W)",
+            "Type_zonnepaneel": "Monokristallijn PERC",
+            "Omvormer_output": "800W AC",
+            "Afmetingen_paneel": "1134 x 508 x 30 mm (elk)",
+            "Gewicht": "24 kg (totaal)",
+            "Kabellengte": "5m"
+        }
+    },
+    "plugPlayBalconyX4_warranty_info": {
+        "title": "Garantie & Waarborg",
+        "items": [
+            "25 jaar prestatiegarantie op zonnepanelen",
+            "10 jaar productgarantie op de omvormer",
+            "30 dagen geld-terug-garantie"
+        ]
+    },
 
     "batterieConnectee_name": "Verbonden Batterij",
     "batterieConnectee_subtitle": "Sla uw zonne-energie op en vergroot uw autonomie.",
@@ -111,8 +169,59 @@
       "10 jaar garantie",
       "Synergrid gecertificeerd"
     ],
-    "batterieConnectee_testimonial": "Sla uw energie efficiënt en voordelig op!",
-    "batterieConnectee_comingSoon": true
+    "batterieConnectee_testimonial": "Nu kan ik mijn zonne-energie opslaan voor 's avonds. Het is een game-changer voor mijn energieonafhankelijkheid.",
+    "batterieConnectee_specs": {
+      "title": "Technische Specificaties",
+      "items": {
+        "Capaciteit": "1.6 kWh",
+        "Chemie": "LiFePO4",
+        "Levensduur": "6000+ cycli",
+        "Afmetingen": "400 x 210 x 270 mm",
+        "Gewicht": "18 kg",
+        "Compatibiliteit": "Plug&Play X1 & X2"
+      }
+    },
+    "batterieConnectee_warranty_info": {
+      "title": "Garantie & Waarborg",
+      "items": [
+        "10 jaar productgarantie",
+        "15 jaar prestatiegarantie",
+        "30 dagen geld-terug-garantie"
+      ]
+    },
+    "batterieConnectee_comingSoon": true,
+
+    "kitAutonomie_name": "Autonomie Kit",
+    "kitAutonomie_subtitle": "De complete oplossing voor totale energieonafhankelijkheid",
+    "kitAutonomie_description": "Combineer onze krachtigste panelen met batterijopslag voor 24/7 zonne-energie.",
+    "kitAutonomie_price": "1499 €",
+    "kitAutonomie_features": [
+        "4x 440W Zonnepanelen",
+        "Hybride Omvormer",
+        "3.2 kWh Batterijopslag",
+        "Compleet Montagesysteem",
+        "Wi-Fi Monitoring App"
+    ],
+    "kitAutonomie_testimonial": "Het complete pakket voor iedereen die serieus groen wil gaan. Hoogwaardige componenten en een naadloze werking.",
+    "kitAutonomie_specs": {
+      "title": "Technische Specificaties",
+      "items": {
+        "Inbegrepen_panelen": "4x 440W Panelen",
+        "Totaal_vermogen": "1760W",
+        "Batterijopslag": "3.2 kWh (2x 1.6 kWh)",
+        "Systeemtype": "Netgekoppeld Hybride",
+        "Monitoring": "Wi-Fi App",
+        "Installatie": "Professionele installatie aanbevolen"
+      }
+    },
+    "kitAutonomie_warranty_info": {
+      "title": "Garantie & Waarborg",
+      "items": [
+        "25 jaar prestatiegarantie op zonnepanelen",
+        "10 jaar garantie op omvormer en batterijen",
+        "30 dagen geld-terug-garantie"
+      ]
+    }
   },
   "features": {
     "title": "Waarom Kiezen Voor Onze Zonnepakketten?",
