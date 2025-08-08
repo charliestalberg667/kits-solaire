@@ -1,4 +1,41 @@
 {
+  "regulations": {
+    "title": "PLUG & PLAY Devices Regulations",
+    "introduction": {
+      "title": "Introduction",
+      "paragraph1": "'Plug & play' devices are typically small, compact, and mobile devices that produce electricity and can potentially feed electricity into the distribution network by plugging them into a power outlet.",
+      "paragraph2": "These devices must comply with technical specification C10/11 ed. 2.3 as they can operate in parallel with the Belgian distribution network, or are technically capable of doing so."
+    },
+    "certification": {
+      "title": "Plug & Play Certification",
+      "paragraph1": "On March 17, 2025, plug & play devices certified up to that date were published on the C10/26 list. They can be connected in Belgium starting April 17, 2025.",
+      "paragraph2": "For easier reference, a separate plug & play list has been published containing only plug & play devices, along with additional information and points of interest for users."
+    },
+    "purchase": {
+      "title": "Purchasing a Plug & Play Device",
+      "paragraph1": "If you wish to purchase a plug & play device, you must ensure that the 'inverter' is listed on the C10/26 list or on the separate plug & play list."
+    },
+    "notification": {
+      "title": "Notification of Plug & Play Devices",
+      "walloniaBrussels": {
+        "title": "Wallonia & Brussels:",
+        "text": "Each 'plug & play' device must be notified to the distribution system operator."
+      },
+      "flanders": {
+        "title": "Flanders:",
+        "text": "Notification is mandatory if:",
+        "reasons": [
+          "You want compensation for solar energy fed into the distribution network (unless a fixed solar panel installation is already in place).",
+          "If a smart meter is not yet installed (notification within 30 days).",
+          "The combined power of the inverter is greater than or equal to 800W (notification within 30 days)."
+        ]
+      }
+    },
+    "cta": {
+      "viewFullList": "View Complete C10/26 List",
+      "viewPlugPlayList": "Specific Plug & Play List"
+    }
+  },
   "navbar": {
     "home": "Home",
     "kits": "Our Kits",

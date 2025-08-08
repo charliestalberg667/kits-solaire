@@ -18,12 +18,31 @@ const getProductsData = (t: any) => ([
     slug: 'plugPlayX1',
     name: t('products.plugPlayX1_name'),
     subtitle: t('products.plugPlayX1_subtitle'),
-    power: "440W",
+    power: "450W",
     description: t('products.plugPlayX1_description'),
     price: t('products.plugPlayX1_price'),
     features: t('products.plugPlayX1_features', { returnObjects: true }),
     testimonial: t('products.plugPlayX1_testimonial'),
-    specs: t('products.plugPlayX1_specs', { returnObjects: true }),
+    specs: {
+      title: t('products.specs_title'),
+      items: {
+        'Puissance maximale (Pmax)': '450 W',
+        'Tension à Pmax (Vmp)': '33,25 V',
+        'Courant à Pmax (Imp)': '13,53 A',
+        'Tension à circuit ouvert (Voc)': '38,99 V',
+        'Courant de court-circuit (Isc)': '14,25 A',
+        'Tension maximum du système': '1500 V',
+        'Fusible maximum': '30 A',
+        'Classe de protection': 'Classe II',
+        'Efficacité': '23,04% | 22,52%',
+        'Type de cellules': '108 M10 HALF monocristallines N-TYPE',
+        'Dimensions cellules': '182 x 91 mm / 7,16 x 3,58"',
+        'Poids': '23,24 - 23,77 kg',
+        'Dimensions': '1722 x 1134 x 30 mm',
+        'Garantie produit': '15 ans',
+        'Garantie puissance': '30 ans (97% la 1ère année)'
+      }
+    },
     image: '/plugPlayX1.png',
   },
   {
@@ -36,7 +55,26 @@ const getProductsData = (t: any) => ([
     price: t('products.plugPlayX2_price'),
     features: t('products.plugPlayX2_features', { returnObjects: true }),
     testimonial: t('products.plugPlayX2_testimonial'),
-    specs: t('products.plugPlayX2_specs', { returnObjects: true }),
+    specs: {
+      title: t('products.specs_title'),
+      items: {
+        'Puissance maximale (Pmax)': '450 W x 2',
+        'Tension à Pmax (Vmp)': '33,25 V',
+        'Courant à Pmax (Imp)': '13,53 A',
+        'Tension à circuit ouvert (Voc)': '38,99 V',
+        'Courant de court-circuit (Isc)': '14,25 A',
+        'Tension maximum du système': '1500 V',
+        'Fusible maximum': '30 A par panneau',
+        'Classe de protection': 'Classe II',
+        'Efficacité': '23,04% | 22,52%',
+        'Type de cellules': '108 M10 HALF monocristallines N-TYPE',
+        'Dimensions cellules': '182 x 91 mm',
+        'Poids': '23,24 - 23,77 kg par panneau',
+        'Dimensions': '1722 x 1134 x 30 mm par panneau',
+        'Garantie produit': '15 ans',
+        'Garantie puissance': '30 ans (97% la 1ère année)'
+      }
+    },
     image: '/plugPlayX2.png',
   },
   {
@@ -44,12 +82,31 @@ const getProductsData = (t: any) => ([
     slug: 'plugPlayBalconyX4',
     name: t('products.plugPlayBalconyX4_name'),
     subtitle: t('products.plugPlayBalconyX4_subtitle'),
-    power: "800W",
+    power: "1800W",
     description: t('products.plugPlayBalconyX4_description'),
     price: t('products.plugPlayBalconyX4_price'),
     features: t('products.plugPlayBalconyX4_features', { returnObjects: true }),
     testimonial: t('products.plugPlayBalconyX4_testimonial'),
-    specs: t('products.plugPlayBalconyX4_specs', { returnObjects: true }),
+    specs: {
+      title: t('products.specs_title'),
+      items: {
+        'Puissance maximale (Pmax)': '450 W x 4',
+        'Tension à Pmax (Vmp)': '33,25 V',
+        'Courant à Pmax (Imp)': '13,53 A',
+        'Tension à circuit ouvert (Voc)': '38,99 V',
+        'Courant de court-circuit (Isc)': '14,25 A',
+        'Tension maximum du système': '1500 V',
+        'Fusible maximum': '30 A par panneau',
+        'Classe de protection': 'Classe II',
+        'Efficacité': '23,04% | 22,52%',
+        'Type de cellules': '108 M10 HALF monocristallines N-TYPE',
+        'Dimensions cellules': '182 x 91 mm',
+        'Poids': '23,24 - 23,77 kg par panneau',
+        'Dimensions': '1722 x 1134 x 30 mm par panneau',
+        'Garantie produit': '15 ans',
+        'Garantie puissance': '30 ans (97% la 1ère année)'
+      }
+    },
     image: '/8cd5f0c67215bea516dbb6feec3c067da899055201492deba208f8706d6c52cd.jpeg',
   },
 ]);
@@ -106,6 +163,7 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                       height={450}
                       className="w-full h-auto object-contain rounded-lg"
                       priority={index === 0}
+                      quality={100}
                     />
                   </div>
                 ))}
@@ -141,6 +199,7 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                         width={100}
                         height={75}
                         className="w-full h-auto object-cover rounded-md border-2 border-transparent hover:border-blue-500 transition-all"
+                        quality={100}
                       />
                     </div>
                   ))}
@@ -208,7 +267,7 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                   </div>
                   <div className="flex flex-wrap gap-4 mt-4">
                     <a 
-                      href="http://solarstock.dyndns.org:15022/PRODUCT_ATT_275.pdf" 
+                      href="http://solarstock.dyndns.org:15022/PRODUCT_ATT_653.pdf" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:text-blue-800 text-sm flex items-center gap-1"

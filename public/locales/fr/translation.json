@@ -33,7 +33,44 @@
       { "number": "10,000+", "label": "Clients DIY Satisfaits", "subtext": "Aucun appel à un électricien nécessaire" }
     ]
   },
-  "cta": {
+  "regulations": {
+    "title": "Réglementation Appareils PLUG & PLAY",
+    "introduction": {
+      "title": "Introduction",
+      "paragraph1": "Les appareils 'plug & play' sont généralement des petits appareils, compacts et mobiles qui produisent de l'électricité et qui peuvent éventuellement injecter de l'électricité dans le réseau de distribution en les branchant sur la prise de courant.",
+      "paragraph2": "Ces appareils doivent se conformer à la prescription technique C10/11 éd. 2.3 puisqu'ils peuvent fonctionner en parallèle avec le réseau de distribution belge, ou en sont techniquement capables."
+    },
+    "certification": {
+      "title": "Homologation du plug & play",
+      "paragraph1": "Le 17 mars 2025, les appareils plug & play homologués jusqu'à cette date ont été publiés sur la liste C10/26. Ils peuvent être branchés en Belgique à partir du 17 avril 2025.",
+      "paragraph2": "Pour plus de facilité, une liste séparée plug & play a été publiée avec uniquement les appareils plug & play, ainsi que des informations supplémentaires et points d'intérêt pour les utilisateurs."
+    },
+    "purchase": {
+      "title": "Achat d'un appareil plug & play",
+      "paragraph1": "Si vous désirez acheter un appareil plug & play, vous devez vous assurer que « l'onduleur » figure sur la liste C10/26 ou sur la liste séparée plug & play."
+    },
+    "notification": {
+      "title": "Notification des appareils plug & play",
+      "walloniaBrussels": {
+        "title": "Wallonie & Bruxelles :",
+        "text": "Chaque appareil 'plug & play' doit être notifié auprès du gestionnaire de distribution."
+      },
+      "flanders": {
+        "title": "Flandres :",
+        "text": "Une notification est obligatoire si :",
+        "reasons": [
+          "On veut une valorisation pour l'énergie solaire injectée dans le réseau de distribution (sauf si une installation fixe de panneaux solaires est déjà en place).",
+          "Si un compteur intelligent n'est pas encore en place (notification dans les 30 jours).",
+          "La puissance combinée de l'onduleur est supérieure ou égale à 800W (notification dans les 30 jours)."
+        ]
+      }
+    },
+    "cta": {
+      "viewFullList": "Voir la liste C10/26 complète",
+      "viewPlugPlayList": "Liste spécifique plug & play"
+    }
+  },
+  "homeCta": {
     "title": "Commencez à Économiser Dès Aujourd'hui",
     "subtitle": "Rejoignez plus de 10 000 propriétaires qui ont déjà réduit de moitié leur facture d'électricité avec SolarKit.",
     "socialProof": [
@@ -248,13 +285,8 @@
       ]
     },
     "batterieConnectee_comingSoon": true,
-
     "orderCta": "Commander maintenant",
     "installGuarantee": "💡 Installation en moins de 30 minutes",
-
-    "orderCta": "Commander maintenant",
-    "installGuarantee": "💡 Installation en moins de 30 minutes",
-
     "kitAutonomie_name": "Kit Autonomie",
     "kitAutonomie_subtitle": "La solution complète pour une indépendance énergétique totale",
     "kitAutonomie_description": "Combinez nos panneaux les plus puissants avec un stockage sur batterie pour une énergie solaire 24/7.",

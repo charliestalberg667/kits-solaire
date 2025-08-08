@@ -6,6 +6,7 @@ import ProductsSection from "@/components/ProductsSection";
 import StatsSection from "@/components/StatsSection";
 import InstallationGuide from "@/components/InstallationGuide";
 import PressSection from "@/components/PressSection";
+import RegulationsSection from "@/components/RegulationsSection";
 import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ const Home = () => {
       <StatsSection />
       <InstallationGuide />
       <PressSection />
+      <RegulationsSection />
       <FaqSection />
       <Footer />
     </div>

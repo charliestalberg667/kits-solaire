@@ -1,4 +1,41 @@
 {
+  "regulations": {
+    "title": "PLUG & PLAY Toestellen Reglementering",
+    "introduction": {
+      "title": "Inleiding",
+      "paragraph1": "'Plug & play'-toestellen zijn meestal kleine, compacte en mobiele apparaten die elektriciteit produceren en mogelijk elektriciteit in het distributienet kunnen injecteren door ze op een stopcontact aan te sluiten.",
+      "paragraph2": "Deze toestellen moeten voldoen aan de technische specificatie C10/11 ed. 2.3 omdat ze parallel kunnen werken met het Belgische distributienet, of hiertoe technisch in staat zijn."
+    },
+    "certification": {
+      "title": "Plug & Play Certificering",
+      "paragraph1": "Op 17 maart 2025 werden de tot dan toe gecertificeerde plug & play-toestellen gepubliceerd op de C10/26-lijst. Ze mogen in België worden aangesloten vanaf 17 april 2025.",
+      "paragraph2": "Voor het gemak is een aparte plug & play-lijst gepubliceerd met uitsluitend plug & play-toestellen, samen met aanvullende informatie en aandachtspunten voor gebruikers."
+    },
+    "purchase": {
+      "title": "Een Plug & Play Toestel Kopen",
+      "paragraph1": "Als u een plug & play-toestel wilt kopen, moet u ervoor zorgen dat de 'omvormer' op de C10/26-lijst of op de aparte plug & play-lijst staat."
+    },
+    "notification": {
+      "title": "Melding van Plug & Play Toestellen",
+      "walloniaBrussels": {
+        "title": "Wallonië & Brussel:",
+        "text": "Elk 'plug & play'-toestel moet worden gemeld bij de netbeheerder."
+      },
+      "flanders": {
+        "title": "Vlaanderen:",
+        "text": "Melding is verplicht indien:",
+        "reasons": [
+          "U een vergoeding wilt voor zonne-energie die in het distributienet wordt geïnjecteerd (tenzij er al een vaste zonnepaneelinstallatie aanwezig is).",
+          "Er nog geen slimme meter is geïnstalleerd (melding binnen 30 dagen).",
+          "Het gecombineerde vermogen van de omvormer groter is dan of gelijk is aan 800W (melding binnen 30 dagen)."
+        ]
+      }
+    },
+    "cta": {
+      "viewFullList": "Bekijk de volledige C10/26-lijst",
+      "viewPlugPlayList": "Specifieke Plug & Play-lijst"
+    }
+  },
   "navbar": {
     "home": "Home",
     "kits": "Onze Kits",
