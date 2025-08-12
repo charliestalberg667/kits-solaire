@@ -72,7 +72,7 @@ const PressSection = () => {
                 <span className="ml-3 text-sm font-medium text-gray-700">{pressArticle.source}</span>
               </div>
               <div className="flex items-center text-sm text-gray-500">
-                <time dateTime={parseFrenchDate(pressArticle.date).toISOString().split('T')[0]}>
+                <time dateTime={t('press.dateISO', '2025-08-04')}>
                   {pressArticle.date}
                 </time>
               </div>
