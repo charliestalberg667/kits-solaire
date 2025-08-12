@@ -114,12 +114,21 @@
     "plugPlayX1_specs": {
       "title": "Technische Specificaties",
       "items": {
-        "Piekvermogen": "440W",
-        "Type_zonnepaneel": "Monokristallijn PERC",
-        "Omvormer_output": "400W AC",
-        "Afmetingen_paneel": "1722 x 1134 x 30 mm",
-        "Gewicht": "21.5 kg",
-        "Kabellengte": "5m"
+        "Maximaal vermogen (Pmax)": "450 W",
+        "Spanning bij Pmax (Vmp)": "33,25 V",
+        "Stroom bij Pmax (Imp)": "13,53 A",
+        "Open-klemspanning (Voc)": "38,99 V",
+        "Kortsluitstroom (Isc)": "14,25 A",
+        "Max. systeemspanning": "1500 V",
+        "Max. zekering": "30 A",
+        "Beschermingsklasse": "Klasse II",
+        "Rendement": "23,04% | 22,52%",
+        "Celtype": "108 M10 HALF monokristallijn N-TYPE",
+        "Afmetingen cellen": "182 x 91 mm / 7,16 x 3,58\"",
+        "Gewicht": "23,24 - 23,77 kg",
+        "Afmetingen": "1722 x 1134 x 30 mm",
+        "Productgarantie": "15 jaar",
+        "Vermogensgarantie": "30 jaar (97% in het 1e jaar)"
       }
     },
     "plugPlayX1_warranty_info": {
@@ -146,12 +155,21 @@
     "plugPlayX2_specs": {
       "title": "Technische Specificaties",
       "items": {
-        "Piekvermogen": "880W (2x 440W)",
-        "Type_zonnepaneel": "Monokristallijn PERC",
-        "Omvormer_output": "800W AC",
-        "Afmetingen_paneel": "1722 x 1134 x 30 mm (elk)",
-        "Gewicht": "43 kg (totaal)",
-        "Kabellengte": "5m"
+        "Maximaal vermogen (Pmax)": "450 W x 2",
+        "Spanning bij Pmax (Vmp)": "33,25 V",
+        "Stroom bij Pmax (Imp)": "13,53 A",
+        "Open-klemspanning (Voc)": "38,99 V",
+        "Kortsluitstroom (Isc)": "14,25 A",
+        "Max. systeemspanning": "1500 V",
+        "Max. zekering": "30 A per paneel",
+        "Beschermingsklasse": "Klasse II",
+        "Rendement": "23,04% | 22,52%",
+        "Celtype": "108 M10 HALF monokristallijn N-TYPE",
+        "Afmetingen cellen": "182 x 91 mm",
+        "Gewicht": "23,24 - 23,77 kg per paneel",
+        "Afmetingen": "1722 x 1134 x 30 mm per paneel",
+        "Productgarantie": "15 jaar",
+        "Vermogensgarantie": "30 jaar (97% in het 1e jaar)"
       }
     },
     "plugPlayX2_warranty_info": {

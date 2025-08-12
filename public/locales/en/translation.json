@@ -202,12 +202,21 @@
     "plugPlayX1_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Peak_Power": "450W",
-        "Solar_Panel_Type": "Monocrystalline PERC",
-        "Inverter_Output": "800W AC",
-        "Dimensions_Panel": "1722 x 1134 x 30 mm",
-        "Weight": "21.5 kg",
-        "Cable_Length": "5m"
+        "Maximum Power (Pmax)": "450 W",
+        "Voltage at Pmax (Vmp)": "33.25 V",
+        "Current at Pmax (Imp)": "13.53 A",
+        "Open Circuit Voltage (Voc)": "38.99 V",
+        "Short Circuit Current (Isc)": "14.25 A",
+        "Maximum System Voltage": "1500 V",
+        "Maximum Fuse": "30 A",
+        "Protection Class": "Class II",
+        "Efficiency": "23.04% | 22.52%",
+        "Cell Type": "108 M10 HALF monocrystalline N-TYPE",
+        "Cell Dimensions": "182 x 91 mm / 7.16 x 3.58\"",
+        "Weight": "23.24 - 23.77 kg",
+        "Dimensions": "1722 x 1134 x 30 mm",
+        "Product Warranty": "15 years",
+        "Performance Warranty": "30 years (97% in year 1)"
       }
     },
     "plugPlayX1_warranty_info": {
@@ -234,12 +243,21 @@
     "plugPlayX2_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Peak_Power": "880W (2x 440W)",
-        "Solar_Panel_Type": "Monocrystalline PERC",
-        "Inverter_Output": "800W AC",
-        "Dimensions_Panel": "1722 x 1134 x 30 mm (each)",
-        "Weight": "43 kg (total)",
-        "Cable_Length": "5m"
+        "Maximum Power (Pmax)": "450 W x 2",
+        "Voltage at Pmax (Vmp)": "33.25 V",
+        "Current at Pmax (Imp)": "13.53 A",
+        "Open Circuit Voltage (Voc)": "38.99 V",
+        "Short Circuit Current (Isc)": "14.25 A",
+        "Maximum System Voltage": "1500 V",
+        "Maximum Fuse": "30 A per panel",
+        "Protection Class": "Class II",
+        "Efficiency": "23.04% | 22.52%",
+        "Cell Type": "108 M10 HALF monocrystalline N-TYPE",
+        "Cell Dimensions": "182 x 91 mm",
+        "Weight": "23.24 - 23.77 kg per panel",
+        "Dimensions": "1722 x 1134 x 30 mm per panel",
+        "Product Warranty": "15 years",
+        "Performance Warranty": "30 years (97% in year 1)"
       }
     },
     "plugPlayX2_warranty_info": {
