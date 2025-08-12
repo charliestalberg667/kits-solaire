@@ -317,7 +317,11 @@
         "Garantie de 10 ans sur l'onduleur et les batteries",
         "Garantie de remboursement de 30 jours"
       ]
-    }
+    },
+    "specs_title": "Spécifications Techniques",
+    "downloadSolarPanelSpecs": "Spécifications du panneau solaire",
+    "downloadMicroinverterSpecs": "Spécifications du micro-onduleur",
+    "installTime": "Installation en moins de 30 minutes"
   },
   "press": {
     "title": "Ils parlent de nous",

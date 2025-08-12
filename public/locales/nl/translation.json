@@ -258,7 +258,28 @@
         "10 jaar garantie op omvormer en batterijen",
         "30 dagen geld-terug-garantie"
       ]
-    }
+    },
+    "specs_title": "Technische Specificaties",
+    "downloadSolarPanelSpecs": "Zonnepaneel Specificaties",
+    "downloadMicroinverterSpecs": "Micro-omvormer Specificaties",
+    "installTime": "Installatie in minder dan 30 minuten"
+  },
+  "homeCta": {
+    "title": "Begin Vandaag Nog Met Besparen",
+    "subtitle": "Doe mee met 10.000+ huiseigenaren die hun elektriciteitsrekening al hebben gehalveerd met SolarKit.",
+    "socialProof": [
+      { "value": "10.000+", "label": "Tevreden Klanten" },
+      { "value": "€2,1M", "label": "Totaal Bespaard" },
+      { "value": "4,8★", "label": "Klantbeoordeling" }
+    ],
+    "guarantees": [
+      "30 Dagen Niet Goed Geld Terug",
+      "10 Jaar Garantie",
+      "Levering vanaf € 90"
+    ],
+    "ctaPrimary": "Vraag Nu Een Offerte Aan",
+    "ctaSecondary": "Bel (0800) 036 345",
+    "footerText": "📞 Spreek binnen 60 seconden met een zonne-energie-expert"
   },
   "features": {
     "title": "Waarom Kiezen Voor Onze Zonnepakketten?",

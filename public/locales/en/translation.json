@@ -87,6 +87,23 @@
     "ctaSecondary": "Call (800) SOLAR-KIT",
     "footerText": "📞 Speak with a solar expert in under 60 seconds"
   },
+  "homeCta": {
+    "title": "Start Saving Today",
+    "subtitle": "Join 10,000+ homeowners who've already cut their electricity bills in half with SolarKit.",
+    "socialProof": [
+      { "value": "10,000+", "label": "Happy Customers" },
+      { "value": "$2.4M", "label": "Total Savings" },
+      { "value": "4.8★", "label": "Customer Rating" }
+    ],
+    "guarantees": [
+      "30-Day Money Back",
+      "10-Year Warranty",
+      "shipping starting at € 90"
+    ],
+    "ctaPrimary": "Get Free Quote Now",
+    "ctaSecondary": "Call (800) SOLAR-KIT",
+    "footerText": "📞 Speak with a solar expert in under 60 seconds"
+  },
   "about": {
     "title": "About Sunbeam Solar",
     "subtitle": "Making solar energy accessible to everyone.",
@@ -328,7 +345,11 @@
         "10-year warranty on inverter and batteries",
         "30-day money-back guarantee"
       ]
-    }
+    },
+    "specs_title": "Technical Specifications",
+    "downloadSolarPanelSpecs": "Solar Panel Specifications",
+    "downloadMicroinverterSpecs": "Microinverter Specifications",
+    "installTime": "Installation in less than 30 minutes"
   },
   "press": {
     "title": "They're talking about us",
