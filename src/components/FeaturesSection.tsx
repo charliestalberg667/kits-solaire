@@ -5,7 +5,7 @@ import { useTranslation } from 'next-i18next';
 const features = [];
 
 const FeaturesSection = () => {
-  const { t } = useTranslation('features');
+  const { t } = useTranslation();
 
   type Feature = {
     title: string;
@@ -13,7 +13,7 @@ const FeaturesSection = () => {
     image: string;
   };
 
-  const features = t('items', { returnObjects: true }) as Feature[];
+  const features = t('features.items', { returnObjects: true }) as Feature[];
 
   return (
     <section className="py-24 bg-white">
@@ -26,11 +26,11 @@ const FeaturesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4" suppressHydrationWarning>
-            {t('title.main')}
-            <span className="font-medium text-blue-600"> {t('title.highlighted')}</span>
+            {t('features.title.main')}
+            <span className="font-medium text-blue-600"> {t('features.title.highlighted')}</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" suppressHydrationWarning>
-            {t('subtitle')}
+            {t('features.subtitle')}
           </p>
         </motion.div>
 

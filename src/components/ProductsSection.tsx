@@ -206,7 +206,7 @@ const ProductsSection = () => {
                         </div>
                         <div className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-600 pb-4">
                           <span>💡</span>
-                          <span>{t('products.installTime', 'Installation in less than 30 minutes')}</span>
+                          <span>{t('products.installTime')}</span>
                         </div>
                       </>
                     ) : (
