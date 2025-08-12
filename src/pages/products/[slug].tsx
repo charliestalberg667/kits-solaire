@@ -107,7 +107,7 @@ const getProductsData = (t: any) => ([
         'Garantie puissance': '30 ans (97% la 1ère année)'
       }
     },
-    image: '/8cd5f0c67215bea516dbb6feec3c067da899055201492deba208f8706d6c52cd.jpeg',
+    image: '/Kit_solaire_pour_balcon_vue_de_face.png.webp',
   },
 ]);
 
@@ -156,15 +156,17 @@ const ProductPage: NextPage<ProductPageProps> = () => {
               >
                 {productImages.map((image, index) => (
                   <div key={`main-${index}`}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={600}
-                      height={450}
-                      className="w-full h-auto object-contain rounded-lg"
-                      priority={index === 0}
-                      quality={100}
-                    />
+                    <div className="relative w-full aspect-[4/3] max-h-56 sm:max-h-64 md:max-h-[450px]">
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-contain rounded-lg"
+                        priority={index === 0}
+                        quality={100}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
+                      />
+                    </div>
                   </div>
                 ))}
               </Slider>
@@ -196,10 +198,10 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                       <Image
                         src={image.src}
                         alt={`Thumbnail of ${image.alt}`}
-                        width={100}
-                        height={75}
-                        className="w-full h-auto object-cover rounded-md border-2 border-transparent hover:border-blue-500 transition-all"
-                        quality={100}
+                        width={90}
+                        height={68}
+                        className="w-full h-16 sm:h-20 object-cover rounded-md border-2 border-transparent hover:border-blue-500 transition-all"
+                        quality={90}
                       />
                     </div>
                   ))}

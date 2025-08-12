@@ -184,7 +184,8 @@
       "moneyBack": "30-Day Money Back",
       "customerRating": "4.8/5 Customer Rating"
     },
-    "bestValue": "🔥 BEST VALUE",
+    "bestValue": "BEST VALUE",
+    "comingSoon": "Coming Soon",
     "plugPlayX1_name": "plugPlayX1",
     "plugPlayX1_subtitle": "Complete 450W solar panel inverter kit",
     "plugPlayX1_description": "Best price and in stock",
@@ -353,7 +354,7 @@
   },
   "press": {
     "title": "They're talking about us",
-    "videoTitle": "Discover our solar kits in action",
+    "videoTitle": "What the press says about us",
     "subtitle": "Go solar with ease with Plug & Play photovoltaic kits!",
     "p1": "Plug & Play photovoltaic kits offer an accessible solution to produce your own electricity. Easy to install, they simply plug into a standard electrical outlet, without complex work.",
     "p2": "Each kit, carefully composed by professionals in the sector, includes one or two solar panels as well as a high-performance micro-inverter (up to 800W, Synergrid approved). This solution is ideal for DIYers wishing to reduce their energy bill with a more affordable initial investment.",

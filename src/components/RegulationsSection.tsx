@@ -1,15 +1,11 @@
 import { motion } from 'framer-motion';
 import { FileText } from 'lucide-react';
 import { useTranslation } from 'next-i18next';
-import frTranslations from '../../public/locales/fr/translation.json';
-
-// Type for the translation structure
-type Translations = typeof frTranslations;
 
 const RegulationsSection = () => {
   const { t } = useTranslation();
-  // Get reasons from the imported translations
-  const reasons = frTranslations.regulations.notification.flanders.reasons;
+  // Get reasons from the active locale via i18n
+  const reasons = t('regulations.notification.flanders.reasons', { returnObjects: true }) as string[];
   
   return (
     <section id="regulations" className="py-24 bg-gray-50">

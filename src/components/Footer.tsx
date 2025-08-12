@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next';
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -35,17 +35,23 @@ const Footer = () => {
         <div className="mb-12">
           <h4 className="text-lg font-medium text-gray-900 mb-6" suppressHydrationWarning>{t('footer.social.title')}</h4>
           <div className="flex space-x-8">
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/profile.php?id=61551520876648"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-blue-600 transition-colors duration-300"
+              aria-label="Facebook"
+            >
               <Facebook size={24} />
             </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Twitter">
-              <Twitter size={24} />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/solarstock.bv/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-blue-600 transition-colors duration-300"
+              aria-label="Instagram"
+            >
               <Instagram size={24} />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors duration-300" aria-label="LinkedIn">
-              <Linkedin size={24} />
             </a>
           </div>
         </div>

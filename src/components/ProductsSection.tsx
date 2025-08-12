@@ -106,44 +106,45 @@ const ProductsSection = () => {
                 <Card className="h-full flex flex-col">
                 <div className="flex-1 flex flex-col">
                   <div>
-                    <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-48" : "h-64"} bg-gray-100`}>
+                    <div className={`relative w-full ${["plugPlayX1","plugPlayX2"].includes(product.baseKey) ? "h-32 sm:h-36 md:h-48" : "h-40 sm:h-48 md:h-64"} bg-gray-100`}>
                       {product.baseKey === "plugPlayBalconyX4" && (
-                        <div className="absolute top-4 right-4 z-10 w-16 h-16 bg-white rounded-full p-2 shadow-md">
-                          <Image
-                            src="/17573C14-3277-4744-B027-DB3652D0D634.jpeg"
-                            alt="Sunpura Logo"
-                            width={48}
-                            height={48}
-                            className="w-full h-full object-contain"
-                          />
+                        <div className="absolute top-4 right-4 z-10 bg-white rounded-full px-3 py-2 shadow-md flex items-center gap-2">
+                          <div className="relative w-8 h-8">
+                            <Image
+                              src="/17573C14-3277-4744-B027-DB3652D0D634.jpeg"
+                              alt="Sunpura Logo"
+                              fill
+                              className="object-contain"
+                              sizes="32px"
+                            />
+                          </div>
+                          <span className="text-sm font-semibold text-gray-900">Sunpura</span>
                         </div>
                       )}
                       <Image
                         src={product.baseKey === "batterieConnectee" 
                           ? "/BatterieConnectee.png" 
                           : product.baseKey === "plugPlayBalconyX4"
-                            ? "/70276edf0221543f5401a79ee2bd9c38.jpg"
+                            ? "/Kit_solaire_pour_balcon_vue_de_face.png.webp"
                             : `/${product.baseKey}.png`}
                         alt={product.name}
                         fill
                         className={`${
-                          ["plugPlayX1", "plugPlayX2"].includes(product.baseKey) 
-                            ? "object-contain p-4" 
-                            : product.baseKey === "plugPlayBalconyX4"
-                              ? "object-cover"
-                              : "object-cover"
+                          ["plugPlayX1", "plugPlayX2"].includes(product.baseKey)
+                            ? "object-contain p-2 sm:p-3 md:p-4"
+                            : "object-contain p-2 md:object-cover md:p-0"
                         }`}
                         priority
                       />
                       {product.popular && (
                         <div className="absolute top-2 right-2 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10 flex items-center">
                           <span>🔥</span>
-                          <span className="ml-1">MEILLEUR PRIX</span>
+                          <span className="ml-1">{t('products.bestValue')}</span>
                         </div>
                       )}
                       {product.comingSoon && (
                         <div className="absolute top-2 right-2 bg-yellow-400 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10">
-                          Coming Soon
+                          {t('products.comingSoon')}
                         </div>
                       )}
                     </div>

@@ -153,7 +153,8 @@
       "moneyBack": "Satisfait ou Remboursé 30 Jours",
       "customerRating": "Note Client 4.8/5"
     },
-    "bestValue": "🔥 MEILLEUR PRIX",
+    "bestValue": "MEILLEUR PRIX",
+    "comingSoon": "Bientôt disponible",
     "plugPlayX1_name": "Plug&Play X1",
     "plugPlayX1_subtitle": "Kit complet 1 panneau solaire + micro-onduleur 800W",
     "plugPlayX1_description": "Meilleur prix et en stock",
@@ -325,7 +326,7 @@
   },
   "press": {
     "title": "Ils parlent de nous",
-    "videoTitle": "Découvrez nos kits solaires en action",
+    "videoTitle": "Dans la presse",
     "subtitle": "Optez pour l'énergie solaire en toute simplicité avec les kits photovoltaïques Plug & Play !",
     "p1": "Les kits photovoltaïques Plug & Play offrent une solution accessible pour produire votre propre électricité. Faciles à installer, ils se branchent simplement sur une prise électrique standard, sans travaux complexes.",
     "p2": "Chaque kit, soigneusement composé par des professionnels du secteur, comprend un ou deux panneaux solaires ainsi qu'un micro-onduleur performant (jusqu'à 800W, agréé Synergrid). Cette solution est idéale pour les bricoleurs souhaitant réduire leur facture d'énergie avec un investissement initial plus abordable.",
