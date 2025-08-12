@@ -178,7 +178,7 @@
   },
   "products": {
     "title": "Choose your savings plan",
-    "subtitle": "Two powerful options designed to slash your electricity bills. Both kits pay for themselves in under 36 months.",
+    "subtitle": "Powerful options designed to slash your electricity bills. Both kits pay for themselves in under 36 months.",
     "trustBadges": {
       "freeShipping": "Shipping",
       "moneyBack": "30-Day Money Back",
@@ -202,9 +202,9 @@
     "plugPlayX1_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Peak_Power": "440W",
+        "Peak_Power": "450W",
         "Solar_Panel_Type": "Monocrystalline PERC",
-        "Inverter_Output": "400W AC",
+        "Inverter_Output": "800W AC",
         "Dimensions_Panel": "1722 x 1134 x 30 mm",
         "Weight": "21.5 kg",
         "Cable_Length": "5m"
@@ -266,12 +266,27 @@
     "plugPlayBalconyX4_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Peak_Power": "800W (4x 200W)",
-        "Solar_Panel_Type": "Monocrystalline PERC",
-        "Inverter_Output": "800W AC",
-        "Dimensions_Panel": "1134 x 508 x 30 mm (each)",
-        "Weight": "24 kg (total)",
-        "Cable_Length": "5m"
+        "Solar Cell Type": "TOPCon",
+        "Number of Cells": "54 pcs",
+        "Dimensions (W x H x D)": "1154 x 899 x 2 mm",
+        "Net Product Weight": "3.1 kg",
+        "Color": "Black",
+        "Ingress Protection (IP)": "IP68",
+        "Output Cable": "TÜV 4.0mm²",
+        "Cable Length": "(+)500 mm, (-)500 mm (customizable)",
+        "Connector": "MC4 compatible",
+        "Rated Peak Power (Pmax)": "200 W",
+        "Open Circuit Voltage (Voc)": "37.5 V",
+        "Short Circuit Current (Isc)": "6.38 A",
+        "Max Power Voltage (Vmp)": "32.9 V",
+        "Max Power Current (Imp)": "6.08 A",
+        "Module Efficiency": "19.3 %",
+        "Operating Temperature": "~40°C to 85°C",
+        "Max System Voltage": "1000 V DC",
+        "Max Series Fuse Current": "15 A",
+        "Power Tolerance": "±3 %",
+        "Standard Test Conditions": "1000 W/m², 25°C, AM1.5",
+        "Certificates": "CE, REACH, WEEE, ROHS, IP"
       }
     },
     "plugPlayBalconyX4_warranty_info": {
@@ -353,13 +368,14 @@
     "installTime": "Installation in less than 30 minutes"
   },
   "press": {
-    "title": "They're talking about us",
-    "videoTitle": "What the press says about us",
+    "title": "",
+    "videoTitle": "Plug & Play presentation",
     "subtitle": "Go solar with ease with Plug & Play photovoltaic kits!",
     "p1": "Plug & Play photovoltaic kits offer an accessible solution to produce your own electricity. Easy to install, they simply plug into a standard electrical outlet, without complex work.",
     "p2": "Each kit, carefully composed by professionals in the sector, includes one or two solar panels as well as a high-performance micro-inverter (up to 800W, Synergrid approved). This solution is ideal for DIYers wishing to reduce their energy bill with a more affordable initial investment.",
-    "p3": "Before installation, a few checks are essential: electrical compatibility of your installation, compliance with town planning rules (especially if the kit is visible from the street), secure fixing and declaration to the network operator. Please note: regulations may vary by region.",
-    "p4": "Our team is at your disposal to support you: find us in store at Solarstock, or contact us by phone at 02/241.08.00. We will be happy to answer your questions and guide you in your solar project.",
+    "p3": "Before installation, a few checks are essential: electrical compatibility of your installation, compliance with planning rules (especially if the kit is visible from the street), secure mounting and declaration to the network operator. Note: regulations may vary by region.",
+    "p4": "Our team is at your disposal to support you: find us in-store at Solarstock, or contact us by phone at 02/241.08.00. We will be happy to answer your questions and guide you in your solar project.",
+    "date": "August 4, 2025",
     "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
   },
   "installation": {

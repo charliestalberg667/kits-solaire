@@ -31,7 +31,7 @@ const PressSection = () => {
       t('press.p4', 'Notre équipe est à votre disposition pour vous accompagner : retrouvez-nous en magasin chez Solarstock, ou contactez-nous par téléphone au 02/241.08.00. Nous serons ravis de répondre à vos questions et de vous guider dans votre projet solaire.')
     ],
     source: 'Solarstock',
-    date: '4 Août 2024',
+    date: t('press.date', '4 Août 2025'),
     logo: '/logoblack.png'
   };
 

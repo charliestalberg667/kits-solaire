@@ -36,7 +36,7 @@ const Footer = () => {
           <h4 className="text-lg font-medium text-gray-900 mb-6" suppressHydrationWarning>{t('footer.social.title')}</h4>
           <div className="flex space-x-8">
             <a
-              href="https://www.facebook.com/profile.php?id=61551520876648"
+              href="https://www.facebook.com/p/SolarStock-BV-61552926834880/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-600 transition-colors duration-300"

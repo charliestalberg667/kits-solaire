@@ -125,7 +125,7 @@ const ProductsSection = () => {
                         src={product.baseKey === "batterieConnectee" 
                           ? "/BatterieConnectee.png" 
                           : product.baseKey === "plugPlayBalconyX4"
-                            ? "/Kit_solaire_pour_balcon_vue_de_face.png copy.png"
+                            ? "/plugPlayBalconyX4.jpg"
                             : `/${product.baseKey}.png`}
                         alt={product.name}
                         fill

@@ -147,7 +147,7 @@
   },
   "products": {
     "title": "Choisissez votre plan d'économies",
-    "subtitle": "Deux options puissantes conçues pour réduire vos factures d'électricité. Les deux kits sont rentabilisés en moins de 36 mois.",
+    "subtitle": "Des options puissantes conçues pour réduire vos factures d'électricité. Les deux kits sont rentabilisés en moins de 36 mois.",
     "trustBadges": {
       "freeShipping": "Livraison",
       "moneyBack": "Satisfait ou Remboursé 30 Jours",
@@ -168,17 +168,7 @@
       "Certifié Synergrid"
     ],
     "plugPlayX1_testimonial": "J'ai été surpris de la facilité d'installation. Je vois déjà une différence sur ma facture d'électricité !",
-    "plugPlayX1_specs": {
-      "title": "Spécifications Techniques",
-      "items": {
-        "Puissance_de_crête": "450W",
-        "Type_de_panneau_solaire": "Monocristallin PERC",
-        "Sortie_de_londuleur": "400W AC",
-        "Dimensions_du_panneau": "1722 x 1134 x 30 mm",
-        "Poids": "21.5 kg",
-        "Longueur_du_câble": "5m"
-      }
-    },
+    
     "plugPlayX1_warranty_info": {
       "title": "Garantie et Assurance",
       "items": [
@@ -204,12 +194,21 @@
     "plugPlayX2_specs": {
       "title": "Spécifications Techniques",
       "items": {
-        "Puissance_de_crête": "800W",
-        "Type_de_panneau_solaire": "Monocristallin PERC",
-        "Sortie_de_londuleur": "800W AC",
-        "Dimensions_du_panneau": "1722 x 1134 x 30 mm (chacun)",
-        "Poids": "43 kg (total)",
-        "Longueur_du_câble": "5m"
+        "Puissance maximale (Pmax)": "450 W x 2",
+        "Tension à Pmax (Vmp)": "33,25 V",
+        "Courant à Pmax (Imp)": "13,53 A",
+        "Tension à circuit ouvert (Voc)": "38,99 V",
+        "Courant de court-circuit (Isc)": "14,25 A",
+        "Tension maximum du système": "1500 V",
+        "Fusible maximum": "30 A par panneau",
+        "Classe de protection": "Classe II",
+        "Efficacité": "23,04% | 22,52%",
+        "Type de cellules": "108 M10 HALF monocristallines N-TYPE",
+        "Dimensions cellules": "182 x 91 mm",
+        "Poids": "23,24 - 23,77 kg par panneau",
+        "Dimensions": "1722 x 1134 x 30 mm par panneau",
+        "Garantie produit": "15 ans",
+        "Garantie puissance": "30 ans (97% la 1ère année)"
       }
     },
     "plugPlayX2_warranty_info": {
@@ -237,12 +236,27 @@
     "plugPlayBalconyX4_specs": {
         "title": "Spécifications Techniques",
         "items": {
-            "Puissance_de_crête": "800W",
-            "Type_de_panneau_solaire": "Monocristallin PERC",
-            "Sortie_de_londuleur": "800W AC",
-            "Dimensions_du_panneau": "1134 x 508 x 30 mm (chacun)",
-            "Poids": "24 kg (total)",
-            "Longueur_du_câble": "5m"
+            "Type de cellule solaire": "TOPCon",
+            "Nombre de cellules": "54 pcs",
+            "Dimensions (L x H x P)": "1154 x 899 x 2 mm",
+            "Poids net du produit": "3.1 kg",
+            "Couleur": "Noir",
+            "Indice de protection (IP)": "IP68",
+            "Câble de sortie": "TÜV 4.0mm²",
+            "Longueur des câbles": "(+)500 mm, (-)500 mm (personnalisable)",
+            "Connecteur": "MC4 compatible",
+            "Puissance nominale (Pmax)": "200 W",
+            "Tension à circuit ouvert (Voc)": "37.5 V",
+            "Courant de court-circuit (Isc)": "6.38 A",
+            "Tension à Pmax (Vmp)": "32.9 V",
+            "Courant à Pmax (Imp)": "6.08 A",
+            "Rendement du module": "19.3 %",
+            "Température de fonctionnement": "~40°C à 85°C",
+            "Tension système max": "1000 V DC",
+            "Courant fusible max (série)": "15 A",
+            "Tolérance de puissance": "±3 %",
+            "Conditions de test standard": "1000 W/m², 25°C, AM1.5",
+            "Certificats": "CE, REACH, WEEE, ROHS, IP"
         }
     },
     "plugPlayBalconyX4_warranty_info": {
@@ -252,6 +266,27 @@
             "Garantie produit de 10 ans sur l'onduleur",
             "Garantie de remboursement de 30 jours"
         ]
+    },
+
+    "plugPlayX1_specs": {
+      "title": "Spécifications Techniques",
+      "items": {
+        "Puissance maximale (Pmax)": "450 W",
+        "Tension à Pmax (Vmp)": "33,25 V",
+        "Courant à Pmax (Imp)": "13,53 A",
+        "Tension à circuit ouvert (Voc)": "38,99 V",
+        "Courant de court-circuit (Isc)": "14,25 A",
+        "Tension maximum du système": "1500 V",
+        "Fusible maximum": "30 A",
+        "Classe de protection": "Classe II",
+        "Efficacité": "23,04% | 22,52%",
+        "Type de cellules": "108 M10 HALF monocristallines N-TYPE",
+        "Dimensions cellules": "182 x 91 mm / 7,16 x 3,58\"",
+        "Poids": "23,24 - 23,77 kg",
+        "Dimensions": "1722 x 1134 x 30 mm",
+        "Garantie produit": "15 ans",
+        "Garantie puissance": "30 ans (97% la 1ère année)"
+      }
     },
 
     "batterieConnectee_name": "Batterie Connectée",
@@ -325,13 +360,14 @@
     "installTime": "Installation en moins de 30 minutes"
   },
   "press": {
-    "title": "Ils parlent de nous",
-    "videoTitle": "Dans la presse",
+    "title": "",
+    "videoTitle": "présentation du Plug and Play",
     "subtitle": "Optez pour l'énergie solaire en toute simplicité avec les kits photovoltaïques Plug & Play !",
     "p1": "Les kits photovoltaïques Plug & Play offrent une solution accessible pour produire votre propre électricité. Faciles à installer, ils se branchent simplement sur une prise électrique standard, sans travaux complexes.",
     "p2": "Chaque kit, soigneusement composé par des professionnels du secteur, comprend un ou deux panneaux solaires ainsi qu'un micro-onduleur performant (jusqu'à 800W, agréé Synergrid). Cette solution est idéale pour les bricoleurs souhaitant réduire leur facture d'énergie avec un investissement initial plus abordable.",
     "p3": "Avant l'installation, quelques vérifications sont essentielles : compatibilité électrique de votre installation, conformité avec les règles d'urbanisme (notamment si le kit est visible depuis la rue), fixation sécurisée et déclaration auprès du gestionnaire de réseau. À noter : les réglementations peuvent varier selon les régions.",
     "p4": "Notre équipe est à votre disposition pour vous accompagner : retrouvez-nous en magasin chez Solarstock, ou contactez-nous par téléphone au 02/241.08.00. Nous serons ravis de répondre à vos questions et de vous guider dans votre projet solaire.",
+    "date": "4 Août 2025",
     "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
   },
   "installation": {
@@ -384,6 +420,6 @@
     "social": {
       "title": "Réseaux sociaux"
     },
-    "copyright": " 2024 Solar Stock. Tous droits réservés."
+    "copyright": " 2025 Solar Stock. Tous droits réservés."
   }
 }
