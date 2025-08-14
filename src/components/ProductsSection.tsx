@@ -220,18 +220,32 @@ const ProductsSection = () => {
           <p className="text-gray-600 mb-3">
             {t('products.seeAllModels', 'If you want to see all models')}
           </p>
-          <a
-            href="https://solarstock.be/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              size="lg"
-              className="rounded-full px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white"
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a
+              href="https://solarstock.be/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {t('products.visitEshop', 'Visit e-shop')}
-            </Button>
-          </a>
+              <Button
+                size="lg"
+                className="rounded-full px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                {t('products.visitEshop', 'Visit e-shop')}
+              </Button>
+            </a>
+            <a
+              href="https://www.google.be/maps/place/SolarStock/@50.780509,4.2721875,46m/data=!3m1!1e3!4m6!3m5!1s0x47c3c723c65cb223:0x53cd5c047a55f3a6!8m2!3d50.7806139!4d4.2723163!16s%2Fg%2F11kjjtdc83?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                className="rounded-full px-8 py-6 bg-gray-100 hover:bg-gray-200 text-gray-900"
+              >
+                {t('navbar.showroom')}
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
     </section>
