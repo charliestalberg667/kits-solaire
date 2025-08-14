@@ -13,7 +13,7 @@
     },
     "purchase": {
       "title": "Een Plug & Play Toestel Kopen",
-      "paragraph1": "Als u een plug & play-toestel wilt kopen, moet u ervoor zorgen dat de 'omvormer' op de Synergrid Plug & Play-lijst staat."
+      "paragraph1": "Als u een plug & play-toestel wilt kopen, moet u ervoor zorgen dat de micro-omvormer op de Synergrid Plug & Play-lijst staat."
     },
     "notification": {
       "title": "Melding van Plug & Play Toestellen",
@@ -443,33 +443,41 @@
       }
     ]
   },
+  "installation": {
+    "title": "Hoe u uw zonnekit in 30 minuten installeert",
+    "subtitle": "Volg onze eenvoudige stapsgewijze installatiehandleiding",
+    "video": {
+      "title": "Video Handleiding",
+      "subtitle": "Bekijk de volledige installatie"
+    },
+    "quickStepsTitle": "Snelle Stappengids",
+    "steps": [
+      "Pak uit en controleer alle kitonderdelen",
+      "Monteer de draagconstructie",
+      "Bevestig de zonnepanelen op de constructie",
+      "Sluit de bedrading en omvormer aan",
+      "Start op en test de werking"
+    ]
+  },
   "faq": {
     "title": "Veelgestelde Vragen",
     "subtitle": "Alles wat u moet weten over onze zonnepakketten en hoe ze werken.",
-    "items": [
+    "questions": [
       {
-        "question": "Hoe eenvoudig is de installatie?",
-        "answer": "Zeer eenvoudig! Onze plug & play-systemen zijn ontworpen voor eenvoudige installatie zonder technische kennis. De gemiddelde installatietijd is slechts 5-10 minuten."
+        "question": "Heb ik een elektricien nodig om de kit te installeren?",
+        "answer": "Nee! Onze kits zijn ontworpen voor eenvoudige doe-het-zelf installatie. Steek hem gewoon in een standaard stopcontact. Geen gereedschap, geen elektriciens, geen gedoe."
       },
       {
-        "question": "Werkt dit in de winter of bij bewolkt weer?",
-        "answer": "Ja, onze panelen werken het hele jaar door, zelfs bij bewolkt weer. Hoewel de opbrengst lager is dan op zonnige dagen, wekken ze nog steeds energie op."
+        "question": "Is dit compatibel met mijn appartement?",
+        "answer": "Ja! Perfect voor appartementen, condo's en huurwoningen. Geen permanente aanpassingen nodig, u kunt hem meenemen wanneer u verhuist."
       },
       {
-        "question": "Hoeveel kan ik besparen?",
-        "answer": "Gemiddeld zien onze klanten een besparing van 30-60% op hun elektriciteitsrekening, afhankelijk van het gebruik en de hoeveelheid zonlicht."
+        "question": "Hoeveel kan ik echt besparen?",
+        "answer": "Klanten zien doorgaans 40–60% vermindering van hun maandelijkse elektriciteitskosten. De kit verdient zich vaak binnen een jaar terug."
       },
       {
-        "question": "Hoe zit het met garantie?",
-        "answer": "Al onze producten worden geleverd met een volledige garantie van 10 jaar en een vermogensgarantie van 25 jaar op de zonnepanelen."
-      },
-      {
-        "question": "Kan ik het systeem meenemen als ik verhuis?",
-        "answer": "Absoluut! Onze systemen zijn ontworpen om gemakkelijk te demonteren en opnieuw te installeren op uw nieuwe locatie."
-      },
-      {
-        "question": "Hoe onderhoud ik de panelen?",
-        "answer": "Minimaal onderhoud is nodig. Af en toe schoonmaken met water en een zachte borstel is voldoende om optimale prestaties te behouden."
+        "question": "Wat gebeurt er bij een stroomstoring?",
+        "answer": "Om veiligheidsredenen schakelen onze netgekoppelde omvormers automatisch uit tijdens storingen om netwerktechnici te beschermen. Ze starten opnieuw op zodra de stroom is hersteld."
       }
     ]
   },

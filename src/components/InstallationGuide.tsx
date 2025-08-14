@@ -19,7 +19,7 @@ const InstallationGuide = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-3">
             {t('installation.title')}
           </h2>
-          <p className="text-gray-500 max-w-2xl mx-auto text-lg">Follow our simple step-by-step installation guide</p>
+          <p className="text-gray-500 max-w-2xl mx-auto text-lg">{t('installation.subtitle')}</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-12 gap-8 items-start">
@@ -38,8 +38,8 @@ const InstallationGuide = () => {
                       <span className="text-xl">🎥</span>
                     </div>
                     <div className="space-y-0.5">
-                      <h3 className="font-bold text-gray-900 text-lg">Video Guide</h3>
-                      <p className="text-gray-500 text-base">Watch the full installation</p>
+                      <h3 className="font-bold text-gray-900 text-lg">{t('installation.video.title')}</h3>
+                      <p className="text-gray-500 text-base">{t('installation.video.subtitle')}</p>
                     </div>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const InstallationGuide = () => {
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mr-3">
                   <Bookmark size={16} />
                 </span>
-                Quick Steps Guide
+                {t('installation.quickStepsTitle')}
               </h3>
               
               <div className="space-y-4 flex-grow overflow-y-auto max-h-[500px] pr-2">
