@@ -8,12 +8,12 @@
     },
     "certification": {
       "title": "Plug & Play Certification",
-      "paragraph1": "On March 17, 2025, plug & play devices certified up to that date were published on the C10/26 list. They can be connected in Belgium starting April 17, 2025.",
+      "paragraph1": "On March 17, 2025, plug & play devices certified up to that date were published on the Synergrid Plug & Play list. They can be connected in Belgium starting April 17, 2025.",
       "paragraph2": "For easier reference, a separate plug & play list has been published containing only plug & play devices, along with additional information and points of interest for users."
     },
     "purchase": {
       "title": "Purchasing a Plug & Play Device",
-      "paragraph1": "If you wish to purchase a plug & play device, you must ensure that the 'inverter' is listed on the C10/26 list or on the separate plug & play list."
+      "paragraph1": "If you wish to purchase a plug & play device, you must ensure that the 'inverter' is listed on the Synergrid Plug & Play list."
     },
     "notification": {
       "title": "Notification of Plug & Play Devices",
@@ -59,7 +59,7 @@
       }
     },
     "cta": {
-      "viewFullList": "View all compatible transformers",
+      "viewFullList": "View all compatible inverters",
       "viewPlugPlayList": "See more details"
     }
   },
@@ -342,27 +342,49 @@
         "30-day money-back guarantee"
       ]
     },
-    "batterieConnectee_name": "Connected Battery",
-    "batterieConnectee_subtitle": "Store your solar energy and gain autonomy.",
-    "batterieConnectee_description": "Our connected battery is coming soon to complete your solar installation.",
-    "batterieConnectee_price": "",
+    "batterieConnectee_name": "SUNPURA S2400 All‑in‑one Plug&play battery",
+    "batterieConnectee_subtitle": "All‑in‑one Plug & Play Energy Storage System (2400Wh)",
+    "batterieConnectee_description": "Powerful 2400Wh LiFePO4 storage with on‑grid 800W and off‑grid 2400W output. Remote control via Wi‑Fi/Bluetooth. Flexible expansion and easy installation.",
+    "batterieConnectee_price": "1 523,39 €",
     "batterieConnectee_features": [
-      "Smart energy storage",
-      "Connected battery",
-      "Management system via app",
-      "10-year warranty",
-      "Synergrid certified"
+      "All‑in‑one Plug & Play energy storage",
+      "Remote control (Wi‑Fi/Bluetooth)",
+      "Flexible expansion",
+      "Easy installation",
+      "Wide operating temperature −20℃ to 55℃",
+      "Long‑lasting power: 8000 charge cycles",
+      "On‑grid 800W / Off‑grid 2400W"
     ],
     "batterieConnectee_testimonial": "Now I can store my solar energy for the evening. It's a game-changer for my energy independence.",
     "batterieConnectee_specs": {
       "title": "Technical Specifications",
       "items": {
-        "Capacity": "1.6 kWh",
-        "Chemistry": "LiFePO4",
-        "Cycle_Life": "6000+ cycles",
-        "Dimensions": "400 x 210 x 270 mm",
-        "Weight": "18 kg",
-        "Compatibility": "Plug&Play X1 & X2"
+        "Model": "S2400",
+        "PV_INPUT__MPPT_Voltage_Range": "10-100V",
+        "PV_INPUT__Max_Input_Voltage": "100V",
+        "PV_INPUT__Max_Input_Current": "16A x 2",
+        "PV_INPUT__Min_Input_Voltage": "10V",
+        "PV_INPUT__Max_Input_Power": "1000W x 2",
+        "PV_INPUT__MPPT_Efficiency": ">99.5%",
+        "PV_INPUT__Peak_Conversion_Efficiency": "98%",
+        "AC_Output__AC_Output_(On/Off_Grid)": "On Grid:800W / Off Grid:2400W",
+        "AC_Output__Frequency": "50Hz",
+        "AC_Output__Rated_Voltage": "230V",
+        "AC_Output__Peak_Output_power_(0.2s)": "3600W",
+        "Battery_Data__Battery_Type": "LiFePO₄",
+        "Battery_Data__Cycles": "8000",
+        "Battery_Data__Battery_Voltage": "42-54V",
+        "Battery_Data__Max_Charging_/_Discharging_Current": "65/52A",
+        "Battery_Data__Nominal_Voltage": "48V",
+        "Battery_Data__Capacity": "2400Wh",
+        "General_Data__Charging_/_Discharging_Temperature": "-20~55℃ / -20~60℃",
+        "General_Data__Weight_(Power_Box/Battery_Box)": "43.7kg (A2400: 13.7kg/B2400: 30kg)",
+        "General_Data__Ingress_Protection": "IP65",
+        "General_Data__Dimensions_(WxHxD)": "450x464x290mm (Height: A2400: 177mm/B2400: 287mm)",
+        "General_Data__Protections": "Integrated overvoltage/overcurrent/short circuit/temperature",
+        "General_Data__Communication_Method": "Wi‑Fi/Bluetooth",
+        "General_Data__Relative_Humidity_Range": "0-100%",
+        "General_Data__Certificates": "CE/EMC, RF, LVD, CB, ROHS, REACH, UN38.3, MSDS, Transportation of Goods, IP65, WEEE, VDE4105, EN50549, CEI 0-21, VDE0126, OVE R25, C10/11"
       }
     },
     "batterieConnectee_warranty_info": {
@@ -373,7 +395,7 @@
         "30-day money-back guarantee"
       ]
     },
-    "batterieConnectee_comingSoon": true,
+    "batterieConnectee_comingSoon": false,
     "orderCta": "Order Now",
     "visitEshop": "Visit e-shop",
     "seeAllModels": "If you want to see all models",

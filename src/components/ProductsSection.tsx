@@ -190,29 +190,25 @@ const ProductsSection = () => {
                     <div className="text-center mb-6">
                       <span className="text-2xl font-bold text-gray-900">{product.price}</span>
                     </div>
-                    {product.baseKey !== 'batterieConnectee' ? (
-                      <>
-                        <div className="flex justify-center">
-                          <Link href={product.url} passHref target="_blank" rel="noopener noreferrer">
-                            <Button
-                              className={`w-auto px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 ${
-                                product.popular || product.baseKey === 'plugPlayBalconyX4'
-                                  ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-                                  : 'bg-blue-600 hover:bg-blue-700 text-white'
-                              }`}
-                            >
-                              {t('products.orderCta')}
-                            </Button>
-                          </Link>
-                        </div>
-                        <div className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-600 pb-4">
-                          <span>💡</span>
-                          <span>{t('products.installTime')}</span>
-                        </div>
-                      </>
-                    ) : (
-                      <div className="pb-4"></div> // Maintains consistent bottom padding
-                    )}
+                    <>
+                      <div className="flex justify-center">
+                        <Link href={product.url} passHref target="_blank" rel="noopener noreferrer">
+                          <Button
+                            className={`w-auto px-8 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 ${
+                              product.popular || product.baseKey === 'plugPlayBalconyX4'
+                                ? 'bg-blue-600 hover:bg-blue-700 text-white' 
+                                : 'bg-blue-600 hover:bg-blue-700 text-white'
+                            }`}
+                          >
+                            {t('products.orderCta')}
+                          </Button>
+                        </Link>
+                      </div>
+                      <div className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-600 pb-4">
+                        <span>💡</span>
+                        <span>{t('products.installTime')}</span>
+                      </div>
+                    </>
                   </div>
                 </div>
                 </Card>

@@ -42,12 +42,12 @@
     },
     "certification": {
       "title": "Homologation du plug & play",
-      "paragraph1": "Le 17 mars 2025, les appareils plug & play homologués jusqu'à cette date ont été publiés sur la liste C10/26. Ils peuvent être branchés en Belgique à partir du 17 avril 2025.",
+      "paragraph1": "Le 17 mars 2025, les appareils plug & play homologués jusqu'à cette date ont été publiés sur la liste synergrid Plug & Play. Ils peuvent être branchés en Belgique à partir du 17 avril 2025.",
       "paragraph2": "Pour plus de facilité, une liste séparée plug & play a été publiée avec uniquement les appareils plug & play, ainsi que des informations supplémentaires et points d'intérêt pour les utilisateurs."
     },
     "purchase": {
       "title": "Achat d'un appareil plug & play",
-      "paragraph1": "Si vous désirez acheter un appareil plug & play, vous devez vous assurer que « l'onduleur » figure sur la liste C10/26 ou sur la liste séparée plug & play."
+      "paragraph1": "Si vous désirez acheter un appareil plug & play, vous devez vous assurer que le micro-onduleur figure sur la liste synergrid Plug & Play."
     },
     "notification": {
       "title": "Notification des appareils Plug & Play",
@@ -93,7 +93,7 @@
       }
     },
     "cta": {
-      "viewFullList": "Voir tous les transformateurs compatibles",
+      "viewFullList": "Voir tous les onduleurs compatibles",
       "viewPlugPlayList": "Voir plus de détails"
     }
   },
@@ -316,27 +316,49 @@
       }
     },
 
-    "batterieConnectee_name": "Batterie Connectée",
-    "batterieConnectee_subtitle": "Stockez votre énergie solaire et gagnez en autonomie.",
-    "batterieConnectee_description": "Notre batterie connectée arrive bientôt pour compléter votre installation solaire.",
-    "batterieConnectee_price": "",
+    "batterieConnectee_name": "SUNPURA S2400 Batterie tout‑en‑un Plug&Play",
+    "batterieConnectee_subtitle": "Système de stockage d'énergie Plug & Play (2400Wh)",
+    "batterieConnectee_description": "Stockage LiFePO4 2400Wh avec sortie réseau 800W et hors réseau 2400W. Pilotage à distance via Wi‑Fi/Bluetooth. Extension flexible et installation facile.",
+    "batterieConnectee_price": "1 523,39 €",
     "batterieConnectee_features": [
-      "Stockage intelligent d'énergie",
-      "Batterie connectée",
-      "Système de gestion via l'app",
-      "Garantie 10 ans",
-      "Certifié Synergrid"
+      "Stockage d'énergie tout‑en‑un Plug & Play",
+      "Commande à distance (Wi‑Fi/Bluetooth)",
+      "Extension flexible",
+      "Installation facile",
+      "Large plage de température −20℃ à 55℃",
+      "Longue durée de vie : 8000 cycles de charge",
+      "Sortie réseau 800W / hors réseau 2400W"
     ],
     "batterieConnectee_testimonial": "Maintenant, je peux stocker mon énergie solaire pour le soir. Ça change la donne pour mon indépendance énergétique.",
     "batterieConnectee_specs": {
-      "title": "Spécifications Techniques",
+      "title": "Spécifications techniques",
       "items": {
-        "Capacité": "1.6 kWh",
-        "Chimie": "LiFePO4",
-        "Durée_de_vie": "6000+ cycles",
-        "Dimensions": "400 x 210 x 270 mm",
-        "Poids": "18 kg",
-        "Compatibilité": "Plug&Play X1 & X2"
+        "Modèle": "S2400",
+        "ENTRÉE_PV__Plage_de_tension_MPPT": "10-100V",
+        "ENTRÉE_PV__Tension_d'entrée_max": "100V",
+        "ENTRÉE_PV__Courant_d'entrée_max": "16A x 2",
+        "ENTRÉE_PV__Tension_d'entrée_min": "10V",
+        "ENTRÉE_PV__Puissance_d'entrée_max": "1000W x 2",
+        "ENTRÉE_PV__Rendement_MPPT": ">99,5%",
+        "ENTRÉE_PV__Rendement_de_conversion_puissance_max": "98%",
+        "Sortie_CA__Sortie_CA_(On/Off_Grid)": "Réseau: 800W / Hors réseau: 2400W",
+        "Sortie_CA__Fréquence": "50Hz",
+        "Sortie_CA__Tension_nominale": "230V",
+        "Sortie_CA__Puissance_de_crête_(0,2s)": "3600W",
+        "Batterie__Type_de_batterie": "LiFePO₄",
+        "Batterie__Cycles": "8000",
+        "Batterie__Tension_batterie": "42-54V",
+        "Batterie__Courant_max_charge/_décharge": "65/52A",
+        "Batterie__Tension_nominale": "48V",
+        "Batterie__Capacité": "2400Wh",
+        "Général__Température_charge/_décharge": "-20~55℃ / -20~60℃",
+        "Général__Poids_(Power_Box/Battery_Box)": "43,7kg (A2400: 13,7kg / B2400: 30kg)",
+        "Général__Indice_de_protection": "IP65",
+        "Général__Dimensions_(LxHxP)": "450x464x290mm (Hauteur: A2400: 177mm / B2400: 287mm)",
+        "Général__Protections": "Surtension/surintensité/court‑circuit/température intégrées",
+        "Général__Communication": "Wi‑Fi/Bluetooth",
+        "Général__Humidité_relative": "0-100%",
+        "Général__Certifications": "CE/EMC, RF, LVD, CB, ROHS, REACH, UN38.3, MSDS, Transport, IP65, WEEE, VDE4105, EN50549, CEI 0-21, VDE0126, OVE R25, C10/11"
       }
     },
     "batterieConnectee_warranty_info": {
@@ -347,7 +369,7 @@
         "Garantie de remboursement de 30 jours"
       ]
     },
-    "batterieConnectee_comingSoon": true,
+    "batterieConnectee_comingSoon": false,
     "orderCta": "Commander maintenant",
     "visitEshop": "Visiter l'e-shop",
     "seeAllModels": "Si vous voulez voir tous les modèles",

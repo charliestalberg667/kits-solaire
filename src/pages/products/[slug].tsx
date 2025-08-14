@@ -52,6 +52,19 @@ const getProductsData = (t: any) => ([
     specs: t('products.plugPlayBalconyX4_specs', { returnObjects: true }),
     image: '/plugPlayBalconyX4.jpg',
   },
+  {
+    id: 4,
+    slug: 'batterieConnectee',
+    name: t('products.batterieConnectee_name'),
+    subtitle: t('products.batterieConnectee_subtitle'),
+    power: "2400Wh",
+    description: t('products.batterieConnectee_description'),
+    price: t('products.batterieConnectee_price'),
+    features: t('products.batterieConnectee_features', { returnObjects: true }),
+    testimonial: t('products.batterieConnectee_testimonial'),
+    specs: t('products.batterieConnectee_specs', { returnObjects: true }),
+    image: '/BatterieConnectee.png',
+  },
 ]);
 
 interface ProductPageProps {}
@@ -200,6 +213,8 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                     ? 'https://solarstock.be/mon-kit-solaire-plugamp-play-2-panneaux-solaire-avec-structure-terrasse-0651389.html'
                     : currentProduct.slug === 'plugPlayBalconyX4'
                     ? 'https://solarstock.be/mon-kit-solaire-plugamp-play-kit-sunpura-800w-0652685.html'
+                    : currentProduct.slug === 'batterieConnectee'
+                    ? 'https://solarstock.be/'
                     : '#'
                 }
                 target="_blank"
