@@ -450,6 +450,10 @@
   "installation": {
     "title": "How to install your solar kit in 30 minutes",
     "subtitle": "Follow our simple step-by-step installation guide",
+    "video": {
+      "title": "Video Guide",
+      "subtitle": "Watch the full installation"
+    },
     "steps": [
       "Unpack and check all kit components",
       "Assemble the support structure",

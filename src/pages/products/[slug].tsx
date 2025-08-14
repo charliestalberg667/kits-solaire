@@ -111,12 +111,7 @@ const ProductPage: NextPage<ProductPageProps> = () => {
             type: 'image',
             src: currentProduct.image,
             alt: currentProduct.name,
-          },
-          {
-            type: 'image',
-            src: '/a3d3beb207e0eb2e90ea83087ba6d8a2828500b6f5eb881353a8b4e685f7ee4d.jpeg',
-            alt: 'Microinverter close-up photo',
-          },
+          }
         ]
       : [
           {
