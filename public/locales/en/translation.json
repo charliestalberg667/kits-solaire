@@ -3,8 +3,7 @@
     "title": "PLUG & PLAY Devices Regulations",
     "introduction": {
       "title": "Introduction",
-      "paragraph1": "'Plug & play' devices are typically small, compact, and mobile devices that produce electricity and can potentially feed electricity into the distribution network by plugging them into a power outlet.",
-      "paragraph2": "These devices must comply with technical specification C10/11 ed. 2.3 as they can operate in parallel with the Belgian distribution network, or are technically capable of doing so."
+      "paragraph1": "'Plug & play' devices are typically small, compact, and mobile devices that produce electricity and can potentially feed electricity into the distribution network by plugging them into a power outlet."
     },
     "certification": {
       "title": "Plug & Play Certification",
@@ -444,8 +443,8 @@
     "p2": "Each kit, carefully composed by professionals in the sector, includes one or two solar panels as well as a high-performance micro-inverter (up to 800W, Synergrid approved). This solution is ideal for DIYers wishing to reduce their energy bill with a more affordable initial investment.",
     "p3": "Before installation, a few checks are essential: electrical compatibility of your installation, compliance with planning rules (especially if the kit is visible from the street), secure mounting and declaration to the network operator. Note: regulations may vary by region.",
     "p4": "Our team is at your disposal to support you: find us in-store at Solarstock, or contact us by phone at 02/241.08.00. We will be happy to answer your questions and guide you in your solar project.",
-    "date": "August 4, 2025",
-    "dateISO": "2025-08-04",
+    "date": "april 16, 2025",
+    "dateISO": "2025-04-16",
     "videoUrl": "https://www.youtube.com/embed/Wp6vk4nhcyo"
   },
   "installation": {
