@@ -73,16 +73,28 @@ const ProductPage: NextPage<ProductPageProps> = () => {
     return <div>Product not found</div>;
   }
 
-  const productImages = [
-    {
-      src: currentProduct.image,
-      alt: currentProduct.name,
-    },
-    {
-      src: '/a3d3beb207e0eb2e90ea83087ba6d8a2828500b6f5eb881353a8b4e685f7ee4d.jpeg',
-      alt: 'Microinverter close-up photo',
-    },
-  ];
+  const productImages =
+    currentProduct.slug === 'plugPlayBalconyX4'
+      ? [
+          {
+            src: '/WhatsApp Image 2025-08-13 at 08.16.48.jpeg',
+            alt: currentProduct.name,
+          },
+          {
+            src: '/a3d3beb207e0eb2e90ea83087ba6d8a2828500b6f5eb881353a8b4e685f7ee4d.jpeg',
+            alt: 'Microinverter close-up photo',
+          },
+        ]
+      : [
+          {
+            src: currentProduct.image,
+            alt: currentProduct.name,
+          },
+          {
+            src: '/a3d3beb207e0eb2e90ea83087ba6d8a2828500b6f5eb881353a8b4e685f7ee4d.jpeg',
+            alt: 'Microinverter close-up photo',
+          },
+        ];
 
   return (
     <>

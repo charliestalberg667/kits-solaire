@@ -220,6 +220,23 @@ const ProductsSection = () => {
             </motion.div>
           ))}
         </div>
+        <div className="mt-12 text-center">
+          <p className="text-gray-600 mb-3">
+            {t('products.seeAllModels', 'If you want to see all models')}
+          </p>
+          <a
+            href="https://solarstock.be/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              size="lg"
+              className="rounded-full px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white"
+            >
+              {t('products.visitEshop', 'Visit e-shop')}
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   );
