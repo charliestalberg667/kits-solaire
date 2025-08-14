@@ -17,6 +17,33 @@
     },
     "notification": {
       "title": "Notification of Plug & Play Devices",
+      "via": "notification via",
+      "sections": {
+        "wallonia": {
+          "title": "Wallonia:",
+          "dsos": [
+            { "name": "Ores", "via": "New energy production - declaration", "url": "https://demandes.ores.be/declaration-prosumer?step=1" },
+            { "name": "Resa", "via": "Install decentralized production <= 10kVA - notification", "url": "https://cms.resa.be/app/uploads/2025/03/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "AIEG", "via": "Notification procedure", "url": "https://www.aieg.be/app/uploads/2025/02/Procedure-de-notification-de-mise-en-service_PV_-UP10_Fr-1_02.pdf" },
+            { "name": "AIESH", "via": "Notification form", "url": "https://www.aiesh.be/static/docs/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "REW", "via": "Plug-and-play installation", "url": "https://www.rew.be/energie-solaire-et-tarif-prosumer" }
+          ]
+        },
+        "brussels": {
+          "title": "Brussels:",
+          "dsos": [
+            { "name": "Sibelga", "via": "Declaration of solar panels", "url": "https://www.sibelga.be/fr/raccordements-compteurs/mon-raccordement/demande-de-travaux/demande/declaration-pv-cogen?_country=FR" },
+            { "name": "Sibelga", "via": "Battery declaration", "url": "https://www.sibelga.be/fr/raccordements-compteurs/energie-renouvelable/batteries-domestiques/declaration-batterie?_country=FR" }
+          ]
+        },
+        "flanders": {
+          "title": "Flanders:",
+          "dsos": [
+            { "name": "Fluvius", "via": "Mijn Fluvius", "url": "https://login.fluvius.be/klanten.onmicrosoft.com/b2c_1a_customer_signup_signin/oauth2/v2.0/authorize?client_id=91bb9a0a-f45d-491a-ae0b-43324fbc343a&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fmijn.fluvius.be%2Fredirect&response_mode=fragment&response_type=code" }
+          ],
+          "note": "The notification procedure depends on the device type (solar panel, battery/energy storage)."
+        }
+      },
       "walloniaBrussels": {
         "title": "Wallonia & Brussels:",
         "text": "Each 'plug & play' device must be notified to the distribution system operator."
@@ -32,8 +59,8 @@
       }
     },
     "cta": {
-      "viewFullList": "View Complete C10/26 List",
-      "viewPlugPlayList": "Specific Plug & Play List"
+      "viewFullList": "View all compatible transformers",
+      "viewPlugPlayList": "See more details"
     }
   },
   "navbar": {

@@ -17,6 +17,33 @@
     },
     "notification": {
       "title": "Melding van Plug & Play Toestellen",
+      "via": "melding via",
+      "sections": {
+        "wallonia": {
+          "title": "Wallonië:",
+          "dsos": [
+            { "name": "Ores", "via": "Nieuwe energieproductie - verklaring", "url": "https://demandes.ores.be/declaration-prosumer?step=1" },
+            { "name": "Resa", "via": "Gedecentraliseerde productie installeren <= 10kVA - melding", "url": "https://cms.resa.be/app/uploads/2025/03/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "AIEG", "via": "Meldingsprocedure", "url": "https://www.aieg.be/app/uploads/2025/02/Procedure-de-notification-de-mise-en-service_PV_-UP10_Fr-1_02.pdf" },
+            { "name": "AIESH", "via": "Meldingsformulier", "url": "https://www.aiesh.be/static/docs/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "REW", "via": "Plug-and-play installatie", "url": "https://www.rew.be/energie-solaire-et-tarif-prosumer" }
+          ]
+        },
+        "brussels": {
+          "title": "Brussel:",
+          "dsos": [
+            { "name": "Sibelga", "via": "Aangifte van zonnepanelen", "url": "https://www.sibelga.be/fr/raccordements-compteurs/mon-raccordement/demande-de-travaux/demande/declaration-pv-cogen?_country=FR" },
+            { "name": "Sibelga", "via": "Aangifte van batterij", "url": "https://www.sibelga.be/fr/raccordements-compteurs/energie-renouvelable/batteries-domestiques/declaration-batterie?_country=FR" }
+          ]
+        },
+        "flanders": {
+          "title": "Vlaanderen:",
+          "dsos": [
+            { "name": "Fluvius", "via": "Mijn Fluvius", "url": "https://login.fluvius.be/klanten.onmicrosoft.com/b2c_1a_customer_signup_signin/oauth2/v2.0/authorize?client_id=91bb9a0a-f45d-491a-ae0b-43324fbc343a&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fmijn.fluvius.be%2Fredirect&response_mode=fragment&response_type=code" }
+          ],
+          "note": "De meldingsprocedure is afhankelijk van het type toestel (zonnepaneel, batterij/energiet opslag)."
+        }
+      },
       "walloniaBrussels": {
         "title": "Wallonië & Brussel:",
         "text": "Elk 'plug & play'-toestel moet worden gemeld bij de netbeheerder."
@@ -32,8 +59,8 @@
       }
     },
     "cta": {
-      "viewFullList": "Bekijk de volledige C10/26-lijst",
-      "viewPlugPlayList": "Specifieke Plug & Play-lijst"
+      "viewFullList": "Bekijk alle compatibele transformatoren",
+      "viewPlugPlayList": "Meer details"
     }
   },
   "navbar": {

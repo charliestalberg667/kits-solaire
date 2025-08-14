@@ -50,10 +50,37 @@
       "paragraph1": "Si vous désirez acheter un appareil plug & play, vous devez vous assurer que « l'onduleur » figure sur la liste C10/26 ou sur la liste séparée plug & play."
     },
     "notification": {
-      "title": "Notification des appareils plug & play",
+      "title": "Notification des appareils Plug & Play",
+      "via": "notification via",
+      "sections": {
+        "wallonia": {
+          "title": "Wallonie:",
+          "dsos": [
+            { "name": "Ores", "via": "Nouvelle production d’énergie - déclaration", "url": "https://demandes.ores.be/declaration-prosumer?step=1" },
+            { "name": "Resa", "via": "Installer une production décentralisée <= 10kVA - notification", "url": "https://cms.resa.be/app/uploads/2025/03/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "AIEG", "via": "Procédure de notification", "url": "https://www.aieg.be/app/uploads/2025/02/Procedure-de-notification-de-mise-en-service_PV_-UP10_Fr-1_02.pdf" },
+            { "name": "AIESH", "via": "Formulaire de notification", "url": "https://www.aiesh.be/static/docs/formulaire-unique-up-10-kva-version1-07.pdf" },
+            { "name": "REW", "via": "Installation plug-and-play", "url": "https://www.rew.be/energie-solaire-et-tarif-prosumer" }
+          ]
+        },
+        "brussels": {
+          "title": "Bruxelles:",
+          "dsos": [
+            { "name": "Sibelga", "via": "Déclaration de panneaux solaires", "url": "https://www.sibelga.be/fr/raccordements-compteurs/mon-raccordement/demande-de-travaux/demande/declaration-pv-cogen?_country=FR" },
+            { "name": "Sibelga", "via": "Déclaration de batterie", "url": "https://www.sibelga.be/fr/raccordements-compteurs/energie-renouvelable/batteries-domestiques/declaration-batterie?_country=FR" }
+          ]
+        },
+        "flanders": {
+          "title": "Flandre:",
+          "dsos": [
+            { "name": "Fluvius", "via": "Mijn Fluvius", "url": "https://login.fluvius.be/klanten.onmicrosoft.com/b2c_1a_customer_signup_signin/oauth2/v2.0/authorize?client_id=91bb9a0a-f45d-491a-ae0b-43324fbc343a&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fmijn.fluvius.be%2Fredirect&response_mode=fragment&response_type=code" }
+          ],
+          "note": "La procédure de notification dépend du type d’appareil (panneau solaire, batterie/stockage d’énergie)."
+        }
+      },
       "walloniaBrussels": {
-        "title": "Wallonie & Bruxelles :",
-        "text": "Chaque appareil 'plug & play' doit être notifié auprès du gestionnaire de distribution."
+        "title": "Wallonie & Bruxelles:",
+        "text": "Chaque appareil ‘plug & play’ doit être notifié auprès du gestionnaire de réseau de distribution."
       },
       "flanders": {
         "title": "Flandres :",
@@ -66,8 +93,8 @@
       }
     },
     "cta": {
-      "viewFullList": "Voir la liste C10/26 complète",
-      "viewPlugPlayList": "Liste spécifique plug & play"
+      "viewFullList": "Voir tous les transformateurs compatibles",
+      "viewPlugPlayList": "Voir plus de détails"
     }
   },
   "homeCta": {
