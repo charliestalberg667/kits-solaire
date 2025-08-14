@@ -444,11 +444,12 @@
     ]
   },
   "installation": {
-    "title": "Hoe u uw zonnekit in 30 minuten installeert",
+    "title": "Hoe installeer je je zonnepanelen in 30 minuten",
     "subtitle": "Volg onze eenvoudige stapsgewijze installatiehandleiding",
     "video": {
       "title": "Video Handleiding",
-      "subtitle": "Bekijk de volledige installatie"
+      "subtitle": "Bekijk de volledige installatie",
+      "url": "https://youtube.com/shorts/Dq72Ne0iAy0"
     },
     "quickStepsTitle": "Snelle Stappengids",
     "steps": [
