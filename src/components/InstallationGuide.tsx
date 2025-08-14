@@ -50,8 +50,8 @@ const InstallationGuide = () => {
                 <div className="w-full max-w-md mx-auto">
                   <div className="aspect-[2/3] w-full">
                     <iframe
-                      src="https://www.youtube.com/embed/HuV5-DHjzi0"
-                      title="Installation guide"
+                      src={t('installation.video.url', { defaultValue: 'https://www.youtube.com/embed/HuV5-DHjzi0' })}
+                      title={t('installation.video.title')}
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
