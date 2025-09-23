@@ -104,7 +104,27 @@ const ProductPage: NextPage<ProductPageProps> = () => {
       ? [
           {
             type: 'video',
-            src: '/d54c9f8da8db31b160145e1be9ddeaaf.mp4',
+            src: '/PRODUCT_ATT_740.mp4',
+            alt: currentProduct.name,
+          },
+          {
+            type: 'image',
+            src: '/Marstek_Jupiter_All-in-one.webp',
+            alt: currentProduct.name,
+          },
+          {
+            type: 'image',
+            src: '/Jupitet_All-in-one_Balcony_Energy_Storage_System_large.webp',
+            alt: currentProduct.name,
+          },
+          {
+            type: 'image',
+            src: '/Jupiter_All-in-one_plug_play.webp',
+            alt: currentProduct.name,
+          },
+          {
+            type: 'image',
+            src: '/Balcony_energy_storage_system.webp',
             alt: currentProduct.name,
           },
           {
@@ -145,7 +165,9 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                       {image.type === 'video' ? (
                         <video
                           src={image.src}
-                          controls
+                          autoPlay
+                          muted
+                          loop
                           playsInline
                           className="absolute inset-0 w-full h-full object-contain rounded-lg"
                         />
@@ -245,13 +267,13 @@ const ProductPage: NextPage<ProductPageProps> = () => {
               <a 
                 href={
                   currentProduct.slug === 'plugPlayX1' 
-                    ? 'https://solarstock.be/mon-kit-solaire-plugamp-play-1-panneau-solaire-avec-structure-terrasse-0651433.html'
+                    ? 'https://solarstock.be/plugamp-play-plugamp-play-1-zonnepanelen-met-structuur-terras-0651433.html'
                     : currentProduct.slug === 'plugPlayX2'
-                    ? 'https://solarstock.be/mon-kit-solaire-plugamp-play-2-panneaux-solaire-avec-structure-terrasse-0651389.html'
+                    ? 'https://solarstock.be/plugamp-play-plugamp-play-2-zonnepanneel-met-structuur-terras-0651389.html'
                     : currentProduct.slug === 'plugPlayBalconyX4'
-                    ? 'https://solarstock.be/mon-kit-solaire-plugamp-play-kit-sunpura-800w-0652685.html'
+                    ? 'https://solarstock.be/plugamp-play-0652685.html'
                     : currentProduct.slug === 'batterieConnectee'
-                    ? 'https://solarstock.be/'
+                    ? 'https://solarstock.be/plugamp-play-marstek-jupiter-c-2-56kwh-plugamp-play-tout-en-un-0652766.html'
                     : '#'
                 }
                 target="_blank"
@@ -277,7 +299,7 @@ const ProductPage: NextPage<ProductPageProps> = () => {
                   <div className="flex flex-wrap gap-4 mt-4">
                     {currentProduct.slug === 'batterieConnectee' ? (
                       <a 
-                        href="http://solarstock.dyndns.org:15022/PRODUCT_ATT_656.pdf" 
+                        href="http://solarstock.dyndns.org:15022/PRODUCT_ATT_739.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 text-sm flex items-center gap-1"

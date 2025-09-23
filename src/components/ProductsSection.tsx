@@ -121,21 +121,34 @@ const ProductsSection = () => {
                           <span className="text-sm font-semibold text-gray-900">Sunpura</span>
                         </div>
                       )}
-                      <Image
-                        src={product.baseKey === "batterieConnectee" 
-                          ? "/BatterieConnectee.png" 
-                          : product.baseKey === "plugPlayBalconyX4"
+                      {product.baseKey === "batterieConnectee" ? (
+                        <video
+                          src="/ce461ccc29dc4fc0b8a6c33339182537.mp4"
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          className={`absolute inset-0 w-full h-full rounded-md ${
+                            ["plugPlayX1", "plugPlayX2"].includes(product.baseKey)
+                              ? "object-contain p-2 sm:p-3 md:p-4"
+                              : "object-contain p-2 md:object-cover md:p-0"
+                          }`}
+                        />
+                      ) : (
+                        <Image
+                          src={product.baseKey === "plugPlayBalconyX4"
                             ? "/plugPlayBalconyX4.jpg"
                             : `/${product.baseKey}.png`}
-                        alt={product.name}
-                        fill
-                        className={`${
-                          ["plugPlayX1", "plugPlayX2"].includes(product.baseKey)
-                            ? "object-contain p-2 sm:p-3 md:p-4"
-                            : "object-contain p-2 md:object-cover md:p-0"
-                        }`}
-                        priority
-                      />
+                          alt={product.name}
+                          fill
+                          className={`${
+                            ["plugPlayX1", "plugPlayX2"].includes(product.baseKey)
+                              ? "object-contain p-2 sm:p-3 md:p-4"
+                              : "object-contain p-2 md:object-cover md:p-0"
+                          }`}
+                          priority
+                        />
+                      )}
                       {product.popular && (
                         <div className="absolute top-2 right-2 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-10 flex items-center">
                           <span>🔥</span>
